@@ -6,6 +6,23 @@ An object is any type of equipment, for example a machine or machine part, which
 An object is automatically updated with related information regarding, for example, new or updated work orders. Objects can be created from the **All Objects** or **Pending objects** menu items, which is described in the ///"Create Objects Based on Purchase or Sales Orders" section.
 
 
+
+---
+
+TESTING internal link:
+[Objects and IoT Devices](#objects-and-iot-devices)
+
+
+---
+
+
+TESTING link to a section in another .md file:
+[Objects and Work Orders](01_Overview.md#objects-and-work-orders)
+
+
+
+
+
 ###Object Types
 
 Object types are used as general object categorizations, for example, CNC machines, measuring equipment, and truck engines. Object types are used to manage which job types (maintenanceservice tasks), object stages, object counters, object specification types, condition assessment templates, and product models can be selected on an object. When you create an object, the object type is mandatory.
