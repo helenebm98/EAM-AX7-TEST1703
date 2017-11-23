@@ -36,6 +36,7 @@ First, you set up the required object types. Next, you create the product models
 
 ---
 
+#### Create Object Type
 
 ##### Create Object Type
 
