@@ -31,11 +31,7 @@ Enterprise Asset Management (EAM) is an advanced module for managing assets, mai
 For mobile workers, for example, service technicians, we have developed the next version of the Mobile Client. The software is based on HTML5 and provides service workers with quick and easy access to information related to objects and work orders. All registrations are automatically transferred to the company's ERP system, Dynamics 365 for Finance and Operations. The the Mobile Client supports use of Google Maps™ for display of object location.
 
 
-
-
-
 Enterprise Asset Management allows you to efficiently manage and carry out all tasks related to managing and servicing many types of equipment in your company, for example, machines,production equipment, and vehicles. For Asset Service Management, the main focus is servicing customer equipment. Enterprise Asset Management as well as Asset Service Management supports solutions across numerous industries. Figure 2 shows an overview of the key functionality covered by Asset Service Management.
-
 
 
 
