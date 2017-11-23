@@ -1,4 +1,4 @@
-#Objects
+# Objects
 
 An object is any type of equipment, for example a machine or machine part, which requires maintenance, service, or repair.
 
@@ -23,7 +23,7 @@ TESTING link to a section in another .md file:
 
 
 
-###Object Types
+### Object Types
 
 Object types are used as general object categorizations, for example, CNC machines, measuring equipment, and truck engines. Object types are used to manage which job types (maintenanceservice tasks), object stages, object counters, object specification types, condition assessment templates, and product models can be selected on an object. When you create an object, the object type is mandatory.
 
@@ -37,7 +37,7 @@ First, you set up the required object types. Next, you create the product models
 ---
 
 
-#####Create Object Type
+##### Create Object Type
 
 
 1. Click **Enterprise asset management** > **Setup** > **Objects** > **Object types** > **Object types**.
@@ -56,7 +56,7 @@ First, you set up the required object types. Next, you create the product models
 10. Just as with job types, you can select counters to be related to the object type. On the **Counters** FastTab, make your selections the same way as described in steps 7-9. Read more about the setup of counters in the ///"Counters" section.
 
 11. Just as with job types, you can select specification types to be related to the object type. On the Specification types FastTab, make your selections the same way as described in steps 7-9. Select a specification type in the Specification types selected field, and use the Move up and Move down buttons to create the preferred sequence of specification types. The sequence of specification types will be shown on objects using this object type. Read more about object specifications in the ///"Object Specifications" section.
-######NOTE
+###### NOTE
 When you add new specification types on this FastTab, existing objects are automatically updated with that information.
 12. Just as with job types, you can select condition assessment templates to be related to the object type. On the **Condition assessments** FastTab, make your selections the same way as described in steps 7-9. Read more about condition assessment templates and registrations in the ///"Condition Assessment" section.
 
