@@ -10,14 +10,18 @@ An object is automatically updated with related information regarding, for examp
 ---
 
 TESTING internal link:
-[Objects and IoT Devices](#objects-and-iot-devices)
+[Objects and IoT Devices](/objects-and-iot-devices)
 
 
 ---
 
 
 TESTING link to a section in another .md file:
-[Objects and Work Orders](01_Overview.md#objects-and-work-orders)
+[Objects and Work Orders](01_Overview.md/objects-and-work-orders)
+
+
+
+---
 
 
 
@@ -37,8 +41,6 @@ First, you set up the required object types. Next, you create the product models
 ---
 
 #### Create Object Type
-
-##### Create Object Type
 
 
 1. Click **Enterprise asset management** > **Setup** > **Objects** > **Object types** > **Object types**.
@@ -64,7 +66,7 @@ When you add new specification types on this FastTab, existing objects are autom
 13. On the **Product - model** FastTab, all product model combinations set up on the selected object type are shown. Click the **Product - model** button to open the **Product - model** view if you want to see the product - model combinations divided by product. You can add model - object type relations in that form. It is also possible to add product - model relations to an object type directly in **Object types**. Finally, you can also create new product - model - object type relations in **Enterprise asset management** > **Setup** > **Objects** > **Product - model**. As you can see from this description, there are three ways of working with setting up and editing product - model - object type relations. All available combinations are shown from different perspectives, and you can select your preferred point of entry when working with this setup.
 
 
-######NOTE
+###### NOTE
 If you select counters on an object type, the selections are automatically updated in the **Counters** form (**Enterprise asset management** > **Setup** > **Objects** > **Object types** > **Counters**).
 
 The fields in the **Details** group shown at the top of the form show number of job types, counters, specification types, and so on, set up on the selected object type.
@@ -82,11 +84,11 @@ Manually created work orders typically relate to corrective maintenance. Work or
 ---
 
 
-#####Create Object Type Setup Lines
+#### Create Object Type Setup Lines
 
 1. Click **Enterprise asset management** > **Setup** > **Objects** > **Object types** > **Object type setup**, or **Enterprise asset management** > **Setup** > **Objects** > **Object types** > **Object types** > select an object type > **Object type setup** button.
 2. The first time you use this form, the **Create combinations** button may be useful. You can use it to quickly create all combinations of a product model on an object type. Click the **Create combinations** button, select the object type for which you want to create combinations, and click **OK**.
-######NOTE
+###### NOTE
 If you are not going to use all object type setup combinations that was automatically created, you can delete a setup by selecting it and clicking **Delete**.
 
 3. Click **New** to manually create a new object type setup.
@@ -102,7 +104,7 @@ If you are not going to use all object type setup combinations that was automati
 10. Use the copy function if you want to copy an object type setup to another setup. First, select the object type setup to which you want to copy a new setup. Then, click **Copy setup**, and select the object type setup from which you want to copy contents. The check boxes determine how much information you want to include. Select **OK** to copy.
 
 
-######NOTE
+###### NOTE
 If you have many spare parts lines and maintenance sequence lines that you are going to reuse, the copy function is a quick and easy way to set up data for many object type setup combinations.
 
 
@@ -112,7 +114,7 @@ If you have many spare parts lines and maintenance sequence lines that you are g
 ---
 
 
-#####Spare Parts on Object Type Setup
+#### Spare Parts on Object Type Setup
 
 As described in the "Create Object Type Setup Lines" section above, spare parts are set up in **Object type setup** on product models. This means that when you open Object type setup, you only see the spare parts related to the selected object type - product - model combination. If you want to see a list of all spare part records, click **Enterprise asset management** > **Inquiries** > **Spare parts**.
 
@@ -129,14 +131,14 @@ Click **Item where used** if you want to open **Item where used** to check if th
 ---
 
 
-###Object Specifications
+### Object Specifications
 
 Object specifications are used to describe properties related to an object type or object. You can set up all kinds of object-related specifications. For example, for a machine you can create specifications regarding engine volume, power consumption, oil capacity, and maximum load capacity under different conditions.
 
 First you create the specification types required for your equipment, which is described in this section. Next step is to select object specifications on an object type, which is described in the Object Types section. When you have attached object specifications to an object type, the specifications are automatically transferred to objects using that object type.
 
 
-#####Create Specification Types
+#### Create Specification Types
 
 You can create your own specification types, but you can also transfer product dimensions from Dynamics 365 for Finance and Operations to **Specification types**.
 
@@ -175,7 +177,7 @@ You can create your own specification types, but you can also transfer product d
 ---
 
 
-#####Set Up Specification Types on an Object
+#### Set Up Specification Types on an Object
 
 You can also select specification types directly on an object.
 
@@ -193,7 +195,7 @@ You can also select specification types directly on an object.
 ![Figure 6-06](/Figures/06-06_ObjectSpecifications_Form_AX7-01.png)
 
 
-######NOTE
+###### NOTE
 You can get an overview of object specification types and their relation to the objects in **Object specifications** and **Object specification overview**. Refer to the ///"Object Specification Overview" section for more information.
 
 
@@ -201,7 +203,7 @@ You can get an overview of object specification types and their relation to the 
 ---
 
 
-###Condition Assessment
+### Condition Assessment
 
 Condition assessment is performed at regular intervals, and the primary objective is to create and maintain condition data on objects. Seen from a preventive maintenance perspective, it is important to monitor key information such as current condition, and remaining life span. Furthermore, if you carry out condition assessment at regular intervals, you will be able to monitor and compare conditions on the machinery in your factory.
 
@@ -215,7 +217,7 @@ Condition assessment is created on objects. You set up a condition assessment te
 ---
 
 
-#####Create a Condition Assessment Template
+#### Create a Condition Assessment Template
 
 
 1. Click **Enterprise asset management** > **Setup** > **Objects** > **Object types** > **Condition assessment**.
@@ -237,7 +239,7 @@ Condition assessment is created on objects. You set up a condition assessment te
 ---
 
 
-#####Create Condition Assessment Registration on an Object
+#### Create Condition Assessment Registration on an Object
 
 
 1. **Click Enterprise asset management** > **Common** > **Objects** > **All Objects**.
@@ -265,14 +267,14 @@ After you have made a condition assessment registration on an object, you can pr
 
 
 
-######NOTE
+###### NOTE
 You can also register condition assessment on a work order (**Enterprise asset management** > **Common** > **Work orders** > **All Work orders** > **Condition assessment** button.)
 
 
 ---
 
 
-###Product Model
+### Product Model
 
 Product and model setup is used to specify products and related models. Models can be related to object types. This section describes how to create product and model relations.
 
@@ -280,7 +282,7 @@ Product and model setup is used to specify products and related models. Models c
 ---
 
 
-#####Set Up Product - Model Relations
+#### Set Up Product - Model Relations
 
 
 1. Click **Enterprise asset management** > **Setup** > **Objects** > **Product - model**.
@@ -291,7 +293,7 @@ Product and model setup is used to specify products and related models. Models c
 
 5. Insert a model name in the **Model** field and a description in the **Description** field.
 6. In the **Object type** field, select the object type to which the product model should be related.
-######NOTE
+##### NOTE
 You can also setup object type - product - model relations in **Object types**.
 
 7. In the **Details** group > **Models** field, you see the number of product models set up on the selected product.
@@ -305,14 +307,14 @@ You can also setup object type - product - model relations in **Object types**.
 
 
 
-######NOTE
+##### NOTE
 An object type can have no product model relations, or be related to one product model, or several product models. If an object type is related to at least one product model, only the specific combinations set up in **Product - model** can be selected in the views in Enterprise Asset Management in which a combination of object type - product - model can be set up, for example, **All objects**, **Object priorities**, **Job type setup**, and **Maintenance budget lines**. If some object types are not related to any product model, only those object types, and product models that also have no relation to object types are shown.
 
 
 ---
 
 
-#####Select Product - Model on an Object
+#### Select Product - Model on an Object
 
 
 1. Click **Enterprise asset management** > **Common** > **Objects** > **All Objects**.
@@ -325,7 +327,7 @@ An object type can have no product model relations, or be related to one product
 ---
 
 
-###Counters
+### Counters
 
 Counters are used to make counter registrations on objects, for example, regarding number of production hours, or quantity produced on the object. Object types are related to the counters. This means that a counter can only be used on an object if the counter is set up on the object type used on the object.
 
@@ -348,14 +350,14 @@ A counter can be updated manually or automatically based on production hours or 
 
 ---
 
-######NOTE
+###### NOTE
 If quantity produced is used, ++all++ registered items are included in the count, good quantity as well as error quantity. It is always possible to make manual counter registrations, if required.
 
 
 ---
 
 
-#####Create Counter Types for Object Counter Registrations
+#### Create Counter Types for Object Counter Registrations
 
 
 1. Click **Enterprise asset management** > **Setup** > **Objects** > **Object types** > **Counters**.
@@ -377,7 +379,7 @@ If quantity produced is used, ++all++ registered items are included in the count
 12. On the **Related counters** FastTab, add the counters that you want to be automatically updated when this counter is updated.
 
 
-######NOTE
+###### NOTE
 A related counter is only automatically updated if the related counter has the object type, to which it is related, in the counter setup.
 
 
@@ -399,7 +401,7 @@ Read more about manual and automatic counter registrations in the ///"Manual Upd
 ---
 
 
-###Enterprise Asset Management Parameters
+### Enterprise Asset Management Parameters
 
 In Enterprise Asset Management, general parameters relating to objects, work orders, and work order scheduling must be set up. Click **Enterprise asset management** > **Setup** > **Enterprise asset management parameters** to open the form.
 
@@ -464,7 +466,7 @@ The format for a work order project mask is a number of hash signs (#), dependin
 - The **Master plan** relates to resources in the **Organization administration** module. If you select a master plan in this field, you will be able to see capacity reservations related to work orders in **Capacity reservations** (**Organization administration** > **Resources** > **Resources** > select resource > **Resource** tab > **Capacity reservations** button). If you leave this field blank, you will be able to see capacity load related to work orders in **Capacity load** (**Organization administration** > **Resources** > **Resources** > select resource > **Resource** tab > **Capacity load** button).
 
 
-######NOTE
+###### NOTE
 The selection regarding using a master plan or not in the **Enterprise asset management module**, and the related form used to get an overview of capacity reservations or capacity load is standard Dynamics 365 for Finance and Operations setup. Depending on your setup in the **Master plan** field, you will be able to access capacity information in either **Capacity reservations** or **Capacity load** in the **Organization administration** module. It is not possible to create a setup in which capacity reservations are shown in both views.
 
 
@@ -488,7 +490,7 @@ The nine fields described below all relate to calculated rating scores, which ar
 - **Location** - rating score calculated together with the **Responsible worker**, **Preferred worker**, **Preferred worker group**, **Object location**, and **Start date** rating score values. If the value "3,000.00" is inserted in this field, a worker gets 3,000 points in the calculation if the worker is located in the same factory or facility as the object on which a job is to be scheduled.
 
 
-######NOTE
+###### NOTE
 If your company uses functional locations, workers get full score if they are located on the functional location related to the object. If the functional location of the object has a parent object, workers on that functional location get 1/2 score. If that location also has a parent, workers on that location get 1/3 score. If that location also has a parent, workers on that location get 1/4 score, and so on.
 
 If you company uses object location, which we do not recommend, location, area, and zone are used to calculate location scores. Workers get full score if they are located in the location and area and zone related to the object. If worker location only matches location and area, the rating score for the worker is 2/3 of the full score. If worker location only matches location, the rating score for the worker is 1/3 of the full score.
@@ -497,7 +499,7 @@ If you company uses object location, which we do not recommend, location, area, 
 - **Start date** - rating score calculated together with the **Responsible worker**, **Preferred worker**, **Preferred worker group**, **Object location**, and **Start date** rating score values. This field indicates daily score as a negative value and is compared to the **Expected start** field on a work order. If the value "10.00" is inserted in this field, and the expected start date of a work order is tomorrow, the rating result is minus 10.00.
 
 
-######NOTE
+###### NOTE
 Assuming that no responsible worker and responsible worker group have been selected on a work order to be scheduled - you add and subtract the rating score values in the examples in the **Preferred worker**, **Preferred worker group**, **Object location**, and **Start date** fields above, you get a total of 3,010.00. This means a high score for the worker who is already selected as preferred worker as well as included in the preferred worker group on the work order, and the worker is also located in the same facility as the object for which a job needs to be scheduled. All in all this means there is a good chance that the worker in question will be selected to complete the job during work order scheduling.
 
 
@@ -537,15 +539,15 @@ In the screenshot below, on the **Work order score example** FastTab, you will s
 ---
 
 
-###Object Stages
+### Object Stages
 
 
-#####Stages and Stage Groups
+#### Stages and Stage Groups
 
 Object stages are used to define if an object is active or inactive. For example, stages such as "Created", "Active", and "Terminated" can be set up.
 
 
-######NOTE
+###### NOTE
 Request stages, described in the ///"Request Stages" section, are linked to object stages. This means that when a request changes to a new stage, the object attached to the request changes the object stage accordingly. ++Example:++ If a request has the status "Inbound", the object changes the object stage to the stage selected in **Object stage groups** > **Object stage** FastTab > **Inbound stage** field. Refer to the screenshot of the **Object stage groups** form at the end of this section.
 
 
@@ -571,7 +573,7 @@ Stages can be set up in stage groups, in which you can define required stages fo
 
 
 
-######NOTE
+###### NOTE
 Object stages, stage groups, and types are related and used in the same way as work order stages, work order stage groups, and work order types. Refer to the ///"Work Order Stages" section for a general explanation regarding stage group, type, and stage relations.
 
 
@@ -599,7 +601,7 @@ When you have created the required object stages, you can set up stages in stage
 ---
 
 
-###Object Priorities
+### Object Priorities
 
 Object priority is related to objects and transferred to requests and work orders. Object priority can be changed, if required. Object priority is used to calculate work order priority during work order scheduling.
 
@@ -616,19 +618,19 @@ Refer to the ///"Enterprise Asset Management Parameters" section for more inform
 ---
 
 
-#####Set Up Object Priorities
+#### Set Up Object Priorities
 
 
 1. Click **Enterprise asset management** > **Setup** > **Object priorities**.
 2. Click the **New** to create a new record.
 
 3. Depending on the detail level for the object priority, make the relevant selections in the **Object type**, **Product**, **Model**, **Object**, and **Work order type** fields.
-######NOTE
+###### NOTE
 When object priority is used for requests and work orders, Enterprise Asset Management goes through all object priority records to check for a possible match, always checking the most specific combination first. This means that, first, a possible match regarding **Work order type** is checked. If no match is found, **Object** is checked, and so on. As you can see in the layout of the form, this means that Enterprise Asset Management checks each record from right to left for a match (**Work order type**, then **Object**, then **Model**, **Product**, and **Object type**) to find the most specific combination. If no match is found, the "default" record with no selections in those five fields is used.
 4. In the **Priority** field, insert a number indicating priority.
 
 
-######NOTE
+###### NOTE
 Refer to the ///"Priority and Description" section for information on how to create priorities.
 
 
@@ -638,14 +640,14 @@ Refer to the ///"Priority and Description" section for information on how to cre
 The last object priority record shown in the figure above is a "Standard priority" with no limitations selected on the record. When the system selects the priority value to be used on a request or work order, the following sort order is used: Work order type, Object, Model, Product, and Object type. All values set up in those fields are sorted in a descending order to ensure that the most specific combination is always selected.
 
 
-######NOTE
+###### NOTE
 If you change an object priority in this setup form after you have used it on a work order, the priority on requests and work orders are not updated accordingly.
 
 
 ---
 
 
-###Object Criticalities
+### Object Criticalities
 
 Object criticality is related to objects and transferred to work orders. Object criticality cannot be changed on a work order. Object criticality is used to calculate work order criticality during work order scheduling, meaning to what extent does a maintenance job or a service job on an object affect the production schedule and productivity in your company. Refer to the ///"Enterprise Asset Management Parameters" section for more information on the setup related to calculating rating scores for work order scheduling. The sequence of working with criticality setup is that first, you create the criticalities to be used in the object setup. Next, you set up object criticalities.
 
@@ -653,7 +655,7 @@ Object criticality is related to objects and transferred to work orders. Object 
 ---
 
 
-#####Set Up Criticalities
+#### Set Up Criticalities
 
 1. Click **Enterprise asset management** > **Setup** > **Objects** > **Criticalities**.
 2. Click **New** to create a new record.
@@ -670,13 +672,13 @@ Object criticality is related to objects and transferred to work orders. Object 
 ---
 
 
-#####Set Up Object Criticalities
+#### Set Up Object Criticalities
 
 1. Click **Enterprise asset management** > **Setup** > **Object criticalities**.
 2. Click **New** to create a new record.
 
 3. Depending on the detail level for the object criticality, make the relevant selections in the **Object type**, **Product**, **Model**, **Object**, **Job group**, and **Job type**, **Variant** and **Trade** fields.
-######NOTE
+###### NOTE
 When object criticality is selected, Enterprise Asset Management goes through all object criticality records to check for a possible match, always checking the most specific combination first. This means that, first, a possible match regarding **Trade** is checked. If no match is found, **Variant** is checked, if no match is found, **Job type** is checked, and so on. As you can see in the layout of the form, this means that Enterprise Asset Management checks each record from right to left for a match (**Trade**, then **Variant**, then **Job type**, **Job group**, **Object**, **Model**, **Product**, and **Object type**) to find the most specific combination. If no match is found, the "default" record with no selections in those eight fields is used.
 4. In the **Criticality** field, select one of the criticality values you created in **Criticalities**.
 
@@ -690,7 +692,7 @@ When object criticality is selected, Enterprise Asset Management goes through al
 ++Example 2++: A high criticality for scheduling jobs for object types "Kettle" and "Plate heat exchanger" (set up in the fourth and fifth record in the **Object criticalities** screenshot above).
 
 
-######NOTE
+###### NOTE
 If you change an object criticality in this setup after you have used it on a work order, the criticality on the work order is not updated accordingly.
 
 Criticality on a work order is re-calculated each time a work order line is added or deleted on the work order.
@@ -703,7 +705,7 @@ Generally, object criticality may change over a period and be influenced by the 
 ---
 
 
-###Object Documents
+### Object Documents
 
 In Enterprise Asset Management, you can set up documents to automatically relate to, for example, job types, products, object types, or objects. This is useful when updated document versions are released. In that case, you only need to place the updated document on the standard location you use for your Dynamics 365 for Finance and Operations documents, attach the document to the object document record you have created, and the updated document can be accessed from the **All objects**, **Active objects**, **My active objects**, **All work orders**, and **Active work order lines** menu items. The process regarding attaching documents to an object document record uses the standard document handling system in Dynamics 365 for Finance and Operations.
 
@@ -717,14 +719,14 @@ In Enterprise Asset Management, you can set up documents to automatically relate
 ---
 
 
-#####Create Object Document Relation
+#### Create Object Document Relation
 
 
 1. Click **Enterprise asset management** > **Setup** > **Object documents**.
 2. Click **New** to create a new object document record.
 
 3. Depending on how specific you want the document relation to be, make the relevant selections in one or more fields: **Object type**, **Product**, **Model**, **Object**, **Job group**, **Job type**, **Variant** and **Trade**. The selections available in the **Variant** and **Trade** fields depend on the selected job type.
-######NOTE
+###### NOTE
 When the system searches for documents to be related to an object or a work order, Enterprise Asset Management goes through all object document records to check for a possible match, always checking the most specific combination first. This means that, first, a possible match regarding **Trade** is checked. If no match is found, **Variant** is checked. If no match is found, **Job type** is checked, and so on. As you can see in the layout of the form, this means that Enterprise Asset Management checks each record in the **Object documents** form from right to left for a match (**Trade**, then **Variant**, then **Job type**, **Job group**, **Object**, **Model**, **Product**, and **Object type**) to find the most specific combination. Several documents may be related to an object or a work order. You can edit the priority on a request or a work order, if required.
 4. Click **Attachments**. The standard **Document handling** form in Dynamics 365 for Finance and Operations opens.
 
@@ -738,7 +740,7 @@ When the system searches for documents to be related to an object or a work orde
 ---
 
 
-###Workers and Worker Groups
+### Workers and Worker Groups
 
 In Enterprise Asset Management, you can connect workers to functional locations, which are described in the ///"Create Functional Locations" section. This may be useful if, for example, you are scheduling a maintenanceservice job on a machine located in functional location 01, and you want to allocate workers from the same location to carry out the job.
 
@@ -748,7 +750,7 @@ Also, you can create worker groups and associate workers with worker groups. Thi
 ---
 
 
-#####Create Workers
+#### Create Workers
 
 
 1. Click **Enterprise asset management** > **Setup** > **Workers** > **Workers**.
@@ -763,21 +765,21 @@ Also, you can create worker groups and associate workers with worker groups. Thi
 7. On the **Functional locations** FastTab, click **Add** and select a functional location for the worker. Also, select which location is the primary functional location for the worker.
 
 
-######NOTE
+###### NOTE
 When you add functional locations to a worker, all active objects related to those functional locations are shown in various menu items, for example, **My active objects** and **My active functional locations**, as well as in various object lookups, which are shown when you create a new object, request, or work order.
 
 
 ![Figure 6-24](/Figures/06-24_Workers_Form_AX7-01.png)
 
 
-######NOTE
+###### NOTE
 The fields in the **Details** group shown at the top of the form show the number of worker groups and functional locations to which the selected worker is related.
 
 
 ---
 
 
-#####Create Worker Groups
+#### Create Worker Groups
 
 
 1. Click **Enterprise asset management** > **Setup** > **Workers** > **Worker groups**.
@@ -792,14 +794,14 @@ The fields in the **Details** group shown at the top of the form show the number
 ![Figure 6-25](/Figures/06-25_WorkerGroups_Form_AX7-01.png)
 
 
-######NOTE
+###### NOTE
 The field in the **Details** group shown at the top of the form shows the number of workers set up on the selected worker group.
 
 
 ---
 
 
-###Customer Information
+### Customer Information
 
 When you carry out service jobs for customers, you must set up customer information in Enterprise Asset Management to be able to set up customers on objects. This is done in **Customers**.
 
@@ -824,7 +826,7 @@ When you have created the relevant customers, you select a customer account for 
 ---
 
 
-###Introduction to Objects
+### Introduction to Objects
 
 An object is any type of equipment, for example a machine or machine part, which requires maintenance, service, or repair.
 
@@ -886,7 +888,7 @@ The action pane buttons are organized in tabs on the action pane. Here is a brie
 ---
 
 
-###Create an Object
+### Create an Object
 
 1. Click **Enterprise asset management** > **Common** > **Objects** > **All objects or Active objects**.
 2. Click the **New** button.
@@ -895,10 +897,10 @@ The action pane buttons are organized in tabs on the action pane. Here is a brie
 4. In the **Object type** field, select the object type for the object (mandatory fields). If required, select a **Product** and a **Model** for the object. If only one product has been set up, that product is automatically selected in the **Product** field. The selections available in the **Product** and **Model** fields depend on the setup in Product - model.
 
 5. The **Parent object** field is blank as default. If required, you can select a parent object, and then all fields in the **Parent object** section will automatically be filled out.
-######NOTE
+###### NOTE
 When you select a parent object, two or three tabs are available: The **My objects** tab contains objects related to the functional locations to which you (the worker who is logged on the system) may be allocated. If no functional locations are set up on a worker in the Workers form, the **My objects** tab will not be visible. The **Active objects** tab contains a list of all objects with object stage "Active". The **Object view** tab displays a tree view of functional locations and objects installed on those locations.
 6. The default functional location you have set up is suggested for the object in the **Object** section > **Functional location** field. Select another functional location, if required.
-######NOTE
+###### NOTE
 After you have created an object, you can install it on another functional location, if required. Only top-level objects (objects without a current parent object) can be installed on a functional location. This means that you install the top level as well as any child objects on the selected functional location. Read more about installing objects on functional locations in the ///"Functional Locations" chapter.
 
 7. Click **OK**.
@@ -908,7 +910,7 @@ After you have created an object, you can install it on another functional locat
 ---
 
 
-#####General Information
+#### General Information
 
 The functional location to which the object is related is shown in the **Functional location** field. If the object is a parent object, the number of children related to the object is shown in the **Children** field. If the object is a sub object to an existing object, the ID of the parent object is shown in the **Parent** field.
 
@@ -917,7 +919,7 @@ You can edit **Product** and **Model** information on the object, which is used 
 **Current stage** is used to define if the object is active or inactive. When creating an object, the stage is always set to the first stage in the object stage group. When you are ready to activate an object, click **Object stage**, and select the stage that you have defined as "object active" stage, and click **OK**.
 
 
-######NOTE
+###### NOTE
 When an object is set to "inactive", it is no longer possible to create work orders for the object. Also, you cannot schedule preventive maintenance jobs for an inactive object.
 
 
@@ -927,14 +929,14 @@ The **Priority** and **Criticality** fields relate to work orders created for th
 ---
 
 
-#####Asset
+#### Asset
 
 You can select a **Resource** for the object. The resource selection determines which calendar is used for work order scheduling. Resource selection is often used for fixed assets. In Dynamics 365 for Finance and Operations, resources and resource groups are set up in **Organization administration** > **Resources** > **Resource groups or Resources**.
 
 In the **Fixed assets number** field, you can select a fixed asset to be related to the object. This is relevant if your object is related to an investment project.
 
 
-######NOTE
+###### NOTE
 If the object is related to a fixed asset, you can create a work order type to be used for work orders related to an investment project. Read more about work order types in the ///"Work Order Types section".
 
 
@@ -948,7 +950,7 @@ On this FastTab, you can also select **Item number** and **BOM** related to the 
 ---
 
 
-#####Details
+#### Details
 
 In the **Active from** field, the date on which you updated the object stage to an active stage (refer to the ///"Object Stages" section regarding setup of object stages), is shown. If the object is no longer active, and you have updated the object stage to an inactive stage, the date from which the object is inactive is shown in the **Active to** field. If required, you can manually change those dates.
 
@@ -959,14 +961,14 @@ If required, you can insert an expected date for replacement of the object in th
 ---
 
 
-#####Notes
+#### Notes
 You can add notes related to the object on the **Notes** FastTab. Click the **Add timestamp** button before you write the note, if you want to add user information and a date/timestamp to the note.
 
 
 ---
 
 
-#####Specifications
+#### Specifications
 
 Object specifications set up on the object.
 
@@ -974,7 +976,7 @@ Object specifications set up on the object.
 ---
 
 
-#####Vendor
+#### Vendor
 
 On the **Vendor** FastTab, select a vendor account for the object. Also, if a vendor warranty has been granted, you can insert warranty information here.
 
@@ -982,7 +984,7 @@ On the **Vendor** FastTab, select a vendor account for the object. Also, if a ve
 ---
 
 
-#####Customer
+#### Customer
 
 On the **Customer** FastTab, select a customer account if the object is connected to a customer. Also, if a warranty agreement is connected to the object, you can insert customer warranty information here. Read more about warranty in the ///"Warranty" chapter.
 
@@ -991,7 +993,7 @@ On the **Customer** FastTab, select a customer account if the object is connecte
 ---
 
 
-#####Address
+#### Address
 
 On the **Address** FastTab, you can insert the address of the equipment. If no address is inserted on the object, the object uses the address of a parent object, if the parent object has an address. If no address is related to the object or any parents in the object hierarchy, the address of the functional location on which the object is installed may be used. If that functional location does not have an address related to it, the address of the parent functional location is used on the object.
 
@@ -999,25 +1001,25 @@ On the **Address** FastTab, you can insert the address of the equipment. If no a
 ---
 
 
-#####Preventive Maintenance
+#### Preventive Maintenance
 
 Maintenance sequences are used for scheduling preventive maintenance jobs at regular intervals on the object. On this FastTab, you can set up maintenance sequence lines for the selected object. Read more in the ///"Maintenance Sequences" section. Rounds can be set up for various objects, on which you need to carry out a similar task at regular intervals. Read more in the ///"Rounds" section. On the **Functional location** tab, you will see the maintenance sequences related to the functional location on which the object is installed.
 
 
-######NOTE
+###### NOTE
 If you delete a maintenance sequence line or a round related to an object in **All Objects**, you also automatically delete all object calendar lines with status "Created" that have been created based on that maintenance sequence or round.
 
 
 ---
 
 
-#####Project
+#### Project
 
 As explained in the ///"Integration to Project Management" chapter, an object may be related to a project in the **Project management and accounting** module, and the project will be created according to the setup in ///"Enterprise Asset Management Parameters".
 
 
 
-######CAUTION
+###### CAUTION
 On the **Project** FastTab, the **Create project integration** button must only be used in connection with setup of master data. This is not an everyday function, but is only used when a company wants to import existing objects into the Enterprise asset management module, typically in connection with the general setup of Enterprise Asset Management in Dynamics 365 for Finance and Operations.
 
 
@@ -1025,7 +1027,7 @@ On the **Project** FastTab, the **Create project integration** button must only 
 ---
 
 
-#####Financial Dimensions
+#### Financial Dimensions
 
 You can select financial dimensions for the object.
 
@@ -1037,7 +1039,7 @@ You can select financial dimensions for the object.
 ---
 
 
-###Multi-level Objects
+### Multi-level Objects
 
 You can create objects and related sub-objects in a hierarchical tree structure to display relations and dependencies of objects. MaintenanceService jobs can be related to all levels of the tree structure. Also, statistics can be created for the individual level, or as a sum of all sub-object levels.
 
@@ -1053,7 +1055,7 @@ Refer to the ///"Create an Object" section regarding how to create a new object.
 ---
 
 
-#####Copy an Object or Object Hierarchy
+#### Copy an Object or Object Hierarchy
 
 If your company has several object hierarchies with similar object structures, you can use the copy function in Enterprise Asset Management to quickly create a number of similar object hierarchies.
 
@@ -1070,14 +1072,14 @@ If your company has several object hierarchies with similar object structures, y
 When you copy an object hierarchy, the sub objects in the new hierarchy get the same name as the ones you copied. After the copy procedure is done, you can easily change the name and other settings on a new object by selecting the object in **All objects** and clicking the **Edit** button.
 
 
-######NOTE
+###### NOTE
 When you copy an object or object hierarchy, object stages for the new objects are reset to the "first stage" that you have created for objects, and the functional location is reset to the default functional location.
 
 
 ---
 
 
-#####Delete an Object or Object Hierarchy
+#### Delete an Object or Object Hierarchy
 
 An object with related sub objects can only be deleted if no requests, work order lines, fault registrations, or condition assessments are registered on any of the objects you are trying to delete.
 
@@ -1085,7 +1087,7 @@ An object with related sub objects can only be deleted if no requests, work orde
 1. In **All objects**, select the object you want to delete.
 2. Click **Delete**.
 
-######NOTE
+###### NOTE
 If you cannot delete an object, instead you can handle deletion by setting up an object stage for this purpose. For example, you can set up a "Scrapped" or "Deleted" stage in **Object stages**.
 
 
@@ -1093,7 +1095,7 @@ If you cannot delete an object, instead you can handle deletion by setting up an
 ---
 
 
-###Move, Replace, and Install Objects
+### Move, Replace, and Install Objects
 
 Objects can be created as single objects that have no relations to other objects, or you can create an object hierarchy with a parent object and related child/sub objects. In Enterprise Asset Managemen, there are three approaches to moving or changing location of an object:
 
@@ -1104,19 +1106,19 @@ Objects can be created as single objects that have no relations to other objects
 - **Install** object = install a parent object and any related sub objects on a functional location.
 
 
-######NOTE
+###### NOTE
 When you move or replace or install an object, the object may be related to another functional location. In that case, the object may use financial dimensions of the functional location. The handling of financial dimensions on functional locations is set up in **Functional location types**.
 
 
 ---
 
 
-#####Move Object
+#### Move Object
 
 Use this function to move an object to another object hierarchy, or move an object to another location in the same object hierarchy, or move an object from an object hierarchy to be a standalone object with no hierarchy relations.
 
 
-######NOTE
+###### NOTE
 Do not use this function in relation to repair or temporary replacement of objects. In that case, use the **Replace object** functionality described below.
 
 
@@ -1136,12 +1138,12 @@ Do not use this function in relation to repair or temporary replacement of objec
 ---
 
 
-#####Replace Object
+#### Replace Object
 
 Use this function in connection with repair, refurbishment, or permanent replacement in case a worn-out object is replaced by a new object. This function is used for replacing child objects in an object hierarchy. If you want to replace parent objects, meaning top-level objects (objects without a current parent object), this is done on a functional location. Refer to the ///"Install and Replace Objects on Functional Locations" section for more information on how to replace parent objects on a functional location.
 
 
-######NOTE
+###### NOTE
 If you have a repair shop related to your production department, you may create functional locations for "Repair", "Scrap", or "Storage" to handle repair and replacement of objects.
 
 
@@ -1165,12 +1167,12 @@ If you have a repair shop related to your production department, you may create 
 ---
 
 
-#####Install Object
+#### Install Object
 
 Use this function to install an object hierarchy on a functional location.
 
 
-######NOTE
+###### NOTE
 Remember to always select a parent object. The parent object and related child objects will be moved to the selected functional location.
 
 
@@ -1190,7 +1192,7 @@ Remember to always select a parent object. The parent object and related child o
 ---
 
 
-###Create Objects Based on Purchase or Sales Orders
+### Create Objects Based on Purchase or Sales Orders
 
 In **Enterprise Asset Management**, you can create a list of object items that can be used as a basis for creating objects for maintenance or service jobs. Based on the object items, you are able to view a list of the purchase order lines (relating to internal maintenance), or sales order lines (relating to service management and contract management) that have been created on those items. The purpose of this functionality is to easily create an object in **Enterprise Asset Management** based on a purchase order or a sales order.
 
@@ -1202,7 +1204,7 @@ First, you set up the items to be used for creating objects from a purchase or s
 
 
 
-#####Select Object Items
+#### Select Object Items
 
 
 1. Click **Enterprise asset management** > **Setup** > **Objects** > **Items**.
@@ -1222,7 +1224,7 @@ First, you set up the items to be used for creating objects from a purchase or s
 ---
 
 
-#####Create Objects from Pending Objects
+#### Create Objects from Pending Objects
 
 
 1. Click **Enterprise asset management** > **Common** > **Objects** > **Pending objects**.
@@ -1239,7 +1241,7 @@ First, you set up the items to be used for creating objects from a purchase or s
 
 
 
-######NOTE
+###### NOTE
 If a sales order is related to a production, the consumed items (spare parts) will automatically be added to the object BOM. If a consumed item is also an object item, a sub object will also be created for the item. Read more about the object BOM in the ///"Object BOM" section.
 
 All product dimensions (size, color, configuration etc.) are automatically transferred to the object specifications. Tracking dimensions (serial number) are stored directly on the object when the object is created.
@@ -1254,7 +1256,7 @@ All product dimensions (size, color, configuration etc.) are automatically trans
 
 
 
-#####Find Pending Objects
+#### Find Pending Objects
 
 You can run a **Pending object count** to check for pending objects. For example, this function can be used for receiving a notification each time a pending object is ready to be created as an object.
 
@@ -1265,12 +1267,12 @@ You can run a **Pending object count** to check for pending objects. For example
 3. You can set up this job to run as a batch job, for example, once each day.
 
 
-######CAUTION
+###### CAUTION
 If data is changed on a purchase order or sales order *after* you have created an object based on the appertaining item, those changes will not be reflected on the object.
 
 
 
-######NOTE
+###### NOTE
 If an object contains consumed items (sub components) with serial numbers, you may experience problems when creating objects based on sales orders. The reason is that consumed items with serial numbers do not have a direct relation to the finished goods, meaning you cannot locate which sub component serial numbers are related to which objects. This is only a problem in case the produced quantity is more than one.
 
 
@@ -1278,7 +1280,7 @@ If an object contains consumed items (sub components) with serial numbers, you m
 ---
 
 
-###Object BOM
+### Object BOM
 
 The purpose of **Object BOM** is to show a list of all items (spare parts as well as other items) used on an object during the entire lifetime of the object. When you create a new object, consider setting up the Object BOM as a part of your object setup procedure. This allows you to track item history on the object from the creation date.
 
@@ -1286,7 +1288,7 @@ After you have completed a maintenance or service job, and item consumption has 
 
 
 
-######NOTE
+###### NOTE
 On a work order, item consumption may include spare parts as well as other, additional items, for example, lubricants, bolts, and gaskets.
 
 
@@ -1300,7 +1302,7 @@ In order to track spare parts history in **Object BOM**, you must select which i
 
 
 
-#####Set Up Spare Parts Item Groups
+#### Set Up Spare Parts Item Groups
 
 Spare parts history setup is based on item groups that are created in the **Intenvory and warehouse management** module. You set up item groups in **Enterprise Asset Management** to be able to track spare parts history on the items in the selected item groups.
 
@@ -1317,13 +1319,13 @@ Spare parts history setup is based on item groups that are created in the **Inte
 ---
 
 
-#####View and Update Object BOM
+#### View and Update Object BOM
 
 When you have posted item consumption on a work order, you are able to see the registered item consumption in Object BOM.
 
 
 1. Click **Enterprise asset management** > **Common** > **Objects** > **Active objects** > select the object in the list > **Object BOM** button.
-######NOTE
+###### NOTE
 Click **Enterprise asset management** > **Inquiries** > **Objects** > **Object BOM** if you want to see all item consumption registrations on all objects.
 2. Click **Update object BOM**. If required, you can add objects, object types, and resources to the update by clicking the **Select** button. Click **OK** to start the update. It is also possible to set up the update function as a batch job.
 
@@ -1338,7 +1340,7 @@ Click **Enterprise asset management** > **Inquiries** > **Objects** > **Object B
 
 
 
-######NOTE
+###### NOTE
 When you have completed a work order, and some items or spare parts related to the related object have expired or have been replaced by other items or spare parts, we recommend that you update the object BOM accordingly.
 
 
@@ -1346,7 +1348,7 @@ When you have completed a work order, and some items or spare parts related to t
 ---
 
 
-#####Create a New Item Line in Object BOM
+#### Create a New Item Line in Object BOM
 
 It is possible to manually create item lines for objects.
 
@@ -1367,7 +1369,7 @@ It is possible to manually create item lines for objects.
 ---
 
 
-###Object Timeline
+### Object Timeline
 
 In **Object timeline**, you can see the registration history that has been made in the lifetime of an object. You can access the form from the **All objects**, **Active objects**, and **My active objects** menu items. Select an object and click the **Timeline** button.
 
@@ -1407,7 +1409,7 @@ The timeline is updated every time the form is opened. It contains the following
 ---
 
 
-###Object View
+### Object View
 
 In **Object view**, you can see an overview of active objects and functional locations in a tree view. You can easily get an overview of object relations to functional locations as well as see detailed information regarding functional location, object, and related BOM, as well as a quick overview of active requests and work orders related to an object.
 
@@ -1424,7 +1426,7 @@ In **Object view**, you can see an overview of active objects and functional loc
 ![Figure 6-40](/Figures/06-40_ObjectView_Form_AX7-01A.png)
 
 
-######NOTE
+###### NOTE
 If you have selected an object in the tree view, select the **Active requests** button or **Active work orders** button to see the requests or work orders related to the object. You can also click **Open** > **Functional location** or **Object** or **Object BOM** to open the related view.
 
 
@@ -1434,7 +1436,7 @@ The **Object functional locations** option that you can select in **View** is al
 ---
 
 
-###Object Specification Overview
+### Object Specification Overview
 
 Object specifications are properties related to an object type or object. If you have set up ///"specification types" and used them on objects, you can get an overview of specification values set up on objects. This is shown in two forms in Enterprise Asset Management.
 
@@ -1462,7 +1464,7 @@ If you want a to see an overview displaying a separate line for each specificati
 ---
 
 
-###Objects and IoT Devices
+### Objects and IoT Devices
 
 In Enterprise Asset Management, you can set up relations between an IoT device, the related object, and a counter. Measurements from the counter is registered in Enterprise Asset Management by using tools like Microsoft Flow or Microsoft Azure Logic Apps.
 
@@ -1484,6 +1486,6 @@ When a relation between an IoT device and the object is set up, you are able to 
 
 
 
-######NOTE
+###### NOTE
 In Dynaway, we have created a document describing an example of the IoT setup, which includes setup of Microsoft Azure IoT Hub and Microsoft Flow to manage IoT data in Enterprise Asset Management.
 
