@@ -1,18 +1,21 @@
-/*
+{
 
  Enterprise Asset Management and Asset Service Management Training Material for Microsoft Dynamics® 365 for Finance and Operations
 
 
-
- Published: January 2018 for EAM/ASM Release Fall 1711.0
-
-
-
- Copyright: Dynaway A/S, 2018
-
- */
+ Published: January 2018 for EAM/ASM
+ Release: Fall 1711.0
 
 
+"owner_name": "Dynaway A/S",
+"owner_url": "https://dynaway.com/eam"
+
+}
+
+
+
+
+Copyright: Dynaway A/S, 2018
 
 
 

@@ -10,20 +10,26 @@ An object is automatically updated with related information regarding, for examp
 ---
 
 TESTING internal link:
-[Objects and IoT Devices](/objects-and-iot-devices)
+[Objects and IoT Devices](#objects-and-iot-devices)
+
+
+
+[Install Object](#install-object)
+
+
 
 
 ---
+
 
 
 TESTING link to a section in another .md file:
-[Objects and Work Orders](01_Overview.md/objects-and-work-orders)
+[Objects and Work Orders](01_Overview.md #objects-and-work-orders)
+
 
 
 
 ---
-
-
 
 
 
