@@ -1,4 +1,4 @@
-# Enterprise Asset Management / Asset Service Management Training Material for Microsoft Dynamics® 365 for Finance and Operations, Enterprise Edition
+# Enterprise Asset Management / Asset Service Management Wiki for Microsoft Dynamics® 365 for Finance and Operations, Enterprise Edition
 
 
 Published by: Dynaway A/S
