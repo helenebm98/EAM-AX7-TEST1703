@@ -11,26 +11,21 @@ Published by: Dynaway A/S
 
 #### [Introduction](#introduction)
 
----
 
 [Functional Locations and Objects](#functional-locations-and-objects)
 
----
 
 [Objects and Work Orders](#objects-and-work-orders)
 
 
 #### [Security Roles](02_Security_Roles.md#security-roles)
 
----
 
 [Enterprise Asset Management](02_Security_Roles.md#enterprise-asset-management)
 
----
 
 [Contract Management](02_Security_Roles.md#contract-management)
 
----
 
 #### [License Configuration](03_License_Config.md#license-configuration)
 [EAM 1xx.x.x.x Keep Update Objects](03_License_Config.md#1xx.x.x.x-keep-update-objects)
