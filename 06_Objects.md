@@ -2,6 +2,12 @@
 
 
 
+[TOC]
+
+
+
+
+
 An object is any type of equipment, for example a machine or machine part, which requires maintenance, service, or repair.
 
 
