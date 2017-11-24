@@ -9,8 +9,8 @@ Published by: Dynaway A/S
 
 # Table of Contents
 
-#### [Introduction](#introduction)
-[Functional Locations and Objects](#functional-locations-and-objects)
+#### [Introduction](#introduction),
+[Functional Locations and Objects](#functional-locations-and-objects),
 [Objects and Work Orders](#objects-and-work-orders)
 
 
