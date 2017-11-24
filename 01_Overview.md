@@ -9,7 +9,7 @@ Published by: Dynaway A/S
 
 # Table of Contents
 
-#### [Introduction](#introduction)
+### [Introduction](#introduction)
 
 
 [Functional Locations and Objects](#functional-locations-and-objects)
@@ -18,7 +18,7 @@ Published by: Dynaway A/S
 [Objects and Work Orders](#objects-and-work-orders)
 
 
-#### [Security Roles](02_Security_Roles.md#security-roles)
+### [Security Roles](02_Security_Roles.md#security-roles)
 
 
 [Enterprise Asset Management](02_Security_Roles.md#enterprise-asset-management)
@@ -27,9 +27,15 @@ Published by: Dynaway A/S
 [Contract Management](02_Security_Roles.md#contract-management)
 
 
-#### [License Configuration](03_License_Config.md#license-configuration)
+### [License Configuration](03_License_Config.md#license-configuration)
+
+
 [EAM 1xx.x.x.x Keep Update Objects](03_License_Config.md#1xx.x.x.x-keep-update-objects)
+
+
 [Fault Hierarchy](03_License_Config.md#fault-hierarchy)
+
+
 [Inbound/Outbound](03_License_Config.md#inbound/outbound)
 
 
