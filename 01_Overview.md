@@ -9,13 +9,21 @@ Published by: Dynaway A/S
 
 # Table of Contents
 
-#### [Introduction](#introduction),
-[Functional Locations and Objects](#functional-locations-and-objects),
+#### [Introduction](#introduction)
+_ _ _
+
+[Functional Locations and Objects](#functional-locations-and-objects)
+_ _ _
+
 [Objects and Work Orders](#objects-and-work-orders)
 
 
 #### [Security Roles](02_Security_Roles.md#security-roles)
+_ _ _
+
 [Enterprise Asset Management](02_Security_Roles.md#enterprise-asset-management)
+_ _ _
+
 [Contract Management](02_Security_Roles.md#contract-management)
 
 
