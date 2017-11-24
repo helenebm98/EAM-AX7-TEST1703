@@ -9,16 +9,20 @@ Published by: Dynaway A/S
 
 # Table of Contents
 
-
-[TOC]
-
-
-
+#### [Introduction](#introduction)
+[Functional Locations and Objects](#functional-locations-and-objects)
+[Objects and Work Orders](#objects-and-work-orders)
 
 
+#### [Security Roles](02_Security_Roles.md#security-roles)
+[Enterprise Asset Management](02_Security_Roles.md#enterprise-asset-management)
+[Contract Management](02_Security_Roles.md#contract-management)
 
 
-
+#### [License Configuration](03_License_Config.md#license-configuration)
+[EAM 1xx.x.x.x Keep Update Objects](03_License_Config.md#1xx.x.x.x-keep-update-objects)
+[Fault Hierarchy](03_License_Config.md#fault-hierarchy)
+[Inbound/Outbound](03_License_Config.md#inbound/outbound)
 
 
 
@@ -28,6 +32,32 @@ Published by: Dynaway A/S
 
 ---
 
+
+TESTING internal link:
+
+[Objects and IoT Devices](#objects-and-iot-devices)
+
+
+
+
+
+---
+
+
+
+
+TESTING link to a section in another .md file:
+
+[Objects and Work Orders](01_Overview.md#objects-and-work-orders)
+
+
+
+
+
+---
+
+
+# Introduction
 
 Enterprise Asset Management (EAM) is an advanced module for managing assets, maintenance jobs, and service jobs in Microsoft Dynamics® 365 for Finance and Operations. Enterprise Asset Management is developed by Dynaway A/S and integrates seamlessly with several modules in Dynamics 365 for Finance and Operations. In Figure 1 you will see a graphic illustration of the interfaces to other modules in Microsoft Dynamics® 365 for Finance and Operations.
 

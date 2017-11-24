@@ -1,21 +1,8 @@
 # Objects
 
-
-
-[TOC]
-
-
-
-
-
 An object is any type of equipment, for example a machine or machine part, which requires maintenance, service, or repair.
 
-
-
-
-
 An object is automatically updated with related information regarding, for example, new or updated work orders. Objects can be created from the **All Objects** or **Pending objects** menu items, which is described in the ///"Create Objects Based on Purchase or Sales Orders" section.
-
 
 
 
@@ -40,16 +27,7 @@ TESTING internal link:
 
 
 
-
-
-
-
-
-
 ---
-
-
-
 
 
 
@@ -57,8 +35,6 @@ TESTING internal link:
 TESTING link to a section in another .md file:
 
 [Objects and Work Orders](01_Overview.md#objects-and-work-orders)
-
-
 
 
 
@@ -230,7 +206,7 @@ It is also possible to create new spare parts for existing object type - product
 
 
 
-Click **Item where used** if you want to open **Item where used** to check if the spare part on the selected line is used elsewhere in <%MAINT%>, for example, in relation to objects and work orders. Read more about this overview in the ///"Items Where Used" section.
+Click **Item where used** if you want to open **Item where used** to check if the spare part on the selected line is used elsewhere in Enterprise Asset Management, for example, in relation to objects and work orders. Read more about this overview in the ///"Items Where Used" section.
 
 
 
@@ -2964,3 +2940,4 @@ In Dynaway, we have created a document describing an example of the IoT setup, w
 
 
 
+*
