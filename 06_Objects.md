@@ -117,7 +117,7 @@ When you add new specification types on this FastTab, existing objects are autom
 13. On the **Product - model** FastTab, all product model combinations set up on the selected object type are shown. Click the **Product - model** button to open the **Product - model** view if you want to see the product - model combinations divided by product. You can add model - object type relations in that form. It is also possible to add product - model relations to an object type directly in **Object types**. Finally, you can also create new product - model - object type relations in **Enterprise asset management** > **Setup** > **Objects** > **Product - model**. As you can see from this description, there are three ways of working with setting up and editing product - model - object type relations. All available combinations are shown from different perspectives, and you can select your preferred point of entry when working with this setup.
 
 
-######NOTE
+###### NOTE
 If you select counters on an object type, the selections are automatically updated in the **Counters** form (**Enterprise asset management** > **Setup** > **Objects** > **Object types** > **Counters**).
 
 
