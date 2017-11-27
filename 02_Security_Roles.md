@@ -11,8 +11,6 @@ Below, you will see the roles and related tasks defined for Enterprise Asset Man
 
 ### Enterprise Asset Management
 
----
-
 | Role | Related tasks | CAL level |
 |--------|--------|
 |Maintenance Manager  |Maintain base data and perform all maintenance-related tasks. Able to access and work with all menu items in Enterprise Asset Management. |Enterprise |
@@ -22,8 +20,6 @@ Below, you will see the roles and related tasks defined for Enterprise Asset Man
 
 
 ### Contract Management
-
----
 
 | Role | Related tasks | CAL level |
 |--------|--------|
