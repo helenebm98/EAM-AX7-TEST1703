@@ -6,47 +6,7 @@ An object is automatically updated with related information regarding, for examp
 
 
 
-
-
-
 ---
-
-
-
-TESTING internal link:
-
-[Objects and IoT Devices](#objects-and-iot-devices)
-
-
-
-
-
-
-
-[Install Object](#install-object)
-
-
-
----
-
-
-
-
-TESTING link to a section in another .md file:
-
-[Objects and Work Orders](01_Overview.md#objects-and-work-orders)
-
-
-
-
-
-
-
----
-
-
-
-
 
 
 
@@ -1660,85 +1620,44 @@ The action pane buttons are organized in tabs on the action pane. Here is a brie
 
 
 | Button name | Description |
-
 |--------|--------|
-
 |Edit                  |Edit the selected object.       |
-
 |New                   |Create new object.        |
-
 |Delete                |Delete the selected object.        |
-
 |Move object           |Move objects in the same object hierarchy or to another object hierarchy.        |
-
 |Replace object        |Replace child object in an object hierarchy with another object.        |
-
 |Install object        |Install object on a functional location. |
-
 |Copy object           |Copy object hierarchy to another object.    |
-
 |Notes                 |Insert a note on the object selected in the list page. Start by clicking the **Add timestamp** button to add your user name and a timestamp to the note.       |
-
 |Requests              |Open the **Active requests** list page and view requests created for the selected object.       |
-
 |Timeline              |Overview of the various registrations made on the object.      |
-
 |Object BOM            |View a list of all items (spare parts as well as other items) used on an object.       |
-
 |Contracts             |Open the **Contracts** list page and view contracts created on the object.        |
-
 |Work orders           |Open **Active work orders** list page and view work orders for the object.       |
-
 |Checklist             |Overview of checklists and measurements registered on the object.       |
-
 |Production stop       |Create or view production stop registrations on the object.       |
-
 |Project transactions  |View all posted transactions related to work orders created for the object.      |
-
 |Counters              |Create or view counter registrations on the object.   |
-
 |Object calendar       |Open the **Open object calendar lines** list page and view maintenance sequences, requests, and rounds with status "Created" that are associated with the object.     |
-
 |Object stage          |Update object stage. You can multi-select several objects in the **All objects** list page and update the object stage on several objects at a time.       |
-
 |Stage log             |Log displaying the stages of the selected object.      |
-
 |Object documents      |View list of documents attached to an object. These documents are set up in **Enterprise asset management** > **Setup** > **Object documents**.       |
-
 |Specifications        |Create or view object specifications.      |
-
 |Image                 |Select an image for the object.       |
-
 |Parent objects        |View parent object history on the selected object.       |
-
 |Functional locations  |View functional location history on the selected object.       |
-
 |Condition assessment       |Register condition assessment measurements on the object.       |
-
 |Faults                |Open **Object faults** list and view faults registered on the object.      |
-
 |Cost control          |Compare budget costs and actual costs on the object.        |
-
 |Object KPIs           |Calculate and view Key Performance Indicators (KPIs) for the object.      |
-
 |Job types             |Overview of the current job type setup for the object.       |
-
 |Criticalities         |View or update object criticalities.       |
-
 |Spare parts           |View a list of approved and alternative spare parts that can be used on the object.      |
-
 |Object consumption    |Print a report displaying consumption registrations on the object.       |
-
 |Object fault          |Print a report displaying fault registrations on the object.       |
 
 
-
-
-
 ---
-
-
-
 
 
 ### Create an Object
