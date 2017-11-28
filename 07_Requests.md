@@ -34,13 +34,13 @@ Request stages define the stages that a request can go through, for example, "Cr
 6. Select the **Delete** check box if it should be possible to delete requests at this stage.
 
 7. Select the **Create work order** check box if it should be possible to create a work order from the request at this stage.
-8. On the **Update** FastTab, the **Inbound** and **Outbound** check boxes are relevant if you use depot repair (refer to the ///"Manage Requests" chapter for more information). Select a check box if you want to automatically update the object stage to **Inbound** or **Outbound** at this stage.
+8. On the **Update** FastTab, the **Inbound** and **Outbound** check boxes are relevant if you use depot repair (refer to the [Inbound and Outbound Objects](#inbound-and-outbound-objects) section for more information). Select a check box if you want to automatically update the object stage to **Inbound** or **Outbound** at this stage.
 
 9. Select the **Open object calendar lines** check box for a stage on which you want to delete all lines in the object calendar connected to the request, which have not been converted to work orders.
 
 
 ###### NOTE
-Whether you are able to work with inbound and outbound objects depends on the setup of Enterprise Asset Management. The functionality can only be used if the **Inbound/outbound** check box is selected in the **License configuration** (**System administration** > **Setup** > **Licensing** > **License configuration**). Read more about configuration in the ///"License Configuration" chapter.
+Whether you are able to work with inbound and outbound objects depends on the setup of Enterprise Asset Management. The functionality can only be used if the **Inbound/outbound** check box is selected in the **License configuration** (**System administration** > **Setup** > **Licensing** > **License configuration**). Read more about configuration in the [License Configuration](03_License_Config.md#license-configuration) chapter.
 If the **Inbound** check box or the **Outbound** check box is selected on the **Update** FastTab on a request stage, it means that when the stage is set to "Inbound" or "Outbound" on a request, the object stage for the object selected on the request is updated accordingly.
 
 
@@ -48,7 +48,7 @@ If the **Inbound** check box or the **Outbound** check box is selected on the **
 
 
 ###### NOTE
-Request stages, stage groups, and types are related and used in the same way as work order stages, work order stage groups, and work order types. Refer to the ///"Work Order Stages" section for a general explanation regarding stage group, type, and stage relations.
+Request stages, stage groups, and types are related and used in the same way as work order stages, work order stage groups, and work order types. Refer to the [Work Order Stages](08_Work_Orders.md#work-order-stages) section for a general explanation regarding stage group, type, and stage relations.
 
 
 ---
@@ -101,7 +101,7 @@ A request type defines the request stage group affiliation. Request stage group 
 
 Responsible workers can be related to customers, object types, objects, functional locations, job groups, job types, variants, and trades to make a worker preference on work orders and requests regarding which workers should be responsible for a work order (but not necessarily the ones scheduled to carry out a work order). The use of this functionality is optional. For example, it can be used to select responsible workers or worker groups for specific work types or work areas. During a work order life cycle or a request life cycle, it is possible to change or update responsible workers, which could be related to, for example, a change in request stage or work order stage. The setup in **Responsible workers** is ++not++ used during work order scheduling.
 
-Before you can set up responsible workers, you must first set up the workers and worker groups that should be available for selection. Refer to the ///"Workers and Worker Groups" section for a description on how to set up workers and worker groups.
+Before you can set up responsible workers, you must first set up the workers and worker groups that should be available for selection. Refer to the [Workers and Worker Groups](06_Objects.md#workers-and-worker-groups) section for a description on how to set up workers and worker groups.
 
 
 #### Set Up Responsible Workers
@@ -142,7 +142,7 @@ During creation of a request, when a responsible worker or responsible worker gr
 
 
 ###### NOTE
-In Enterprise Asset Management, you can also set up preferred workers, who may be allocated on work orders during work order scheduling. Refer to the ///"Set Up Preferred Workers" section for more information.
+In Enterprise Asset Management, you can also set up preferred workers, who may be allocated on work orders during work order scheduling. Refer to the [Set Up Preferred Workers](13_WO_Scheduling.md#set-up-preferred-workers) section for more information.
 
 
 ---
@@ -158,7 +158,7 @@ Click **Enterprise asset management** > **Common** > **Requests** > **All reques
 
 
 ###### NOTE
-Click **Enterprise asset management** > **Common** > **Requests** > **My functional location requests** to see a list of requests containing functional locations, or objects installed on functional locations, you are related to as a worker (set up in ///"Workers").
+Click **Enterprise asset management** > **Common** > **Requests** > **My functional location requests** to see a list of requests containing functional locations, or objects installed on functional locations, you are related to as a worker (set up in [Workers and Worker Groups](06_Objects.md#workers-and-worker-groups)).
 Customer account information is available in Asset Service Management (external maintenance), but not in Enterprise Asset Management (internal maintenance).
 
 
@@ -205,7 +205,7 @@ In **All Objects** or **Active objects** (**Enterprise asset management** > **Co
 5. Select **Customer account**, **Functional location**, **Object**, or a combination, as required. It is possible to create a request without selecting an object. Then the object is added to the request later. If the worker who is logged in to Dynamics 365 for Finance and Operations is related to a resource, which is related to an object, the **Object** field is automatically filled out.
 ###### NOTE
 If the selected object already has requests attached to it, an info message is shown at the top of the **Create request** drop-down dialog, showing the request ID of an existing request as well as an **Open** button that you can click to open that request. If the object is covered by a warranty or contract agreement, an info message is also shown.
-When you select an object, two or three tabs are available: The **My objects** tab contains objects related to the functional locations to which you (the worker who is logged on the system) may be allocated. If no functional locations are set up on a worker in ///"Workers", the **My objects** tab will not be visible. The **Active objects** tab contains a list of all objects with object stage "Active". The **Object view** tab displays a tree view of functional locations and objects installed on those locations.
+When you select an object, two or three tabs are available: The **My objects** tab contains objects related to the functional locations to which you (the worker who is logged on the system) may be allocated. If no functional locations are set up on a worker in [Workers and Worker Groups](06_Objects.md#workers-and-worker-groups), the **My objects** tab will not be visible. The **Active objects** tab contains a list of all objects with object stage "Active". The **Object view** tab displays a tree view of functional locations and objects installed on those locations.
 
 6. Select a priority regarding the urgency of the request in the **Priority** field.
 7. If you have selected an object, you can create a fault registration by selecting fault data in the **Fault symptom**, **Fault area**, and **Fault type** fields.
@@ -221,7 +221,7 @@ When you select an object, two or three tabs are available: The **My objects** t
 ![Figure 7-10](/Figures/07-10_CreateRequest_DropDown_AX7-01.png)
 
 ###### NOTE
-In the ///"Maintenance status" form, you can make a calculation to get an overview of workload regarding incoming and completed requests.
+In the [Maintenance status](20_ControllingAndReporting.md#maintenance-status) form, you can make a calculation to get an overview of workload regarding incoming and completed requests.
 
 ---
 
@@ -234,7 +234,7 @@ In the Details view, you can update various information. For example you can
 
 - select and verify the object. If, required it is possible to clear the **Object verified** check box later to select another object.
 
-- select responsible group and/or responsible worker. For more information on how to set up responsible workers and worker groups, refer to the ///"Responsible" Workers section.
+- select responsible group and/or responsible worker. For more information on how to set up responsible workers and worker groups, refer to the [Responsible Workers](#responsible-workers) section.
 
 - select a job type and, if relevant, the related job variant and job trade.
 
@@ -329,8 +329,9 @@ In **All object loans**, if you select a loan and click **Transfer to customer**
 If your company makes repair jobs or maintenance jobs on objects received from other locations or customers, Enterprise Asset Management can keep track of inbound objects on the way to your company and outbound (returned) objects.
 
 ###### NOTE
-If you want to use Inbound and Outbound stages to manage objects coming in and being returned, you must set up request stages and stage groups to support these actions. Refer to the ///"Setup for Requests" chapter.
-Whether you are able to work with inbound and outbound objects depends on the setup of Enterprise Asset Management. The functionality can only be used if the **Inbound/outbound** check box is selected in the **License configuration** (**System administration** > **Setup** > **Licensing** > **License configuration**). Read more about configuration setup in the ///"License Configuration" chapter.
+If you want to use Inbound and Outbound stages to manage objects coming in and being returned, you must set up [request stages and staqe groups](#request-stages) to support these actions.
+Whether you are able to work with inbound and outbound objects depends on the setup of Enterprise Asset Management. The functionality can only be used if the **Inbound/outbound** check box is selected in the **License configuration** (**System administration** > **Setup** > **Licensing** > **License configuration**). Read more about configuration setup in the [License Configuration](03_License_Config.md#license-configuration) chapter.
+
 
 #### Register Object as Inbound
 
@@ -421,5 +422,4 @@ Below you see an example of a request list report for all active requests.
 
 
 ![Figure 7-19](/Figures/07-19_RequestList_Report_AX7-01.png)
-
 
