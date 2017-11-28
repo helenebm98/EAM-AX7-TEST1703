@@ -23,7 +23,7 @@ The relations between fault symptoms, fault areas, and fault types depend on the
 
 
 
-If the **Fault hierarchy** check box is cleared in **License configuration**, it means that when you select a fault symptom in **Fault designer**, you will see all the fault areas and fault types that have been added in **Fault designer**. In that case, there is no hierarchical relationship between the selected fault symptom, fault areas, and fault types displayed. Refer to the ///"Error Management" section for more information about fault setup.
+If the **Fault hierarchy** check box is cleared in **License configuration**, it means that when you select a fault symptom in **Fault designer**, you will see all the fault areas and fault types that have been added in **Fault designer**. In that case, there is no hierarchical relationship between the selected fault symptom, fault areas, and fault types displayed. Refer to the [Fault Management](08_Work_Orders.md#fault-management) section for more information about fault setup.
 
 
 ---
@@ -31,7 +31,7 @@ If the **Fault hierarchy** check box is cleared in **License configuration**, it
 
 ### Inbound/Outbound
 
-In order to manage depot repair, check the inbound/outbound configuration. Inbound and outbound are used for managing stages on objects, which are received for repair or maintenance jobs. The objects may be sent to your company from other company locations or from your customers. This functionality can be used to keep track of objects received at your company (inbound) as well as repaired objects returned to another company address or an external customer (outbound). Refer to the ///"Inbound and Outbound Objects" section for more information on how to use this functionality.
+In order to manage depot repair, check the inbound/outbound configuration. Inbound and outbound are used for managing stages on objects, which are received for repair or maintenance jobs. The objects may be sent to your company from other company locations or from your customers. This functionality can be used to keep track of objects received at your company (inbound) as well as repaired objects returned to another company address or an external customer (outbound). Refer to the [Inbound and Outbound Objects](07_Requests.md#inbound-and-outbound-objects) section for more information on how to use this functionality.
 
 
 
