@@ -29,7 +29,7 @@ Functional locations provide traceability of objects in relation to requests, wo
 
 Even if an object is installed on different functional locations during its lifetime, the costs can be related to each different location. This means that object costs are always related to the functional location on which the object was installed at a given time.
 
-Functional locations are ++not++ flexible, meaning that once you have set up a functional location hierarchy, you cannot move locations around in the hierarchy. When you have created a functional location hierarchy, the next step is to install objects in the hierarchy. This procedure is described in the ///"Install Objects on Functional Locations" section.
+Functional locations are ++not++ flexible, meaning that once you have set up a functional location hierarchy, you cannot move locations around in the hierarchy. When you have created a functional location hierarchy, the next step is to install objects in the hierarchy. This procedure is described in the [Install Objects on Functional Locations](#install-objects-on-functional-locations) section.
 
 ---
 
@@ -66,7 +66,7 @@ Functional location stages define the stages that a functional location can go t
 ---
 
 ###### NOTE
-Functional location stages, stage groups, and types are related and used in the same way as work order stages, work order stage groups, and work order types. Refer to the ///"Work Order Stages" section for a general explanation regarding stage group, type, and stage relations.
+Functional location stages, stage groups, and types are related and used in the same way as work order stages, work order stage groups, and work order types. Refer to the [Work Order Stages](08_Work_Orders.md#work-order-stages) section for a general explanation regarding stage group, type, and stage relations.
 
 ---
 
@@ -126,7 +126,7 @@ Now, the default functional location type to be used only on a default functiona
    
 2. Click **New** to create a functional location type.
 3. Insert a functional location type ID in the **Functional location type** field and a name in the **Name** field.
-4. Select a stage group in the **Functional location stage group** field. Refer to the ///"Functional Location Stages" section for more information on functional location stages and stage groups.
+4. Select a stage group in the **Functional location stage group** field. Refer to the [Functional Location Stages](#functional-location-stages) section for more information on functional location stages and stage groups.
    
 5. Select the **Multiple objects** check box if it should be possible to install more than one object on the functional location.
 6. Select the **Update object dimension** check box if you want objects installed on a functional location of this type to automatically use the financial dimensions related to the functional location. This means that if you change financial dimensions in the **Functional location** detail view, and the functional location uses a functional location type with this check box selected, financial dimensions are automatically updated on all objects installed on that functional location.
@@ -153,7 +153,7 @@ You can use the **Copy** button to copy settings from a functional location type
 
 ### Introduction to Functional Locations
 
-Click **Enterprise asset management** > **Common** > **Functional locations** > **All functional locations** to open the list. The **All functional locations** list contains all functional locations and displays some of the information related to a functional location. You can also select **Active functional locations** to see a list of all active functional locations, or **My active functional locations** to see a list of the functional locations you are related to as a worker (set up in ///"Workers and Worker Groups" section in the ///"Objects" chapter).
+Click **Enterprise asset management** > **Common** > **Functional locations** > **All functional locations** to open the list. The **All functional locations** list contains all functional locations and displays some of the information related to a functional location. You can also select **Active functional locations** to see a list of all active functional locations, or **My active functional locations** to see a list of the functional locations you are related to as a worker (set up in [Workers and Worker Groups](06_Objects.md#workers-and-worker-groups)).
 
 
 ![Figure 5-08](/Figures/05-08_AllFunctionalLocations_List_AX7-01.png)
@@ -208,7 +208,7 @@ When you use functional locations, start by creating one default location to be 
 4. Insert name for the default functional location in the **Name** field.
    
 5. Do ++not++ select a parent in the **Parent** field - leave this field blank.
-6. In the **Functional location type** field, select the functional location type to be used for the default functional location. See the ///"Functional Location Types" section for more information on how to set up functional location types.
+6. In the **Functional location type** field, select the functional location type to be used for the default functional location. See the [Functional Location Types](#functional-location-types) section for more information on how to set up functional location types.
    
 7. Click **OK**. You should not add further data to this functional location as it is only used as a temporary location for new objects until you install the objects on the functional locations used by your company.
 
@@ -239,7 +239,7 @@ The following procedure describes how you create the functional locations requir
 
 ###### NOTE
 
-Depending on your setup of functional location stages, you may have to create all sub locations for a functional location, and then change the functional location stage before you can start installing objects. See the ///"Install Objects on Functional Locations" section for more information on object installation. See the ///"Functional Location Stages" section to learn more about setup of functional location stages.
+Depending on your setup of functional location stages, you may have to create all sub locations for a functional location, and then change the functional location stage before you can start installing objects. See the [Install Objects on Functional Locations](#install-objects-on-functional-locations) section for more information on object installation. See the [Functional Location Stages](#functional-location-stages) section to learn more about setup of functional location stages.
 
 In Details view, you will see FastTabs on which you can add and edit information about the functional location.
 
@@ -256,7 +256,7 @@ This section provides an overview of parent and child information in the functio
 #### Installed Objects
 
 
-Refer to the ///"Install Objects on Functional Locations" section for more information on object installation. You can use the "View" button on this FastTab to show more fields on the FastTab. The **Effective** and **Sub object** fields can be shown in the grid.
+Refer to the [Install Objects on Functional Locations](#install-objects-on-functional-locations) section for more information on object installation. You can use the "View" button on this FastTab to show more fields on the FastTab. The **Effective** and **Sub object** fields can be shown in the grid.
 
 
 ---
@@ -275,7 +275,7 @@ Here you can add maintenance sequences and rounds to the functional location, in
 
 ###### NOTE
 
-If you update the setup of object types, products, and models on maintenance sequences in **All functional locations** detail view > **Preventive maintenance** FastTab after you have scheduled maintenance sequences, existing object calendar entries related to that functional location are automatically deleted. In order to create new calendar entries, which correspond with the updated maintenance sequence setup on the functional location, you must run a new maintenance sequence schedule for that functional location. Read more about maintenance sequence scheduling in the ///"Schedule Maintenance Sequences" section.
+If you update the setup of object types, products, and models on maintenance sequences in **All functional locations** detail view > **Preventive maintenance** FastTab after you have scheduled maintenance sequences, existing object calendar entries related to that functional location are automatically deleted. In order to create new calendar entries, which correspond with the updated maintenance sequence setup on the functional location, you must run a new maintenance sequence schedule for that functional location. Read more about maintenance sequence scheduling in the [Schedule Maintenance Sequences](11_Preventive_Reactive_Maint.md#schedule-maintenance-sequences) section.
 
 
 ---
@@ -296,7 +296,7 @@ On this FastTab, you can add workers affiliated with the functional location, an
 
 #### Financial Dimensions
 
-You can select financial dimensions for the functional location. ///"Functional Location Types" can be set up to allow for automatic update of financial dimensions from a functional location. This means that objects installed on a financial dimension automatically get the financial dimensions for the functional location. This is useful if you want different cost centers, depending on locations.
+You can select financial dimensions for the functional location. [Functional Location Types](#functional-location-types) can be set up to allow for automatic update of financial dimensions from a functional location. This means that objects installed on a financial dimension automatically get the financial dimensions for the functional location. This is useful if you want different cost centers, depending on locations.
 
 ![Figure 5-11](/Figures/05-11_FunctionalLocation_DetailsView_AX7-01A.png)
 
@@ -342,9 +342,9 @@ If you cannot delete a functional location, instead you can handle deletion by s
 
 ### Install Objects on Functional Locations
 
-When you have created functional location hierarchies, next step is to install objects on the relevant functional location. Refer to the ///"Objects" chapter for more information on how to create objects.
+When you have created functional location hierarchies, next step is to install objects on the relevant functional location. Refer to the [Objects](06_Objects.md#objects) chapter for more information on how to create objects.
 
-If you have created an object hierarchy, the entire hierarchy must be installed on a functional location. This means that only top-level objects (objects without a current parent object) can be selected on a functional location, and all related sub objects will be included in the installation on the functional location. When you install objects on a functional location, the financial dimensions of the functional location may be automatically transferred to the object, depending on the setup on the functional location type selected on the functional location. See the ///"Functional Location Types" section for more information on how to set up functional location types.
+If you have created an object hierarchy, the entire hierarchy must be installed on a functional location. This means that only top-level objects (objects without a current parent object) can be selected on a functional location, and all related sub objects will be included in the installation on the functional location. When you install objects on a functional location, the financial dimensions of the functional location may be automatically transferred to the object, depending on the setup on the functional location type selected on the functional location. See the [Functional Location Types](#functional-location-types) section for more information on how to set up functional location types.
 
 
 ###### NOTE
@@ -386,9 +386,9 @@ It is possible to set up functional location stages and functional location type
 
 Before you can auto-create an object on a functional location, the following setup data must be available:
 
-- Create a functional location type in which you have selected an object type in the **Object type** field. Refer to the ///"Functional Location Types" section.
+- Create a functional location type in which you have selected an object type in the **Object type** field. Refer to the [Functional Location Types](#functional-location-types) section.
 
-- Create a functional location stage that handles auto-creation of an object by selecting the **Create object** check box. Refer to the ///"Functional Location Stages" section.
+- Create a functional location stage that handles auto-creation of an object by selecting the **Create object** check box. Refer to the [Functional Location Stages](#functional-location-stages) section.
 
 When the setup data are available, you are ready to create an object.
 
