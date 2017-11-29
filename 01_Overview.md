@@ -314,7 +314,7 @@ Published by: Dynaway A/S
 
 # Introduction
 
-Enterprise Asset Management (EAM) is an advanced module for managing assets, maintenance jobs, and service jobs in Microsoft Dynamics® 365 for Finance and Operations. Enterprise Asset Management is developed by Dynaway A/S and integrates seamlessly with several modules in Dynamics 365 for Finance and Operations. In Figure 1 you will see a graphic illustration of the interfaces to other modules in Microsoft Dynamics® 365 for Finance and Operations.
+Enterprise Asset Management (EAM) is an advanced module for managing assets, maintenance jobs, and service jobs in Microsoft Dynamics® 365 for Finance and Operations. Enterprise Asset Management is developed by Dynaway A/S and integrates seamlessly with several modules in Dynamics 365 for Finance and Operations. In the figure below, you will see a graphic illustration of the interfaces to other modules in Microsoft Dynamics® 365 for Finance and Operations.
 
 
 ![Figure 1-01](/Figures/01-01_PPT_Figure_1_AX7_ASM.png)
@@ -322,7 +322,7 @@ Enterprise Asset Management (EAM) is an advanced module for managing assets, mai
 
 For mobile workers, for example, service technicians, we have developed the next version of the Mobile Client. The software is based on HTML5 and provides service workers with quick and easy access to information related to objects and work orders. All registrations are automatically transferred to the company's ERP system, Dynamics 365 for Finance and Operations. The the Mobile Client supports use of Google Maps™ for display of object location.
 
-Enterprise Asset Management allows you to efficiently manage and carry out all tasks related to managing and servicing many types of equipment in your company, for example, machines,production equipment, and vehicles. For Asset Service Management, the main focus is servicing customer equipment. Enterprise Asset Management as well as Asset Service Management supports solutions across numerous industries. Figure 2 shows an overview of the key functionality covered by Asset Service Management.
+Enterprise Asset Management allows you to efficiently manage and carry out all tasks related to managing and servicing many types of equipment in your company, for example, machines,production equipment, and vehicles. For Asset Service Management, the main focus is servicing customer equipment. Enterprise Asset Management as well as Asset Service Management supports solutions across numerous industries. The figure below shows an overview of the key functionality covered by Asset Service Management.
 
 
 ![Figure 1-02](/Figures/01-02_PPT_Figure_2_AX7_ASM_Rel_1711_Fall.png)
@@ -374,7 +374,8 @@ A work order can be related to another work order, and job types can contain suc
 There are several steps to complete when you want to schedule and execute a service job on a work order. In the figure below, an overview of the processing of a work order is displayed.
 
 
-![Figure 1-08](/Figures/01-08_WO_FlowDiagram_AX7_ASM02.png)
+![Figure 1-08](/Figures/01-08_WO_FlowDiagram_AX7_ASM01.png)
+![Figure 1-09](/Figures/01-09_WO_FlowDiagram_AX7_ASM02.png)
 
 
 ###### NOTE
