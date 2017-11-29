@@ -6,7 +6,7 @@ In Dynamics 365 for Finance and Operations, security roles are used to grant acc
 
 ---
 
-Below, you will see the roles and related tasks defined for Enterprise Asset Management.
+Below, you will see the roles and related tasks defined for Enterprise Asset Management and Asset Service Management (Contract Management).
 
 
 ### Enterprise Asset Management
@@ -25,7 +25,4 @@ Below, you will see the roles and related tasks defined for Enterprise Asset Man
 |--------|--------|--------|
 |Contract Manager |Maintain base data and perform all contract-related tasks. Able to access and work with all menu items in Contract management.  |Enterprise |
 |Contract Clerk   |Manage contracts, carry out invoicing, update contract payments. Able to access and work with menu items in Contract management except the items located in the **Setup** area, which is read only.  |Enterprise |
-
-
----
 

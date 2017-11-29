@@ -324,7 +324,7 @@ The Enterprise Asset Management (EAM) solution is also available for Asset Servi
 
 For mobile workers, for example, service technicians, we have developed the next version of the Mobile Client. The software is based on HTML5 and provides service workers with quick and easy access to information related to objects and work orders. All registrations are automatically transferred to the company's ERP system, Dynamics 365 for Finance and Operations. The the Mobile Client supports use of Google Maps™ for display of object location.
 
-Enterprise Asset Management allows you to efficiently manage and carry out all tasks related to managing and servicing many types of equipment in your company, for example, machines,production equipment, and vehicles. For Asset Service Management, the main focus is servicing equipment at customer sites. Enterprise Asset Management as well as Asset Service Management supports solutions across numerous industries. The figure below shows an overview of the key functionality covered by Asset Service Management.
+Enterprise Asset Management allows you to efficiently manage and carry out all tasks related to managing and servicing many types of equipment in your company, for example, machines,production equipment, and vehicles. For Asset Service Management, the main focus is servicing equipment at customer sites. Enterprise Asset Management as well as Asset Service Management supports solutions across numerous industries. The figure below shows an overview of the key functionality covered by EAM and ASM.
 
 
 ![Figure 1-02](/Figures/01-02_PPT_Figure_2_AX7_ASM_Rel_1711_Fall.png)
@@ -353,7 +353,7 @@ How you build your functional location hierarchy is based on your company's requ
 
 ### Objects and Work Orders
 
-The central parts of Enterprise Asset Management are objects and work orders. An object is a machine or machine part that requires continuous maintenance and service. Objects can be created in a hierarchical structure, and they can be related to functional locations. Service jobs can be planned at all levels in the object structure.
+The central parts of Enterprise Asset Management are objects and work orders. An object is a machine or machine part that requires continuous maintenance and service. Objects can be created in a hierarchical structure, and they can be related to functional locations. Maintenance and service jobs can be planned at all levels in the object structure.
 
 Various data such as product information and object specification, and required maintenance sequences are set up on each object. The figure below provides an overview of object data and the object affiliation to job types. Red text are examples to show inheritance and dependencies.
 
@@ -382,5 +382,5 @@ There are several steps to complete when you want to schedule and execute a serv
 
 ###### NOTE
 
-If you have comments, suggestions for improvements, or other forms of feedback that you want to share with us regarding this Training Material, please send an email to: support@dynaway.com. Generally, when you work in Dynamics 365 for Finance and Operations and the Asset Service Management module, click New to create a new record, click Edit to update an existing record, and click Save to save new or edited data.
+If you have comments, suggestions for improvements, or other forms of feedback that you want to share with us regarding this wiki, please send an email to: support@dynaway.com. Generally, when you work in Dynamics 365 for Finance and Operations and the Asset Service Management module, click **New** to create a new record, click **Edit** to update an existing record, and click **Save** to save new or edited data.
 
