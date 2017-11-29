@@ -3,9 +3,7 @@
 
 Published by: Dynaway A/S
 
-
 © 2017 Dynaway A/S
-
 
 ---
 
@@ -308,9 +306,7 @@ Published by: Dynaway A/S
 
 ### [Data Management](23_Data_Management.md#data-management)
 
-
 ---
-
 
 # Introduction
 
@@ -329,9 +325,7 @@ Enterprise Asset Management allows you to efficiently manage and carry out all t
 
 ![Figure 1-02](/Figures/01-02_PPT_Figure_2_AX7_ASM_Rel_1711_Fall.png)
 
-
 ---
-
 
 ### Functional Locations and Objects
 
