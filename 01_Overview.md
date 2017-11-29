@@ -382,5 +382,5 @@ There are several steps to complete when you want to schedule and execute a serv
 
 ###### NOTE
 
-If you have comments, suggestions for improvements, or other forms of feedback that you want to share with us regarding this wiki, please send an email to: support@dynaway.com. Generally, when you work in Dynamics 365 for Finance and Operations and the Asset Service Management module, click **New** to create a new record, click **Edit** to update an existing record, and click **Save** to save new or edited data.
+If you have comments, suggestions for improvements, or other forms of feedback that you want to share with us regarding this wiki, please send an email to: support@dynaway.com. Generally, when you work in Dynamics 365 for Finance and Operations and the Enterprise Asset Management module, click **New** to create a new record, click **Edit** to update an existing record, and click **Save** to save new or edited data.
 
