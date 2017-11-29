@@ -57,7 +57,7 @@ Published by: Dynaway A/S
 
 [Condition Assessment](06_Objects.md#condition-assessment)
 
-[Product and Model](06_Objects.md#product-and-model)
+[Product Model](06_Objects.md#product-model)
 
 [Counters](06_Objects.md#counters)
 
@@ -373,7 +373,7 @@ A work order can be related to another work order, and job types can contain suc
 ![Figure 1-07](/Figures/01-07_ProcessFlow_CreateWO_AX7.png)
 
 
-There are several steps to complete when you want to schedule and execute a service job on a work order. In the figure below, an overview of the processing of a work order is displayed.
+There are several steps to complete when you want to schedule and execute a maintenance or service job on a work order. In the figure below, an overview of the processing of a work order is displayed.
 
 
 ![Figure 1-08](/Figures/01-08_WO_FlowDiagram_AX7_ASM01.png)
