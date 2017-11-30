@@ -195,7 +195,7 @@ When you create a functional location hierarchy, be aware once you have created 
 
 To be able to work with functional locations, you start by creating two "categories" of functional locations:
 
-- Create ++ one ++ default functional location with not sub locations. This functional location is used only as the standard location for objects when you create new objects.
+- Create ++ one ++ <u>one</u> default functional location with not sub locations. This functional location is used only as the standard location for objects when you create new objects.
 - Create the functional location hierarchies required for managing maintenance and service jobs in your company.
 
 ---
