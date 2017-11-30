@@ -29,7 +29,7 @@ Functional locations provide traceability of objects in relation to requests, wo
 
 Even if an object is installed on different functional locations during its lifetime, the costs can be related to each different location. This means that object costs are always related to the functional location on which the object was installed at a given time.
 
-Functional locations are **not** flexible, meaning that once you have set up a functional location hierarchy, you cannot move locations around in the hierarchy. When you have created a functional location hierarchy, the next step is to install objects in the hierarchy. This procedure is described in the [Install Objects on Functional Locations](#install-objects-on-functional-locations) section.
+Functional locations are *not* flexible, meaning that once you have set up a functional location hierarchy, you cannot move locations around in the hierarchy. When you have created a functional location hierarchy, the next step is to install objects in the hierarchy. This procedure is described in the [Install Objects on Functional Locations](#install-objects-on-functional-locations) section.
 
 ---
 
