@@ -37,7 +37,6 @@ Functional locations are *not* flexible, meaning that once you have set up a fun
 
 Functional location stages define the stages that a functional location can go through, for example, created, active, and ended. You are able to view all functional locations, regardless of their stage, in the **All functional locations** list page. You can change the stage of a functional location by selecting it in the **All functional locations** list page and clicking the **Functional location stage** button.
 
----
 
 #### Set Up Functional Location Stages
 
@@ -62,8 +61,6 @@ Functional location stages define the stages that a functional location can go t
 
 ![Figure 5-01](/Figures/05-01_FuncLocationStages_Form_AX7-01.png)
 
-
----
 
 ###### NOTE
 Functional location stages, stage groups, and types are related and used in the same way as work order stages, work order stage groups, and work order types. Refer to the [Work Order Stages](08_Work_Orders.md#work-order-stages) section for a general explanation regarding stage group, type, and stage relations.
@@ -98,7 +95,6 @@ Functional location types are used to manage how objects are installed on a func
 ###### NOTE
 In order to work with functional locations, you must create a default functional location to be used only for the purpose of creating new objects. For that default functional location, you should create a default functional location type that is really simple and allows multiple objects to be installed on the default functional location. See the Create Functional Locations section for more information on how to set up functional locations.
 
----
 
 #### Create a Default Functional Location Type
 
@@ -118,8 +114,6 @@ Now, the default functional location type to be used only on a default functiona
 ![Figure 5-06](/Figures/05-06_FuncLocationTypes_Default_Form_AX7-01.png)
 
 
----
-
 #### Create Functional Location Types
 
 1. Click **Enterprise asset management** > **Setup** > **Functional locations** > **Functional location types**.
@@ -138,7 +132,6 @@ Now, the default functional location type to be used only on a default functiona
 10. On the **Object specification requirements** FastTab, set up specification requirements to be related to the functional location type. Click **Add line** and select the requirements for the line. These specification requirements function as guidelines. They are not validated against specifications set up on an object (**Enterprise asset management** > **Common** > **Objects** > **All objects** > select object in the list > **General** tab > **Specifications** button). The specification requirements are shown when you install objects on functional locations.
    
 11. On the **Permitted types** FastTab, select the functional location types that should be valid for the sub functional location types related to a parent functional location type, which uses the selected functional location type. In the figure below, you see that a parent functional location using the type "City" allows the functional location types "Site", "Plant", and "Warehouse" as related sub functional locations.
-
 
 
 ![Figure 5-07](/Figures/05-07_FuncLocationTypes_Form_AX7-01.png)
@@ -210,7 +203,7 @@ When you use functional locations, start by creating one default location to be 
 3. Insert an ID in the **Functional location** field, for example, "0000" or "Default", to indicate that this is a special functional location.
 4. Insert name for the default functional location in the **Name** field.
    
-5. Do ++not++ select a parent in the **Parent** field - leave this field blank.
+5. Do +not+ select a parent in the **Parent** field - leave this field blank.
 6. In the **Functional location type** field, select the functional location type to be used for the default functional location. See the [Functional Location Types](#functional-location-types) section for more information on how to set up functional location types.
    
 7. Click **OK**. You should not add further data to this functional location as it is only used as a temporary location for new objects until you install the objects on the functional locations used by your company.
@@ -373,9 +366,9 @@ The object specifications set up on the object have been added to the **Specific
    ![Figure 5-15](/Figures/05-15_InstallObject_On_FuncLocation_SelectObject_AX7-01-01.png)
 6. Click **OK**.
 ###### NOTE
-If you want to change the installation of an object and install it on another functional location, the procedure is the same as described in steps 1-6 in this procedure. When you install the object on a new functional location, the object is automatically uninstalled from the previous functional location. Any active requests or work orders that may have been created on the object before you re-installed it on another functional location are ++not++ automatically transferred to new functional location. If required, you must manually re-create those requests and work orders for the object after re-installation on a new location.
-   
+If you want to change the installation of an object and install it on another functional location, the procedure is the same as described in steps 1-6 in this procedure. When you install the object on a new functional location, the object is automatically uninstalled from the previous functional location. Any active requests or work orders that may have been created on the object before you re-installed it on another functional location are *not* automatically transferred to new functional location. If required, you must manually re-create those requests and work orders for the object after re-installation on a new location.
 7. If you want to see a list of all the objects, including sub objects, that are installed on the functional location, select the functional location in **All Functional locations**, and click the **Objects** button.
+
 8. If you want to see a list of active requests, active work orders, or fault registrations related to the objects installed on a functional location, select the functional location in **All Functional locations**, and click the **Requests** or **Work orders** or **Faults** button.
 
 ###### NOTE
