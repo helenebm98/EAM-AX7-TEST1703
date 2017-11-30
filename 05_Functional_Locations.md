@@ -29,7 +29,7 @@ Functional locations provide traceability of objects in relation to requests, wo
 
 Even if an object is installed on different functional locations during its lifetime, the costs can be related to each different location. This means that object costs are always related to the functional location on which the object was installed at a given time.
 
-Functional locations are ++not++ flexible, meaning that once you have set up a functional location hierarchy, you cannot move locations around in the hierarchy. When you have created a functional location hierarchy, the next step is to install objects in the hierarchy. This procedure is described in the [Install Objects on Functional Locations](#install-objects-on-functional-locations) section.
+Functional locations are **not** flexible, meaning that once you have set up a functional location hierarchy, you cannot move locations around in the hierarchy. When you have created a functional location hierarchy, the next step is to install objects in the hierarchy. This procedure is described in the [Install Objects on Functional Locations](#install-objects-on-functional-locations) section.
 
 ---
 
@@ -151,6 +151,9 @@ In the **Details** section at the top of the form, you can get an overview of th
 You can use the **Copy** button to copy settings from a functional location type to the selected functional location type.
 
 
+---
+
+
 ### Introduction to Functional Locations
 
 Click **Enterprise asset management** > **Common** > **Functional locations** > **All functional locations** to open the list. The **All functional locations** list contains all functional locations and displays some of the information related to a functional location. You can also select **Active functional locations** to see a list of all active functional locations, or **My active functional locations** to see a list of the functional locations you are related to as a worker (set up in [Workers and Worker Groups](06_Objects.md#workers-and-worker-groups)).
@@ -192,7 +195,7 @@ When you create a functional location hierarchy, be aware once you have created 
 
 To be able to work with functional locations, you start by creating two "categories" of functional locations:
 
-- Create ++one++ default functional location with not sub locations. This functional location is used only as the standard location for objects when you create new objects.
+- Create ++ one ++ default functional location with not sub locations. This functional location is used only as the standard location for objects when you create new objects.
 - Create the functional location hierarchies required for managing maintenance and service jobs in your company.
 
 ---
