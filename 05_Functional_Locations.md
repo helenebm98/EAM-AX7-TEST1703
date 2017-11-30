@@ -356,17 +356,17 @@ After you have installed objects on a functional location, you can replace a par
 2. Select the functional location on which you want to install an object.
    
 3. Click the **Install object** button. In the **Specifications** section, you will see a list of the object specifications requirements set up on the functional location type used on the functional location. The specifications are for your information. The system does not validate the specifications against the **Object specifications** that may be set up on the object you select. You must carry out that validation after you have selected an object in the **Object** field.
-![Figure 5-13](/Figures/05-13_InstallObject_On_FuncLocation_AX7-001.png)
+   ![Figure 5-13](/Figures/05-13_InstallObject_On_FuncLocation_AX7-001.png)
 
 4. In the **Object** field, select the parent object you want to install. All related child objects are automatically included in the installation. In the **Object specifications section** to the right of the object list, you will see the object specifications related to the selected object.
    ![Figure 5-14](/Figures/05-14_InstallObject_On_FuncLocation_SelectObject_AX7-001.png)
 5. In the **Effective** field, select a date and time to indicate the start time of the object installation. From this date and time, costs regarding the object and related sub objects will be related to the functional location.
-###### NOTE
-The object specifications set up on the object have been added to the **Specifications** section. **Engine volume** and **Max Load** were added as requirements on the functional location, and because the object has requirements of the same type, the object requirements values have been added to the **Value** fields. This means that you can now validate the object values against the requirements set up on the functional location. The two requirements set up on the functional location are marked with a check mark. The third line regarding **Oil capacity** has been added as an object requirement. That line does not have a check mark because that is a requirement from the object, not a functional location requirement.
+   ###### NOTE
+   The object specifications set up on the object have been added to the **Specifications** section. **Engine volume** and **Max Load** were added as requirements on the functional location, and because the object has requirements of the same type, the object requirements values have been added to the **Value** fields. This means that you can now validate the object values against the requirements set up on the functional location. The two requirements set up on the functional location are marked with a check mark. The third line regarding **Oil capacity** has been added as an object requirement. That line does not have a check mark because that is a requirement from the object, not a functional location requirement.
    ![Figure 5-15](/Figures/05-15_InstallObject_On_FuncLocation_SelectObject_AX7-01-01.png)
 6. Click **OK**.
-###### NOTE
-If you want to change the installation of an object and install it on another functional location, the procedure is the same as described in steps 1-6 in this procedure. When you install the object on a new functional location, the object is automatically uninstalled from the previous functional location. Any active requests or work orders that may have been created on the object before you re-installed it on another functional location are *not* automatically transferred to new functional location. If required, you must manually re-create those requests and work orders for the object after re-installation on a new location.
+   ###### NOTE
+   If you want to change the installation of an object and install it on another functional location, the procedure is the same as described in steps 1-6 in this procedure. When you install the object on a new functional location, the object is automatically uninstalled from the previous functional location. Any active requests or work orders that may have been created on the object before you re-installed it on another functional location are *not* automatically transferred to new functional location. If required, you must manually re-create those requests and work orders for the object after re-installation on a new location.
 
 7. If you want to see a list of all the objects, including sub objects, that are installed on the functional location, select the functional location in **All Functional locations**, and click the **Objects** button.
 
