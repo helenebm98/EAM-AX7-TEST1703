@@ -444,20 +444,21 @@ The setup allows complete integration with the **Project management and accounti
 2. Click the **Add** button.
 
 3. Select a **Work order type**, **Functional location**, **Object type**, **Customer account**, and/or **Object** in the related fields. It is possible to fill out only one field, two fields, or all fields for each line. The number of fields you fill out determine the combination used when selection of a project ID is done in Enterprise Asset Management. Read more about the combinations and the selection process in the ///"Forecasts, Work Orders and Projects" section.
-###### NOTE
-If you select a functional location, the related sub locations are automatically included. If you select an object, it is possible to create more work order project setup lines for the same object, but select different projects for the same object.
+   ###### NOTE
+   If you select a functional location, the related sub locations are automatically included. If you select an object, it is possible to create more work order project setup lines for the same object, but select different projects for the same object.
 4. In the **Project ID** field, select the project to be related to the setup you created in step 3.
 
 5. In the **Expiration** field, you can select a date if the project setup is to be valid for only a limited period. If no limitation is relevant, make sure that the "Never" option is selected.
-###### NOTE
-Select **View** > **All** to see the **Effective** field. The standard setup regarding start date is the date you add the work order project to the form. If required, you can set up a limited period for the work order project in the **Effective** and **Expiration** fields.
+   ###### NOTE
+   Select **View** > **All** to see the **Effective** field. The standard setup regarding start date is the date you add the work order project to the form. If required, you can set up a limited period for the work order project in the **Effective** and **Expiration** fields.
 ![Figure 8-16](/Figures/08-16_WO_ProjectSetup_Form_ParProj_ASM_AX7A.png)
+
 6. Click the **Project group** link. In this section, as a minimum, you associate a work order type with a project group.
-
 7. In the **Work order type** field, select a work order type.
-8. If you want the project group association to be more specific, select **Customer account**, **Object type**, and/or **Object** in the related fields.
 
+8. If you want the project group association to be more specific, select **Customer account**, **Object type**, and/or **Object** in the related fields.
 9. In the **Project group** field, select the project group to be related to the work order type. Examples: A work order type called "Preventive maintenance" may be associated with a project group called "Prev Maint" or "Internal". A work order type called "Investment", to be used for work orders related to investments and fixed assets, may be associated with a project group called "Invest" or "Investment".
+
 10. Click **Save**.
 
 
