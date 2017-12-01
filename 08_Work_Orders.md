@@ -115,8 +115,8 @@ When you have related job groups to job types, you will see how many job types a
 
 9. On the **Competencies** FastTab, you can add skills and certificate requirements to the job type.
 10. If a specific job type is required as the next job type to be carried out, add it on the **Succeeding jobs** FastTab. You can also set up **Variant** and **Trade** related to the job type. In the **Displacement** field, you can add number of days that the succeeding job should start before or after the job using this job type has started. If you insert a positive number, for example "5", it means that the succeeding job starts five days after the start of the job that is related to the job type. If you insert a negative number, for example "-3", it means that the succeeding job will start three days before the scheduled start of the job that is related to the job type.
-###### NOTE
-If you add more than one job type line, the sequence of the lines indicate the order in which they should be carried out, starting from the top of the list.
+   ###### NOTE
+   If you add more than one job type line, the sequence of the lines indicate the order in which they should be carried out, starting from the top of the list.
 
 11. On the **Object types** FastTab, you can add object types to the job type.
 
@@ -144,8 +144,8 @@ If you add more than one job type line, the sequence of the lines indicate the o
 
 9. On the **Items** tab, click **Item where used** if you want to get an overview of where the item on the selected line is used in Enterprise Asset Management in relation to objects, job type setup, spare parts, and work orders. Read more about this overview in the [Items Where Used](20_ControllingAndReporting.md#items-where-used) section.
 10. On the **Forecast totals** FastTab, you see an overview of forecast totals showing total number of hours and forecast lines created.
-###### NOTE
-If you want to copy a forecast setup from another job type, select the **Copy forecast** button and select the job type from which to copy the setup.
+   ###### NOTE
+   If you want to copy a forecast setup from another job type, select the **Copy forecast** button and select the job type from which to copy the setup.
 
 11. Click **Save** to save your updates.
 12. Close **Job type setup forecast**.
@@ -158,24 +158,24 @@ If you want to copy a forecast setup from another job type, select the **Copy fo
 
 17. Insert notes relating to the checklist on the **Notes** FastTab.
 18. On the **Measuring points** FastTab, Add measurement lines, if relevant.
-###### NOTE
-If you want to copy a checklist setup from another job type, select the **Copy checklist** button and select the job type from which to copy the setup.
+   ###### NOTE
+   If you want to copy a checklist setup from another job type, select the **Copy checklist** button and select the job type from which to copy the setup.
 
 19. Click **Save** to save your updates.
 20. Close **Job type setup checklist**.
 
 21. In **Job type setup**, click the **Tools** button.
 22. In **Job type setup tools**, you can add the tools (resources) to be used for the job type. Select the tool in the **Resource** field.
-###### NOTE
-If you want to copy a tool setup from another job type, select the **Copy tools** button and select the job type from which to copy the setup.
+   ###### NOTE
+   If you want to copy a tool setup from another job type, select the **Copy tools** button and select the job type from which to copy the setup.
 
 23. Click **Save** to save your updates.
 24. Close **Job type setup tools**.
 
 25. In **Job type setup**, click the **Description** button > **Edit**, and add a description related to the selected job type setup, if required.
 26. Click **Save** to save the description.
-###### NOTE
-If a description is added, that description overrules a description set up on the job type. If no description is added in this form, the description, if any, in **Job types** is used. Descriptions are automatically transferred to work orders using the job type or job type setup.
+   ###### NOTE
+   If a description is added, that description overrules a description set up on the job type. If no description is added in this form, the description, if any, in **Job types** is used. Descriptions are automatically transferred to work orders using the job type or job type setup.
 
 27. Close **Description**.
 28. If you want to set up attachments on a selected job type setup line, click **Attach documents**. Attachments set up on a job type setup line will automatically be included on a work order line that uses that particular job type setup line.
@@ -185,8 +185,8 @@ If a description is added, that description overrules a description set up on th
 
 31. Fill out the **Attachments** form. This attachment setup uses standard **Dynamics 365 for Finance and Operations** document setup functionality.
 32. Click **Save** to save the attachment.
-###### NOTE
-Attachments on a job type setup line are only printed with a work order report if the document types of the attachments are selected in **Enterprise asset management** > **Setup** > **Enterprise asset management parameters** > **Document types**. Examples of attachments could be a guideline explaining how to complete a specific job, or a predefined checklist (if you do not use the checklist functionality for job type setup lines).
+   ###### NOTE
+   Attachments on a job type setup line are only printed with a work order report if the document types of the attachments are selected in **Enterprise asset management** > **Setup** > **Enterprise asset management parameters** > **Document types**. Examples of attachments could be a guideline explaining how to complete a specific job, or a predefined checklist (if you do not use the checklist functionality for job type setup lines).
 
 33. In **Job type setup**, you can see the number of forecasted hours as well as the number of setup lines created for items, expenses, fees, checklists, measuring points, and tools on each line. In the **Objects** field, you see the number of active objects related to the job type setup.
 34. If you want to copy a job type setup to another job type setup, select the setup line to which you want to copy another setup, click **Copy setup**, and select a job type setup to copy.
