@@ -9,36 +9,17 @@ An object is any type of equipment, for example a machine or machine part, which
 An object is automatically updated with related information regarding, for example, new or updated work orders. Objects can be created from the **All Objects** or **Pending objects** menu items, which is described in the [Create Objects Based on Purchace or Sales Orders](#create-objects-based-on-purchase-or-sales-orders) section.
 
 
-
-
-
 ---
 
-
-
 ### Object Types
-
-
-
 Object types are used as general object categorizations, for example, CNC machines, measuring equipment, and truck engines. Object types are used to manage which job types (maintenanceservice tasks), object stages, object counters, object specification types, condition assessment templates, and product models can be selected on an object. When you create an object, the object type is mandatory.
 
-
-
 For each object type, variations of object type setup can be created. Example: If you have an object type called "Trucks", you can create variations of that object type relating to products and product models, and add required spare parts and maintenance sequences to each object type setup.
-
-
 
 First, you set up the required object types. Next, you create the product models to be related to the object types. Then, you create all the variations of object types that are required for your equipment in the **Object type setup** form.
 
 
-
-
-
 #### Create Object Type
-
-
-
-
 
 1. Click **Enterprise asset management** > **Setup** > **Objects** > **Object types** > **Object types**.
 
@@ -75,6 +56,7 @@ First, you set up the required object types. Next, you create the product models
    ###### NOTE
 
    When you add new specification types on this FastTab, existing objects are automatically updated with that information.
+   
 12. Just as with job types, you can select condition assessment templates to be related to the object type. On the **Condition assessments** FastTab, make your selections the same way as described in steps 7-9. Read more about condition assessment templates and registrations in the [Condition Assessment](#condition-assessment) section.
 
 13. On the **Product - model** FastTab, all product model combinations set up on the selected object type are shown. Click the **Product - model** button to open the **Product - model** view if you want to see the product - model combinations divided by product. You can add model - object type relations in that form. It is also possible to add product - model relations to an object type directly in **Object types**. Finally, you can also create new product - model - object type relations in **Enterprise asset management** > **Setup** > **Objects** > **Product - model**. As you can see from this description, there are three ways of working with setting up and editing product - model - object type relations. All available combinations are shown from different perspectives, and you can select your preferred point of entry when working with this setup.
