@@ -69,7 +69,7 @@ Functional location stages, stage groups, and types are related and used in the 
 
 #### Set up Functional Location Stage Groups
 
-When you have created the stages required for your requests, they can be divided into groups. This is done to create the stage group flow that may be used for different types of requests. As a minimum, one standard request stage group should be created.
+When you have created the stages required for your functional locations, they can be divided into groups. This is done to create the stage group flow that may be used for different types of functional locations. As a minimum, one standard functional location stage group should be created.
 
 1. Click **Enterprise asset management** > **Setup** > **Functional locations** > **Stage** > **Stage groups**.
    
@@ -93,7 +93,7 @@ When you have created the stages required for your requests, they can be divided
 Functional location types are used to manage how objects are installed on a functional location. You can also set up object types, maintenance sequences, and specification requirements to be used on a functional location that uses the specific functional location type. When you create a functional location, the functional location type is mandatory.
 
 ###### NOTE
-In order to work with functional locations, you must create a default functional location to be used only for the purpose of creating new objects. For that default functional location, you should create a default functional location type that is really simple and allows multiple objects to be installed on the default functional location. See the Create Functional Locations section for more information on how to set up functional locations.
+In order to work with functional locations, you must create a default functional location to be used only for the purpose of creating new objects. For that default functional location, you should create a default functional location type that is really simple and allows multiple objects to be installed on the default functional location. See the [Create Functional Locations](#create-functional-locations) section for more information on how to set up functional locations.
 
 
 #### Create a Default Functional Location Type
@@ -218,7 +218,7 @@ The figure below shows an example of a default functional location. No requireme
 
 #### Create Functional Locations
 
-The following procedure describes how you create the functional locations required for maintenance managementservice management in your company.
+The following procedure describes how you create the functional locations required for maintenance management in your company.
 
 
 1. Click **Enterprise asset management** > **Common** > **Functional locations** > **All Functional locations**. You can create a functional location from grid view or details view.
@@ -362,7 +362,7 @@ After you have installed objects on a functional location, you can replace a par
    ![Figure 5-14](/Figures/05-14_InstallObject_On_FuncLocation_SelectObject_AX7-001.png)
 5. In the **Effective** field, select a date and time to indicate the start time of the object installation. From this date and time, costs regarding the object and related sub objects will be related to the functional location.
    ###### NOTE
-   The object specifications set up on the object have been added to the **Specifications** section. **Engine volume** and **Max Load** were added as requirements on the functional location, and because the object has requirements of the same type, the object requirements values have been added to the **Value** fields. This means that you can now validate the object values against the requirements set up on the functional location. The two requirements set up on the functional location are marked with a check mark. The third line regarding **Oil capacity** has been added as an object requirement. That line does not have a check mark because that is a requirement from the object, not a functional location requirement.
+   The object specifications set up on the object have been added to the **Specifications** section. Weight was added as a requirement on the functional location. If the object has requirements of the same type, the object requirements values will be added to the **Value** fields. This means that you can validate the object values against the requirements set up on the functional location. The requirement set up on the functional location is marked with a check mark. The second and third lines regarding **Length** and **Width** were added as object requirements. Those lines do not have a check mark because they are requirements from the object, not the functional location.
    ![Figure 5-15](/Figures/05-15_InstallObject_On_FuncLocation_SelectObject_AX7-01-01.png)
 6. Click **OK**.
    ###### NOTE
