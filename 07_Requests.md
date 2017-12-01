@@ -131,8 +131,8 @@ or a combination of those selections. The more selections you make for the same 
 2.  Click **New** to create a new record.
 
 3.  Start by creating a "default" worker or worker group setup that has no selections in the fields shown in the bullet list above. This means that you only make a selection in the **Responsible worker group** field and/or the **Responsible worker** field. In the figure below, you see an example in the first record in which "Requests" is selected as responsible worker group.
-###### NOTE
-The default setup will be used during work order scheduling in case no other, more specific, combination matches the contents of the work order during work order scheduling.
+   ###### NOTE
+   The default setup will be used during work order scheduling in case no other, more specific, combination matches the contents of the work order during work order scheduling.
 
 4.  Repeat step 2 to create a new record. Make the required selections, depending on the detail level for the responsible worker or worker group. **Example:** In the figure below, in the third record, the worker Dana Birkby is selected as responsible worker. She will automatically be selected if you create a request or a work order for the object "C0002".
 ###### NOTE
