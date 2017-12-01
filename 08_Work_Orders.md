@@ -1271,7 +1271,7 @@ In the previous section, manual registration of object counters is described. Se
 
 Counter values can also be automatically updated from production registrations, based on production hours or production quantity. This is done in **Update object counters**. You can update one or several objects by selecting one parameter, **From date**. This parameter specifies the start date for production registrations (hours or quantity produced), meaning the start date from which counter values should be updated.
 
-All objects that are related to a resource ++and++ have object counters, which are set up to be updated based on produced quantity or production hours, will be included in an automatic update, and new counter values will be created.
+All objects that are related to a resource *and* have object counters, which are set up to be updated based on produced quantity or production hours, will be included in an automatic update, and new counter values will be created.
 
 Regarding counters based on production quantity, good quantity as well as error quantity registered are included in the count. If the unit used for produced quantity registration is different from the unit used on the counter, quantity is converted to correspond with the counter unit.
 
@@ -1329,6 +1329,7 @@ When you work with checklists on a work order you can fill out the predefined ch
 ###### NOTE
 If you want to discard a checklist because it is not relevant for the work order line, select the **N/A** check box on the checklist line.
 
+---
 
 
 #### Add Checklists and Measurements
@@ -1489,10 +1490,9 @@ You can generate a work order report that shows detailed information about a wor
 
 1. Click **Enterprise asset management** > **Reports** > **Work orders** > **Work order report**.
 2. Select check boxes and fill out fields in the **Parameters** section, as required, to determine the details to be included in the report.
-
   a. In the **Print settings** section, you can select if you want to include attachments from the related job type setup in the print. Double-sided print is also available.
-4. On the **Records to include** FastTab, you can filter the contents of the report by **Work order**.
 
+4. On the **Records to include** FastTab, you can filter the contents of the report by **Work order**.
 5. If required, you can set up work order report generation as a batch job by filling out the fields on the **Run in the background** FastTab.
 6. Click **OK** to generate the report.
 
