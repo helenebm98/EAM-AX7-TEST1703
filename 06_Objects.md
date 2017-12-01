@@ -51,10 +51,8 @@ First, you set up the required object types. Next, you create the product models
 
 
 
-11. Just as with job types, you can select specification types to be related to the object type. On the Specification types FastTab, make your selections the same way as described in steps 7-9. Select a specification type in the Specification types selected field, and use the Move up and Move down buttons to create the preferred sequence of specification types. The sequence of specification types will be shown on objects using this object type. Read more about object specifications in the [Object Specifications](#object-specifications) section.
-
+11. Just as with job types, you can select specification types to be related to the object type. On the Specification types FastTab, make your selections the same way as described in steps 7-9. Select a specification type in the Specification types selected field, and use the **Move up** and **Move down** buttons to create the preferred sequence of specification types. The sequence of specification types will be shown on objects using this object type. Read more about object specifications in the [Object Specifications](#object-specifications) section.
    ###### NOTE
-
    When you add new specification types on this FastTab, existing objects are automatically updated with that information.
    
 12. Just as with job types, you can select condition assessment templates to be related to the object type. On the **Condition assessments** FastTab, make your selections the same way as described in steps 7-9. Read more about condition assessment templates and registrations in the [Condition Assessment](#condition-assessment) section.
