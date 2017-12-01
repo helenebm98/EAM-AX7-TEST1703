@@ -17,7 +17,7 @@ Requests can be created for any object in Enterprise Asset Management. Various r
 
 ### Request Stages
 
-Request stages define the stages that a request can go through, for example, "Created", "Active", and "Ended". When a request is converted into a work order, the request stage should be updated to "Ended" or "Closed" to indicate that the request is no longer active. You are able to view all requests, regardless of their stage, in the All requests list.
+Request stages define the stages that a request can go through, for example, "Created", "Active", and "Ended". When a request is converted into a work order, the request stage should be updated to "Ended" or "Closed" to indicate that the request is no longer active. You are able to view all requests, regardless of their stage, in the **All requests** list.
 
 ---
 
@@ -194,7 +194,7 @@ The action pane buttons are organized in tabs on the action pane. Here is a brie
 
 Requests can be used if maintenance workers or production workers discover a need for equipment repair, and it is not possible to carry out that repair job right away.
 
-++Example:++ A maintenance worker is making a repair. During this repair he discovers that another object at the same location needs to be serviced, but he has no time or spare parts to carry out the repair job. Therefore he creates a request on the object containing a short description of the problem.
+**Example:** A maintenance worker is making a repair. During this repair he discovers that another object at the same location needs to be serviced, but he has no time or spare parts to carry out the repair job. Therefore he creates a request on the object containing a short description of the problem.
 
 In **All Objects** or **Active objects** (**Enterprise asset management** > **Common** > **Objects** > **All Objects** or **Active objects**), you can see the active requests attached to the selected object in the **Active requests** FactBox placed in the right side of the screen.
 
@@ -203,8 +203,9 @@ In **All Objects** or **Active objects** (**Enterprise asset management** > **Co
 
 3. In the **Create request** drop-down dialog box, select the type in the **Request type** field. A default type is suggested.
 4. Insert a name or title that briefly describes the request in the **Description** field.
+
 5. Select **Customer account**, **Functional location**, **Object**, or a combination, as required. It is possible to create a request without selecting an object. Then the object is added to the request later. If the worker who is logged in to Dynamics 365 for Finance and Operations is related to a resource, which is related to an object, the **Object** field is automatically filled out.
-###### NOTE
+   ###### NOTE
 If the selected object already has requests attached to it, an info message is shown at the top of the **Create request** drop-down dialog, showing the request ID of an existing request as well as an **Open** button that you can click to open that request. If the object is covered by a warranty or contract agreement, an info message is also shown.
 When you select an object, two or three tabs are available: The **My objects** tab contains objects related to the functional locations to which you (the worker who is logged on the system) may be allocated. If no functional locations are set up on a worker in [Workers and Worker Groups](06_Objects.md#workers-and-worker-groups), the **My objects** tab will not be visible. The **Active objects** tab contains a list of all objects with object stage "Active". The **Object view** tab displays a tree view of functional locations and objects installed on those locations.
 
