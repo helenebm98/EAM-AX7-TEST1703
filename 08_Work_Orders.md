@@ -22,9 +22,7 @@ Job groups are used to collect a group of job types for overview purposes. Examp
 
 First, you set up the required job groups, job variants, and job trades. Next you create job types. Then, you create all the variations of job types that are required for your equipment in **Job type setup**. Forecasts, checklists, and tools can be set up for a combination of job type in **Job type setup**.
 
-
 ###### NOTE
-
 A job type can only be related to one job group.
 
 
