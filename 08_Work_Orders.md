@@ -438,8 +438,6 @@ In the **Parent project** section, you can set up project relations to be used i
 
 The setup allows complete integration with the **Project management and accounting** module, allowing you to track costs related to work orders in the related projects. Read more about the relation between work order projects, project stages and work order stages in the [Forecasts, Work Orders, and Projects](10_Integration_Proj_Management.md#forecasts-work-orders-and-projects) section. The following procedure describes the work order project setup:
 
-
-
 1. Click **Enterprise asset management** > **Setup** > **Work orders** > **Project setup**. Make sure that the **Parent project** link is selected.
 2. Click the **Add** button.
 
@@ -447,7 +445,6 @@ The setup allows complete integration with the **Project management and accounti
    ###### NOTE
    If you select a functional location, the related sub locations are automatically included. If you select an object, it is possible to create more work order project setup lines for the same object, but select different projects for the same object.
 4. In the **Project ID** field, select the project to be related to the setup you created in step 3.
-
 5. In the **Expiration** field, you can select a date if the project setup is to be valid for only a limited period. If no limitation is relevant, make sure that the "Never" option is selected.
    ###### NOTE
    Select **View** > **All** to see the **Effective** field. The standard setup regarding start date is the date you add the work order project to the form. If required, you can set up a limited period for the work order project in the **Effective** and **Expiration** fields.
