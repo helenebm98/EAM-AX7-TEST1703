@@ -884,6 +884,9 @@ In [Maintenance Status](20_ControllingAndReporting.md#maintenance-status), you c
 On the **Line details** FastTab, two fields have been added: **Latitude** and **Longitude**. In these fields, you can add geographic coordinates for the object selected on the work order line.
 
 
+---
+
+
 #### Create Related Work Order
 You can create a related work order to an existing work order if, for example, you want to work with primary and secondary work orders. A new work order is based on a work order line from an existing work order.
 
@@ -1196,7 +1199,7 @@ Time zones are used in work order scheduling when you make capacity reservations
 ###### NOTE
 An object is related to a resource. A resource is related to a resource group. The resource group is related to a site. The site is related to a time zone. If the site is not related to a time zone, the time zone set up on the company is used.
 
-++Example - work order scheduling and time zones++: Company XYZ has headquarters in the United Kingdom (UK), in which the planning department is located. The company has production sites containing various objects (machines) in the UK as well as one site in the United States (USA). A planner is scheduling a work order for an object located in USA. Because the object on which work order scheduling is made is located in a different time zone than the planner, the dates and times scheduled on the work order are calculated based on the local time zone of the object location. This means that if the planner schedules a work order to be done Tuesday next week at 10:00 am, the work order is scheduled for 10:00 am local time on the object location.
+**Example - work order scheduling and time zones**: Company XYZ has headquarters in the United Kingdom (UK), in which the planning department is located. The company has production sites containing various objects (machines) in the UK as well as one site in the United States (USA). A planner is scheduling a work order for an object located in USA. Because the object on which work order scheduling is made is located in a different time zone than the planner, the dates and times scheduled on the work order are calculated based on the local time zone of the object location. This means that if the planner schedules a work order to be done Tuesday next week at 10:00 am, the work order is scheduled for 10:00 am local time on the object location.
 
 
 Tasks performed by a worker on site, relating to actual work on objects and work orders such as:
