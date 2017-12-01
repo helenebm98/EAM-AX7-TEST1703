@@ -223,7 +223,7 @@ In **All Objects** or **Active objects** (**Enterprise asset management** > **Co
 ![Figure 7-10](/Figures/07-10_CreateRequest_DropDown_AX7-01.png)
 
 ###### NOTE
-In the [Maintenance status](20_ControllingAndReporting.md#maintenance-status) form, you can make a calculation to get an overview of workload regarding incoming and completed requests.
+In [Maintenance status](20_ControllingAndReporting.md#maintenance-status), you can make a calculation to get an overview of workload regarding incoming and completed requests.
 
 ---
 
@@ -265,15 +265,15 @@ One request can only be related to one work order, but several requests can be i
 2. Before you can create a work order from a request, you must as a minimum select a job type and, if required, a job variant and a job trade for the requests for which you want to create a work order. In grid view, you can easily update data for a request.
 
 3. When you are ready to create a work order, select the requests you want to include in one work order.
-###### NOTE
-If you multi-select several requests to be converted to one work order, the **Object** and **Job type** fields must be filled out before you start creating the work order. If you select one request to be converted to a work order, the **Object** field must be filled out before you start creating the work order, but **Job type** (and if relevant, related **Variant** and **Trade** fields) can be selected in the **Create work order** drop-down dialog box when you create the work order.
+   ###### NOTE
+   If you multi-select several requests to be converted to one work order, the **Object** and **Job type** fields must be filled out before you start creating the work order. If you select one request to be converted to a work order, the **Object** field must be filled out before you start creating the work order, but **Job type** (and if relevant, related **Variant** and **Trade** fields) can be selected in the **Create work order** drop-down dialog box when you create the work order.
+
 4. Click the **Work order** button.
-
 5. In the **Create work order** drop-down dialog, fill in the fields, and click **OK**.
-6. A message may be shown that a new work order has been created.
-###### NOTE
-If you create a work order based on a request, and the object related to the request is included in a warranty agreement, a message informing you of the warranty agreement will be shown on the screen.
 
+6. A message may be shown that a new work order has been created.
+   ###### NOTE
+   If you create a work order based on a request, and the object related to the request is included in a warranty agreement, a message informing you of the warranty agreement will be shown on the screen.
 7. Open the new work order in **Enterprise asset management** > **Common** > **Work orders** > **All work orders**.
 
 
