@@ -1490,11 +1490,13 @@ You can generate a work order report that shows detailed information about a wor
 
 1. Click **Enterprise asset management** > **Reports** > **Work orders** > **Work order report**.
 2. Select check boxes and fill out fields in the **Parameters** section, as required, to determine the details to be included in the report.
-  a. In the **Print settings** section, you can select if you want to include attachments from the related job type setup in the print. Double-sided print is also available.
+######NOTE
+In the **Print settings** section, you can select if you want to include attachments from the related job type setup in the print. Double-sided print is also available.
 
-4. On the **Records to include** FastTab, you can filter the contents of the report by **Work order**.
-5. If required, you can set up work order report generation as a batch job by filling out the fields on the **Run in the background** FastTab.
-6. Click **OK** to generate the report.
+3. On the **Records to include** FastTab, you can filter the contents of the report by **Work order**.
+4. If required, you can set up work order report generation as a batch job by filling out the fields on the **Run in the background** FastTab.
+
+5. Click **OK** to generate the report.
 
 
 Below you see an example of the how parameters can be set up, and the related work order report.
