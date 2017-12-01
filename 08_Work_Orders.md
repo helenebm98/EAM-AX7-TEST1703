@@ -861,14 +861,15 @@ You can create work orders manually in two ways:
 4. If required, select a description and a customer account in the related fields.
 
 5. Select the object for the work order as well as the related job type.
-###### NOTE
-When you select an object, three tabs are available: The **My objects** tab contains objects related to the functional locations to which you (the worker who is logged on the system) may be allocated (set up in [Workers and Worker Groups](06_Objects.md#workers-and-worker-groups)). If no functional locations are set up on a worker in [Workers and Worker Groups](06_Objects.md#workers-and-worker-groups), the **My objects** tab will not be visible. The **Active objects** tab contains a list of all objects with object stage "Active". The **Object view** tab displays a tree view of functional locations and objects installed on those locations.
+   ###### NOTE
+   When you select an object, three tabs are available: The **My objects** tab contains objects related to the functional locations to which you (the worker who is logged on the system) may be allocated (set up in [Workers and Worker Groups](06_Objects.md#workers-and-worker-groups)). If no functional locations are set up on a worker in [Workers and Worker Groups](06_Objects.md#workers-and-worker-groups), the **My objects** tab will not be visible. The **Active objects** tab contains a list of all objects with object stage "Active". The **Object view** tab displays a tree view of functional locations and objects installed on those locations.
+
 6. If required, select **Variant** and **Trade**.
-
 7. If required, you can change the work order priority in the **Priority** field.
-8. Select expected start and end dates in the related fields.
 
+8. Select expected start and end dates in the related fields.
 9. Click **OK** to create a new work order.
+
 10. Edit the work order in **All work orders**, if required.
 
 
