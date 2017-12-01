@@ -158,7 +158,7 @@ Click **Item where used** if you want to open **Item where used** to check if th
 
 Object specifications are used to describe properties related to an object type or object. You can set up all kinds of object-related specifications. For example, for a machine you can create specifications regarding engine volume, power consumption, oil capacity, and maximum load capacity under different conditions.
 
-First you create the specification types required for your equipment, which is described in this section. Next step is to select object specifications on an object type, which is described in the Object Types section. When you have attached object specifications to an object type, the specifications are automatically transferred to objects using that object type.
+First you create the specification types required for your equipment, which is described in this section. Next step is to select object specifications on an object type, which is described in the **Object Types** section. When you have attached object specifications to an object type, the specifications are automatically transferred to objects using that object type.
 
 
 #### Create Specification Types
@@ -371,7 +371,7 @@ Condition assessment is created on objects. You set up a condition assessment te
 
 7. In the **Lines** field, you see the number of assessment lines set up on the condition assessment.
 
-8. Select a template for the condition assessment in the **Template** field. The name of the template is automatically inserted in the Name field, and the related registration lines are inserted on the **Condition assessment lines** FastTab.
+8. Select a template for the condition assessment in the **Template** field. The name of the template is automatically inserted in the **Name** field, and the related registration lines are inserted on the **Condition assessment lines** FastTab.
 
 
 
@@ -547,7 +547,7 @@ A counter can be updated manually or automatically based on production hours or 
 
 
 
-If quantity produced is used, ++all++ registered items are included in the count, good quantity as well as error quantity. It is always possible to make manual counter registrations, if required.
+If quantity produced is used, *all* registered items are included in the count, good quantity as well as error quantity. It is always possible to make manual counter registrations, if required.
 
 
 
@@ -603,7 +603,7 @@ A related counter is only automatically updated if the related counter has the o
 
 
 
-++Example++: You set up a counter for "Production hours" and add the object type "Truck Engine". When that counter is updated, a related counter "Oil" is also updated with the same counter values. The setup in **Counters** includes the setup on "Hours". Also, on the "Oil" counter, the object type "Truck Engine" should be added to the **Object types** FastTab to ensure the counter relation. See the screenshot below for the setup on the Hours and Oil counters.
+**Example:** You set up a counter for "Production hours" and add the object type "Truck Engine". When that counter is updated, a related counter "Oil" is also updated with the same counter values. The setup in **Counters** includes the setup on "Hours". Also, on the "Oil" counter, the object type "Truck Engine" should be added to the **Object types** FastTab to ensure the counter relation. See the screenshot below for the setup on the Hours and Oil counters.
 
 
 
@@ -957,7 +957,7 @@ When you have created the required object stages, you can set up stages in stage
 
 
 
-3. Insert the stage group ID in the **Stage group** field, and a description in the **Name** field. In the vStages** and **Object types** fields, you can see the number of stages selected in the stage group, and the number of object types that uses the stage group.
+3. Insert the stage group ID in the **Stage group** field, and a description in the **Name** field. In the **Stages** and **Object types** fields, you can see the number of stages selected in the stage group, and the number of object types that uses the stage group.
 
 4. On the **Stages** FastTab, select the stages that should be included in the group. This is done by clicking on a stage in the **Stages remaining** section and clicking the ![Figure 6-19A](/Figures/06-19A_Button_Select_StageGroups.png) button.
 
@@ -1001,13 +1001,13 @@ Refer to the [Enterprise Asset Management Parameters](#enterprise-asset-manageme
 
 
 
-++Example 1++: The default priority in case no other match is found (set up in the third record in the **Object priorities** screenshot below).
+**Example 1:** The default priority in case no other match is found (set up in the third record in the **Object priorities** screenshot below).
 
 
 
 
 
-++Example 2++: A high priority for scheduling jobs for a "Volvo" truck engine (set up in the first record in the **Object priorities** screenshot below).
+**Example 2:** A high priority for scheduling jobs for a "Volvo" truck engine (set up in the first record in the **Object priorities** screenshot below).
 
 
 
@@ -1133,11 +1133,11 @@ When object criticality is selected, Enterprise Asset Management goes through al
 
 
 
-++Example 1++: The default criticality in case no other match is found (the first record in the **Object criticalities** screenshot above).
+**Example 1:** The default criticality in case no other match is found (the first record in the **Object criticalities** screenshot above).
 
 
 
-++Example 2++: A high criticality for scheduling jobs for object types "Kettle" and "Plate heat exchanger" (set up in the fourth and fifth record in the **Object criticalities** screenshot above).
+**Example 2:** A high criticality for scheduling jobs for object types "Kettle" and "Plate heat exchanger" (set up in the fourth and fifth record in the **Object criticalities** screenshot above).
 
 
 
@@ -1179,11 +1179,11 @@ In Enterprise Asset Management, you can set up documents to automatically relate
 
 
 
-++Example 1++: A document may relate to a job type (set up in the first record in the **Object documents** screenshot below). The related document could be a procedure description for the selected job type.
+**Example 1:** A document may relate to a job type (set up in the first record in the **Object documents** screenshot below). The related document could be a procedure description for the selected job type.
 
 
 
-++Example 2++: A document may relate to an object type - product - model combination (set up in the second record in the **Object documents** screenshot below). The related document could be the standard manual for the selected product model.
+**Example 2:** A document may relate to an object type - product - model combination (set up in the second record in the **Object documents** screenshot below). The related document could be the standard manual for the selected product model.
 
 
 
@@ -1231,7 +1231,7 @@ When the system searches for documents to be related to an object or a work orde
 
 
 
-In Enterprise Asset Management, you can connect workers to functional locations, which are described in the [Create Functional Locations](05_Functional_Locations.md#create-functional-locations) section. This may be useful if, for example, you are scheduling a maintenanceservice job on a machine located in functional location 01, and you want to allocate workers from the same location to carry out the job.
+In Enterprise Asset Management, you can connect workers to functional locations, which are described in the [Create Functional Locations](05_Functional_Locations.md#create-functional-locations) section. This may be useful if, for example, you are scheduling a maintenance job on a machine located in functional location 01, and you want to allocate workers from the same location to carry out the job.
 
 
 
@@ -1415,87 +1415,42 @@ In the **All objects** list (Grid view), click on a link in the **Object** colum
 
 The action pane buttons are organized in tabs on the action pane. Here is a brief description of the buttons relating to Enterprise Asset Management:
 
-
-
-
-
-
-
 | Button name | Description |
-
 |--------|--------|
-
 |Edit                  |Edit the selected object.       |
-
 |New                   |Create new object.        |
-
 |Delete                |Delete the selected object.        |
-
 |Move object           |Move objects in the same object hierarchy or to another object hierarchy.        |
-
 |Replace object        |Replace child object in an object hierarchy with another object.        |
-
 |Install object        |Install object on a functional location. |
-
 |Copy object           |Copy object hierarchy to another object.    |
-
 |Notes                 |Insert a note on the object selected in the list page. Start by clicking the **Add timestamp** button to add your user name and a timestamp to the note.       |
-
 |Requests              |Open the **Active requests** list page and view requests created for the selected object.       |
-
 |Timeline              |Overview of the various registrations made on the object.      |
-
 |Object BOM            |View a list of all items (spare parts as well as other items) used on an object.       |
-
 |Contracts             |Open the **Contracts** list page and view contracts created on the object.        |
-
 |Work orders           |Open **Active work orders** list page and view work orders for the object.       |
-
 |Checklist             |Overview of checklists and measurements registered on the object.       |
-
 |Production stop       |Create or view production stop registrations on the object.       |
-
 |Project transactions  |View all posted transactions related to work orders created for the object.      |
-
 |Counters              |Create or view counter registrations on the object.   |
-
 |Object calendar       |Open the **Open object calendar lines** list page and view maintenance sequences, requests, and rounds with status "Created" that are associated with the object.     |
-
 |Object stage          |Update object stage. You can multi-select several objects in the **All objects** list page and update the object stage on several objects at a time.       |
-
 |Stage log             |Log displaying the stages of the selected object.      |
-
 |Object documents      |View list of documents attached to an object. These documents are set up in **Enterprise asset management** > **Setup** > **Object documents**.       |
-
 |Specifications        |Create or view object specifications.      |
-
 |Image                 |Select an image for the object.       |
-
 |Parent objects        |View parent object history on the selected object.       |
-
 |Functional locations  |View functional location history on the selected object.       |
-
 |Condition assessment       |Register condition assessment measurements on the object.       |
-
 |Faults                |Open **Object faults** list and view faults registered on the object.      |
-
 |Cost control          |Compare budget costs and actual costs on the object.        |
-
 |Object KPIs           |Calculate and view Key Performance Indicators (KPIs) for the object.      |
-
 |Job types             |Overview of the current job type setup for the object.       |
-
 |Criticalities         |View or update object criticalities.       |
-
 |Spare parts           |View a list of approved and alternative spare parts that can be used on the object.      |
-
 |Object consumption    |Print a report displaying consumption registrations on the object.       |
-
 |Object fault          |Print a report displaying fault registrations on the object.       |
-
-
-
-
 
 ---
 
@@ -1773,7 +1728,7 @@ If your company has several object hierarchies with similar object structures, y
 
 3. Insert the name of the new object in the **Copy to** > **Object** field.
 
-4. In the Parent object > Object field, you should only select a parent ID if the object you are creating should be part of an existing object hierarchy.
+4. In the **Parent object** > **Object** field, you should only select a parent ID if the object you are creating should be part of an existing object hierarchy.
 
 
 
@@ -1895,7 +1850,7 @@ Do not use this function in relation to repair or temporary replacement of objec
 
 3. Click **Move object**.
 
-4. If you want to move the object to be part of an object hierarchy, select the new parent object in the **Parent object** field. If you are moving a sub object, and you want to make it a standalone object with no hierarchy relations, do not make a selection in the Parent object field.
+4. If you want to move the object to be part of an object hierarchy, select the new parent object in the **Parent object** field. If you are moving a sub object, and you want to make it a standalone object with no hierarchy relations, do not make a selection in the **Parent object** field.
 
 
 
