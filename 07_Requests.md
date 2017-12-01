@@ -314,7 +314,7 @@ In **Active object loans**, you see a list of all the loan objects that have not
 In **All object loans**, if you select a loan and click **Transfer to customer**, the loan object is transferred to the customer as an active object.
 
 
-##### Register Loan Object as Returned
+#### Register Loan Object as Returned
 
 1. Click **Enterprise asset management** > **Common** > **Object loan** > **Active object loans**.
 2. Select the object loan that you want to register as returned and click **Return object loan**.
