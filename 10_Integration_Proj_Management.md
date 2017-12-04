@@ -138,7 +138,7 @@ A work order must always have a project relation. If the object selected on the 
 Whether your company chooses to use object project setup or work order project setup, or a combination, depends on the company's focus on construction or maintenance as well as the requirements for cost management and reporting. In the figure below, you will see an example of the different phases in a construction project, and how you can use both object projects and work order projects in the different phases.
 
 
-![Figure 10-07](/Figures/10-07_ConstructionProject_Example_Boiler_AX7.png)
+![Figure 10-07](/Figures/10-07_ConstructionProject_Example_Boiler_AX7-01.png)
 
 
 ---
