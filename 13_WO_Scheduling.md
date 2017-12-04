@@ -60,7 +60,7 @@ or a combination of those selections. The more selections you make for the same 
 ###### NOTE
 The default setup will be used during work order scheduling in case no other, more specific, combination matches the contents of the work order during work order scheduling.
 
-4. Repeat step 2 to create a new record. Make the required selections, depending on the detail level for the preferred worker or worker group. ++Example:++ In the figure below, in the sixth record, the worker Miles Reid is selected as preferred worker. He will automatically be selected during scheduling of a work order that includes the job trade "Electrical" as well as the job type "Cal. Electrical", if he is available at the scheduled time.
+4. Repeat step 2 to create a new record. Make the required selections, depending on the detail level for the preferred worker or worker group. **Example:** In the figure below, in the sixth record, the worker Miles Reid is selected as preferred worker. He will automatically be selected during scheduling of a work order that includes the job trade "Electrical" as well as the job type "Cal. Electrical", if he is available at the scheduled time.
 ###### NOTE
 Generally, when a preferred worker is selected during work order scheduling, Enterprise Asset Management goes through all preferred worker records to check for a possible match, always checking the most specific combination first. This means that, first, a possible match regarding **Trade** is checked. If no match is found, **Variant** is checked. If no match is found, **Job type** is checked, and so on. As you can see in the layout of the form, this means that Enterprise Asset Management checks each record from right to left for a match (**Trade**, then **Variant**, then **Job type**, **Job group**, **Object**, **Object type**, and **Customer account**) to find the most specific combination. If no match is found, the "default" record with no selections in those fields is used.
 
@@ -102,7 +102,7 @@ Work orders are scheduled in one cycle per work order, not per work order line. 
 ![Figure 13-03](/Figures/13-03_ScheduleWorkOrders_DropDown_AX7.png)
 
 
-++Example:++ In the figure above, the formula inserted in the **Expected start** field will generate work order scheduling for all work orders with expected start date a week from now and later. This formula may be useful when you run work order scheduling on an ongoing basis, but you want to make sure the work orders scheduled for the next 5-6 days are not rescheduled.
+**Example:** In the figure above, the formula inserted in the **Expected start** field will generate work order scheduling for all work orders with expected start date a week from now and later. This formula may be useful when you run work order scheduling on an ongoing basis, but you want to make sure the work orders scheduled for the next 5-6 days are not rescheduled.
 
 The work order type related to work orders may set up scheduling for one worker (refer to the [Work Order Types](08_Work_Orders.md#work-order-types) section). This means that if the work order type is used on a work order, the **One worker** check box is automatically selected in **All work orders** on the **General** FastTab. During work order scheduling, all work order lines created on the work order will subsequently be scheduled to the same worker. It is possible to clear or select the **One worker** check box in **All work orders** if you want to allow scheduling of several workers or one worker on the work order lines.
 
@@ -128,7 +128,7 @@ Calculating scores for a work order line is based on expected start date and pri
 
 In the examples below, the criticality scores is "2", and the priority scores are "5" and "100".
 
-++Example 1:++ (WO means "Work order")
+**Example 1:** (WO means "Work order")
 
 | Work Order ID | Expected start date| WO criticality | WO priority | Calculation                    | Score   |
 |--------|--------|--------|--------|--------|--------|
@@ -141,7 +141,7 @@ The work orders will be scheduled in the following order: WO-000108**16**, WO-00
 
 ---
 
-++Example 2:++ (WO means "Work order")
+**Example 2:** (WO means "Work order")
 
 | Work Order ID | Expected start date| WO criticality | WO priority | Calculation                      | Score   |
 |--------|--------|--------|--------|--------|--------|
@@ -204,7 +204,6 @@ For every date that the scheduled start date is later than the expected start da
 
 /--------------------------------/
 
----
 
 ###### NOTE
 If a score is set to "0", that score is not calculated. This is useful if, for example, you do not want to include responsible worker in your scheduling.
@@ -254,11 +253,11 @@ If a work order must be scheduled on a specific date and time, for example, if a
 2. In the work order list, click on the Work order ID in the **Work order** column.
 
 3. Click **Edit**.
-4. In **All work orders** Detail view > **Work order header** FastTab, insert start and end dates and times in the **Expected start** and **Expected end** fields.
+4. In **All work orders** Detail view > **Work order header** FastTab, insert start and end dates and times in the **Expected start** and **Expected end** fields. 
 ![Figure 13-05](/Figures/13-05_WO_ScheduleSpecificDateAndTime_AX7-001.png)
 
 5. On the **General** tab, click **Schedule** to use the standard scheduling process, or click **Schedule exclusively** if you want to schedule the work order to one worker.
-6. In order to override any existing capacity reservations to ensure that the work order is scheduled in the expected period, clear the **Object**, **Tool**, and **Worker** check boxes on the **Parameters** FastTab > **Finite capacity** section. This means that the scheduling process will ignore existing capacity reservations because the work order must start on the expected start time.
+6. In order to override any existing capacity reservations to ensure that the work order is scheduled in the expected period, clear the **Object**, **Tool**, and **Worker** check boxes on the **Parameters** FastTab > **Finite capacity** section. This means that the scheduling process will ignore existing capacity reservations because the work order must start on the expected start time. 
 ![Figure 13-06](/Figures/13-06_WO_ScheduleSpecificDateAndTime_AX7-002.png)
 
 7. Click **OK** to start scheduling.
