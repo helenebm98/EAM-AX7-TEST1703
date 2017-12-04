@@ -82,7 +82,7 @@ When work orders are manually created on objects that are covered by a vendor wa
 ---
 
 
-#### Interval Types Overview
+### Interval Types Overview
 
 ---
 
@@ -382,10 +382,11 @@ The **Period** and **Interval** fields indicate how far ahead in time you want o
 3. Select the **Auto create** check box if work orders should automatically be created according to the maintenance sequence line.
 ###### NOTE
 If this check box is selected, and the **Auto create** check box is also selected on maintenance sequence lines in **Maintenance sequences**, work orders are created based on the maintenance sequence lines, and object calendar lines with status "Work order created" are also created. If only one of the **Auto create** check boxes is selected, in this form or in **Maintenance sequences**, only object calendar lines are created with status "Created". In that case, no work orders are created.
+
 4. It is possible to generate calendar entries based on maintenance sequences (time or counter), objects, object types, functional locations, and functional location types. Click the **Filter** button and make your selections, if relevant.
 ###### NOTE
 Regarding scheduling of maintenance sequences on functional locations: If you update the setup of object types, products, and models on maintenance sequences in **All functional locations** > **Maintenance sequences** FastTab after you have scheduled maintenance sequences, existing object calendar entries related to that functional location are automatically deleted. In order to create new calendar entries, which correspond with the updated maintenance sequence setup on the functional location, you must run a new maintenance sequence schedule for that functional location. Read more about the setup of object types, products, and models on functional locations in the [Create Functional Locations](05_Functional_Locations.md#create-functional-locations) section.
-++Example:++ You want to create a maintenance sequence for a specific functional location, meaning all objects set up on that functional location at any given time will be included when you run the sequence. In that case, you create a maintenance sequence and select the specific functional location, but you do NOT add any objects in the maintenance sequence. The result is that when you run that maintenance sequence, object calendar lines will be created for all the objects related to the functional location at that time.
+**Example:** You want to create a maintenance sequence for a specific functional location, meaning all objects set up on that functional location at any given time will be included when you run the sequence. In that case, you create a maintenance sequence and select the specific functional location, but you do NOT add any objects in the maintenance sequence. The result is that when you run that maintenance sequence, object calendar lines will be created for all the objects related to the functional location at that time.
 If you make changes to object types, products and models in Object types, those changes only affect new objects that use the updated object type. Read more about object type setup in the [Object Types](06_Objects.md#object-types) section.
 
 5. Click **OK** to start the generation of calendar posts on objects. The generated calendar posts will be displayed in the **Object calendar**.
