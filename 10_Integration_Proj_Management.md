@@ -151,9 +151,9 @@ To ensure correct use of work order stages, and related project stages, on work 
 
 - In the **Project management and accounting parameters** form, remember to select relevant project stage check boxes for all the project types you are going to use. In the figure below, five stages Created - Estimated - Scheduled - In process - Finished have been selected for the project types "Time and material" and "Internal". Those five stages are relevant for both internal maintenance and service maintenance jobs.
 
-- In Enterprise Asset Management, project types are defined by the project groups you set up in the Work order project setup form > Project group link.
+- In **Enterprise Asset Management**, project types are defined by the project groups you set up in the **Work order project setup** form > **Project group** link.
 
-- The project groups set up in the Work order project setup form are used when you create work orders.
+- The project groups set up in the **Work order project setup** form are used when you create work orders.
 
 - When a work order is created, a work order project is automatically created for the work order, according to the setup in the Work order project setup form.
 
@@ -161,7 +161,7 @@ To ensure correct use of work order stages, and related project stages, on work 
 
 - The project stage related to a work order stage must be defined as an active stage for the project group defined in the work order project, which is automatically created on a work order.
 
-- The automatic allocation of a work order project, when you create a new work order, is based on the setup in the Work order project setup form.
+- The automatic allocation of a work order project, when you create a new work order, is based on the setup in the **Work order project setup** form.
 
 Associations between work order project groups, related project types, project stages, and work order stages are shown in the figure below.
 
