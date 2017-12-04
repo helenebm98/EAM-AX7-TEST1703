@@ -573,18 +573,12 @@ Financial dimension sets are set up in **General ledger** > **Setup** > **Financ
 
 When you have scheduled preventive maintenance jobs, next step is to create work orders for the jobs. This is done in one of the object calendars. The scheduled jobs in an object calendar can have different reference types:
 
-**Maintenance sequences**
-Preventive maintenance jobs based on maintenance sequence types "Time" or "Counter".
+**Maintenance sequences** - preventive maintenance jobs based on maintenance sequence types "Time" or "Counter".
 
----
+**Rounds** - preventive maintenance job including several objects that require a similar type of maintenance.
 
-**Rounds**
-Preventive maintenance job including several objects that require a similar type of maintenance.
 
----
-
-**Requests**
-Manually created request for maintenance or repair of an object, which can be converted into a work order.
+**Requests** - manually created request for maintenance or repair of an object, which can be converted into a work order.
 
 ---
 
@@ -650,6 +644,7 @@ The object calendar lines and work order lines related to the selected objects a
 When you make adjustments to work order lines, you change the related work order.
 
 15. In **All maintenance stops** > **Maintenance stop** tab > click **Item forecast** > **Item forecast** > **Calculate item forecast** to calculate forecasts for items (spare parts and other required items) and group them to get an overview, for example, by date, object, object type and job type. Click **OK** in the **Calculate item forecast** drop-down. Note that the dates shown in the **Item forecast** calculation form are the start and end dates selected in **All maintenance stops**. This calculation only includes the objects related to the maintenance stop.
+
 16. The total number of item forecasts is shown in **Item forecast**, and you can now select the relevant check boxes to get a more detailed overview of the allocation of forecasted items.
 
 
