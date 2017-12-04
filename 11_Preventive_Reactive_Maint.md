@@ -86,13 +86,13 @@ When work orders are manually created on objects that are covered by a vendor wa
 
 ---
 
-++Interval type and Description++
+==Interval type and Description==
 
 Interval type: **Repeated from plan date**
 
 The count starts from the plan date used, and when you schedule maintenance sequences, object calendar lines are created for when the interval is expected to be reached.
 
-++Line type: Time++
+==Line type: Time==
 
 The **Plan date** on the maintenance sequence line is used. If no plan date is selected on the line, the **Plan date** for the maintenance sequence is used.
 
