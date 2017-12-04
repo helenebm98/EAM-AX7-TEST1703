@@ -46,7 +46,7 @@ If required, you can add Power BI tiles to your request management workspace, fo
 
 - Average closing age, showing average age of requests when they are no longer active, meaning they have been rejected or closed, or the related work order has been completed.
 
-- Number of new, active, and closed requests per day, displayed in three colors. This view does not inform you how many new or active requests have been closed. This view provides historical data from the latest 2-week period.
+- Number of new, active, and closed requests per day, displayed in three colors. This view does not inform you how many new or active requests have been closed. This view provides historical data from the latest two-week period.
 
 
 ---
