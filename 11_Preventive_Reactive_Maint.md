@@ -130,36 +130,37 @@ The start date of the maintenance sequence line on object or functional location
 
 ---
 
-++Interval type and Description++
+**Interval type and Description**
 
-Interval type: **Repeated from last work order**
+*Interval type*: Repeated from last work order
 
 The count starts from the actual end date and time of the latest work order that was completed on the object ++and++ the job type / variant / trade combination. That date and time is shown in the **Actual end** field in the **Work order** form.
 
-++Line type: Time++
+*Line type*: Time
 
 The actual end date and time of the work order completed on the object ++and++ the job type / variant / trade combination. is used. If no completed work order is found, one of the dates used in the "Repeated from start date" interval type described above is used instead.
 
-++Line type: Counter++
+*Line type*: Counter
 
 The actual end date and time of the work order completed on the object ++and++ the job type / variant / trade combination. is used. If the end date and time was left blank on the work order, one of the dates used in the "Repeated from start date" interval type described above is used instead.
 
+---
 
 /--------------------------------/
 
+---
 
+**Interval type and Description**
 
-++Interval type and Description++
-
-Interval type: **Once from plan date**
+*Interval type*: Once from plan date
 
 See description for the "Repeated from plan date" interval type above. Only difference is that this interval type is to be used only once.
 
-++Line type: Time++
+*Line type*: Time
 
 See description for "Repeated from plan date" interval type above. This interval is typically used for a one-time maintenance or service job.
 
-++Line type: Counter++
+*Line type*: Counter
 
 See description for "Repeated from plan date" interval type above. This interval is typically used for a one-time maintenance or service job.
 
@@ -167,22 +168,23 @@ See description for "Repeated from plan date" interval type above. This interval
 
 **Note 2:** If the counter is replaced when completing the maintenance or service job, this interval type functions as the "Repeated from plan date" interval type above.
 
+---
 
 /--------------------------------/
 
+---
 
+**Interval type and Description**
 
-++Interval type and Description++
-
-Interval type: **Once from start date**
+*Interval type*: Once from start date
 
 See description for the "Repeated from start date" interval type above. Only difference is that this interval type is to be used only once.
 
-++Line type: Time++
+*Line type*: Time
 
 See description for "Repeated from start date" interval type above. This interval is typically used for a one-time maintenance or service job.
 
-++Line type: Counter++
+*Line type*: Counter
 
 See description for "Repeated from start date" interval type above. This interval is typically used for a one-time maintenance or service job.
 
@@ -190,22 +192,23 @@ See description for "Repeated from start date" interval type above. This interva
 
 **Note 3:** If the counter is replaced when completing the maintenance or service job, this interval type functions as the "Repeated from start date" interval type above.
 
+---
 
 /--------------------------------/
 
+---
 
+**Interval type and Description**
 
-++Interval type and Description++
-
-Interval type: **Once from last work order**
+*Interval type*: Once from last work order
 
 See description for the "Repeated from last work order" interval type above. Only difference is that this interval type is to be used only once.
 
-++Line type: Time++
+*Line type*: Time
 
 See description for "Repeated from last work order" interval type above. This interval is typically used for a one-time maintenance or service job.
 
-++Line type: Counter++
+*Line type*: Counter
 
 See description for "Repeated from last work order" interval type above. This interval is typically used for a one-time maintenance or service job.
 
@@ -213,65 +216,67 @@ See description for "Repeated from last work order" interval type above. This in
 
 **Note 4:** If the counter is replaced when completing the maintenance or service job, this interval type functions as the "Repeated from last work order" interval type above.
 
+---
 
 /--------------------------------/
 
+---
 
+**Interval type and Description**
 
-++Interval type and Description++
-
-Interval type: **Once reached above**
+*Interval type*: Once reached above
 
 This interval type only relates to counters and is used for indicating an upper limit set up on the maintenance sequence line. Object calendar entries will have the expected start date and time of the counter registration meaning that these entries will be created with an expected start date equal to or earlier than the system date.
 
-++Line type: Time++
+*Line type*: Time
 
 N/A
 
-++Line type: Counter++
+*Line type*: Counter
 
 The counter interval indicates an upper limit. If that limit is exceeded when you create a counter registration, an object calendar line is created when you schedule preventive maintenance.
 
+---
 
 /--------------------------------/
 
+---
 
+**Interval type and Description**
 
-++Interval type and Description++
-
-Interval type: **Once reached below**
+*Interval type*: Once reached below
 
 This interval type only relates to counters and is used for indicating a lower limit set up on the maintenance sequence line. Object calendar entries will have the expected start date and time of the counter registration meaning that these entries will be created with an expected start date equal to or earlier than the system date.
 
-++Line type: Time++
+*Line type*: Time
 
 N/A
 
-++Line type: Counter++
+*Line type*: Counter
 
 The counter interval indicates a lower limit. If that limit is passed when you create a counter registration, an object calendar line is created when you schedule preventive maintenance.
 
+---
 
 /--------------------------------/
 
+---
 
+**Interval type and Description**
 
-++Interval type and Description++
-
-Interval type: **Linked from start date**
-(once only)
+*Interval type*: Linked from start date (once only)
 
 A maintenance sequence can contain more lines using this interval type, and those lines are linked. Typically, you will create a maintenance sequence that contains lines of only this interval type.
 
 Object calendar lines are created by identifying the maintenance sequence line that has the first expected start date and time.
 
-++Line type: Time++
+*Line type*: Time
 
 See description for "Once from start date" above.
 
 Example: You create two lines in a maintenance sequence for a service job on a car: one time-based line with a 1-year period, and one counter-based line with a 25,000 km limit. An object calendar line is created for the limit that is reached first. For this line type you create the line with the 1-year period.
 
-++Line type: Counter++
+*Line type*: Counter
 
 See description for "Once from start date" above.
 
@@ -279,28 +284,29 @@ Example: You create two lines in a maintenance sequence for a service job on a c
 
 Example creating two counter lines: You can also set up a maintenance sequence with two linked, counter-based lines in which the first line has a limit of 10,000 items quantity produced, and the second line relates to the machine or work center requiring service after running 3,000 hours.
 
+---
 
 /--------------------------------/
 
+---
 
+**Interval type and Description**
 
-++Interval type and Description++
-
-Interval type: **Linked from last work order**
-(repeated after every completed work order)
+*Interval type*: Linked from last work order (repeated after every completed work order)
 
 A maintenance sequence can contain more lines using this interval type, and those lines are linked. Typically, you will create a maintenance sequence that contains lines of only this interval type.
 
 Object calendar lines are created by identifying the maintenance sequence line that has the first expected start date and time.
 
-++Line type: Time++
+*Line type*: Time
 
 This interval type basically works as "Linked from start date" described above. Only difference is the date on which the interval type is based. The date used is the actual date and time on the latest work order completed on the object ++and++ the job type / variant / trade combination.
 
-++Line type: Counter++
+*Line type*: Counter
 
 This interval type basically works as "Linked from start date" described above. Only difference is the date on which the interval type is based. The date used is the actual date and time on the latest work order completed on the object ++and++ the job type / variant / trade combination.
 
+---
 
 /--------------------------------/
 
@@ -346,6 +352,7 @@ If you add or remove objects or functional locations in **Maintenance sequences*
 
 ![Figure 11-07](/Figures/11-07_MaintenanceSequences_Form_AX7-01.png)
 
+---
 
 #### Add a Maintenance Sequence to an Object
 
