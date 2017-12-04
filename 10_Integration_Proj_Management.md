@@ -28,7 +28,7 @@ The project format for object projects is set up in **Enterprise asset managemen
 ---
 
 
-#### Projects, Sub Projects, and Project Activities for Objects
+### Projects, Sub Projects, and Project Activities for Objects
 
 Objects and work order lines that are created in the **Enterprise asset management** module are created in the **Project management and accounting** module as projects, sub projects, and project activities.
 
@@ -143,18 +143,25 @@ Whether your company chooses to use object project setup or work order project s
 
 ---
 
-#### Work Order Projects, Work Order Stages, Project Stages, and Project Types
+### Work Order Projects, Work Order Stages, Project Stages, and Project Types
 
 To ensure correct use of work order stages, and related project stages, on work orders, consider the dependencies in relation to the **Project management and accounting** module:
 
-In the **Project management and accounting** module, project stages are set up on project types in the **Project management and accounting parameters** form.
-In the **Project management and accounting parameters** form, remember to select relevant project stage check boxes for all the project types you are going to use. In the figure below, five stages Created - Estimated - Scheduled - In process - Finished have been selected for the the project types "Time and material" and "Internal". Those five stages are relevant for both internal maintenance and service maintenance jobs.
-In Enterprise Asset Management, project types are defined by the project groups you set up in the Work order project setup form > Project group link.
-The project groups set up in the Work order project setup form are used when you create work orders.
-When a work order is created, a work order project is automatically created for the work order, according to the setup in the Work order project setup form.
-Work order stages must each have a related project stage.
-The project stage related to a work order stage must be defined as an active stage for the project group defined in the work order project, which is automatically created on a work order.
-The automatic allocation of a work order project, when you create a new work order, is based on the setup in the Work order project setup form.
+- In the **Project management and accounting** module, project stages are set up on project types in the **roject management and accounting parameters** form.
+
+- In the **Project management and accounting parameters** form, remember to select relevant project stage check boxes for all the project types you are going to use. In the figure below, five stages Created - Estimated - Scheduled - In process - Finished have been selected for the project types "Time and material" and "Internal". Those five stages are relevant for both internal maintenance and service maintenance jobs.
+
+- In Enterprise Asset Management, project types are defined by the project groups you set up in the Work order project setup form > Project group link.
+
+- The project groups set up in the Work order project setup form are used when you create work orders.
+
+- When a work order is created, a work order project is automatically created for the work order, according to the setup in the Work order project setup form.
+
+- Work order stages must each have a related project stage.
+
+- The project stage related to a work order stage must be defined as an active stage for the project group defined in the work order project, which is automatically created on a work order.
+
+- The automatic allocation of a work order project, when you create a new work order, is based on the setup in the Work order project setup form.
 
 Associations between work order project groups, related project types, project stages, and work order stages are shown in the figure below.
 
