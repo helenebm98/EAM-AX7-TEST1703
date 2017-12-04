@@ -128,7 +128,8 @@ Calculating scores for a work order line is based on expected start date and pri
 
 In the examples below, the criticality scores is "2", and the priority scores are "5" and "100".
 
-**Example 1:** (WO means "Work order")
+**Example 1:**
+(WO means "Work order")
 
 | Work Order ID | Expected start date| WO criticality | WO priority | Calculation                    | Score   |
 |--------|--------|--------|--------|--------|--------|
@@ -141,7 +142,8 @@ The work orders will be scheduled in the following order: WO-000108**16**, WO-00
 
 ---
 
-**Example 2:** (WO means "Work order")
+**Example 2:**
+(WO means "Work order")
 
 | Work Order ID | Expected start date| WO criticality | WO priority | Calculation                      | Score   |
 |--------|--------|--------|--------|--------|--------|
