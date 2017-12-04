@@ -477,6 +477,7 @@ When you have set up a round, you run a schedule job to schedule all the jobs re
 4. Select the **Auto create** check box if a work order should automatically be created on the basis of a round.
 ###### NOTE
 If this check box is selected, and the **Auto create** check box is also selected on maintenance sequence lines in **Maintenance sequences**, work orders are created based on the maintenance sequence lines, and object calendar lines with status "Work order created" are also created. If only one of the **Auto create** check boxes is selected, in this drop-down or in **Maintenance sequences**, only object calendar lines are created with status "Created". In that case, no work orders are created.
+
 5. If required, you can select specific rounds or another start date for the schedule job. Click **Filter**, and add the rounds to be included.
 
 6. Click **OK**.
@@ -504,22 +505,18 @@ There are four object calendar views that are slightly different, depending on w
 **All object calendars**
 All calendar entries are shown in this calendar.
 
----
 
 **My object calendars**
 All calendar entries containing objects installed on functional locations to which you are related as a worker (set up in [Workers and Worker Groups](06_Objects.md#workers-and-worker-groups)) are shown in this calendar.
 
----
 
 **Open object calendar lines**
 Calendar entries with status "Created" - meaning that they have not yet been converted to a work order or discarded - are shown in this calendar.
 
----
 
 **Open object calendar pools**
 Calendar entries connected to a work order pool are shown in this calendar.
 
----
 
 ###### NOTE
 If an object calendar entry is included in several work order pools (refer to the [Work Order Pools](08_Work_Orders.md#work-order-pools) section), one record is shown for each pool in **Open object calendar pools**. This is done to optimize the filtering options on work order pools.
