@@ -86,46 +86,49 @@ When work orders are manually created on objects that are covered by a vendor wa
 
 ---
 
-==Interval type and Description==
+**Interval type and Description**
 
-Interval type: **Repeated from plan date**
+*Interval type*: Repeated from plan date
 
 The count starts from the plan date used, and when you schedule maintenance sequences, object calendar lines are created for when the interval is expected to be reached.
 
-==Line type: Time==
+*Line type*: Time
 
 The **Plan date** on the maintenance sequence line is used. If no plan date is selected on the line, the **Plan date** for the maintenance sequence is used.
 
 Example: If the number "3" is inserted in the **Interval** field, and "Year" is selected in the **Period** field, a new object calendar line will be created once every 3 years.
 
-++Line type: Counter++
+*Line type*: Counter
 
 The **Plan date** for the maintenance sequence is used.
 
 If the counter has been replaced, the latest replacement date is used as the plan date.
 
+---
 
 /--------------------------------/
 
+---
 
-++Interval type and Description++
+**Interval type and Description**
 
-Interval type: **Repeated from start date**
+*Interval type*: Repeated from start date
 
 The count starts from the start date on the object relation. The date is selected in the **Object** form > **Preventive maintenance** FastTab > **Start date** field, or in the **Functional location** form > **Preventive maintenance** FastTab > **Start date** field. When you schedule maintenance sequences, an object calendar line is created when the interval is reached.
 
-++Line type: Time++
+*Line type*: Time
 
 The start date of the maintenance sequence line on object or functional location is used. If that field is blank, the **Plan date** for the maintenance sequence is used.
 
-++Line type: Counter++
+*Line type*: Counter
 
 The start date of the maintenance sequence line on object or functional location is used. If that field is blank, the **Plan date** for the maintenance sequence is used.
 
+---
 
 /--------------------------------/
 
-
+---
 
 ++Interval type and Description++
 
