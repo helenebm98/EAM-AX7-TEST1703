@@ -19,13 +19,14 @@ It is possible to set up automatic posting of journals on a work order stage. Re
 5. If you add a line on the **Items** FastTab, when you select the item in the **Item number** field, there are three tabs that may contain items: On the **All items** tab, all active items are shown. On the **Spare parts** tab, a list of all approved spare parts from the object type setup is shown. On the **Object BOM** tab, all items related to the object BOM is shown.
 ###### NOTE
 You may find the list of items on the **Spare parts** and **Object BOM** tabs useful if, for example, the work order was created due to a breakdown or another unplanned event. In that case, an item forecast may not be related to the work order.
-6. Click **Validate journals** to validate the journal lines before posting.
 
+6. Click **Validate journals** to validate the journal lines before posting.
 7. Click **Post journals** to post the journal lines.
+
 8. After you have posted the consumption journals, you can update the work order stage, for example to "Ended", to indicated that the work order has been completed.
 
 ###### NOTE
-In the **Show** field placed in the upper right corner of the form, select which journal lines you want to see: All, Not posted, or Posted. Posted journals have a check mark in the **Posted** check box.
+In the **Show** field placed at the top of the form, select which journal lines you want to see: All, Not posted, or Posted. Posted journals have a check mark in the **Posted** check box.
 
 When item lines are created in the work order journal, product dimensions and tracking dimensions related to the item are automatically transferred to the journal line.
 
