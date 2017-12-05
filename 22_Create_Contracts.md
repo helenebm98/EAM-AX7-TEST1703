@@ -118,7 +118,7 @@ When you have created a contract, the next step is to calculate and approve inst
 
 #### Calculate Installments
 
-1. Click **Contract managemen**t >** Periodic** > **Calculate installments**.
+1. Click **Contract managemen**t > **Periodic** > **Calculate installments**.
 2. In the **Period** field, select the period to be used for the calculation of contract installments.
 
 3. In the **Interval** field, insert the number of periods to be included in the calculation job. The start of the calculation is the current date.
@@ -129,6 +129,7 @@ When you have created a contract, the next step is to calculate and approve inst
 
 ![Figure 22-04](/Figures/22-04_CMA_CalculateInstallments_dropdown_AX7-01.png)
 
+---
 
 #### Approve and Reject Installments
 
@@ -148,6 +149,7 @@ If you want to reject installments, follow the steps above, but click **Reject**
 
 ![Figure 22-05](/Figures/22-05_CMA_ContractInstallments_Form_AX7-01.png)
 
+---
 
 #### View Posted Installments
 
@@ -159,6 +161,7 @@ Approved installments are automatically posted in the fee journal you have selec
 3. Click **Fee**.
 4. In the **Invoice status** filter, select "All" or "Chargeable" to see posted fees.
 
+---
 
 #### Contract Invoicing
 
