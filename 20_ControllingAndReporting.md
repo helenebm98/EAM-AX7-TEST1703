@@ -271,20 +271,18 @@ In the table below, you will find a short explanation of the fields in **Object 
 |Total cost            |Total costs posted on the object in the selected period.      |
 |Investment cost  |Costs posted on the object related to cost type "Investment" in the selected period. Cost types are set up on work order types.     |
 
-Note 1: If the object is related to a resource, the related resource calendar is used. If the object is not related to a resource, the calendar selected in the **Standard calendar** field in **Enterprise asset management parameters** is used.
+*Note 1*: If the object is related to a resource, the related resource calendar is used. If the object is not related to a resource, the calendar selected in the **Standard calendar** field in **Enterprise asset management parameters** is used.
 
-Note 2: Total time divided by number of faults registered on the object in the selected period. If number of faults is zero, MTBF is set to total time.
+*Note 2*: Total time divided by number of faults registered on the object in the selected period. If number of faults is zero, MTBF is set to total time.
 
-Note 3: Repair time divided by number of faults registered on the object in the selected period. If number of faults is zero, MRT is set to repair time.
+*Note 3*: Repair time divided by number of faults registered on the object in the selected period. If number of faults is zero, MRT is set to repair time.
 
-Note 4: Total time divided by number of production stop registrations. If number of production stop registrations is zero in the selected period, the MTBS value is set to total time.
+*Note 4*: Total time divided by number of production stop registrations. If number of production stop registrations is zero in the selected period, the MTBS value is set to total time.
 
-Note 5: Production stop time divided by number of production stop registrations. If number of production stop registrations is zero in the selected period, the MTPS value is set to zero.
+*Note 5*: Production stop time divided by number of production stop registrations. If number of production stop registrations is zero in the selected period, the MTPS value is set to zero.
 
-Note 6: This means that, over time, the object becomes less reliable due to wear and tear. The calculation of this KPI is based on MTBF and total time.
+*Note 6*: This means that, over time, the object becomes less reliable due to wear and tear. The calculation of this KPI is based on MTBF and total time.
 
-
----
 
 ![Figure 20-11](/Figures/20-11_ObjectKPIs_Form_AX7-01.png)
 
@@ -314,7 +312,6 @@ You can make a calculation for a specific item to get an overview of where in En
 
 - Work order purchase
 
----
 
 #### Make an Item Where Used Calculation
 
@@ -340,7 +337,6 @@ You can make a calculation for a specific item to get an overview of where in En
 
 In Enterprise Asset Management, you can make a calculation to see an overview of new, active, and completed requests, work orders, and production stops for a specific period. You can also see the number of completed condition assessments for the same period. You can use these calculations to get an overview of workload regarding incoming and completed requests and work orders.
 
----
 
 #### Make a Maintenance Status Calculation
 
@@ -360,7 +356,7 @@ The results shown in **Maintenance status** only include requests and work order
 
 ---
 
-++Example 1++:
+**Example 1:**
 
 In the figure below, only the **Year** and **Month** fields have been activated. Here you can get a general overview on a monthly basis of workload and throughput related to requests and work orders.
 
@@ -369,7 +365,7 @@ In the figure below, only the **Year** and **Month** fields have been activated.
 
 ---
 
-++Example 2++:
+**Example 2:**
 
 In the figure below, information about functional locations has been added. Now, it is possible to compare workload and throughput across functional locations, which may represent, for example, geographical locations, factories, or different work areas.
 
