@@ -49,6 +49,7 @@ You can recalculate a maintenance budget in **Maintenance budget lines**. This m
 
 2. Make the changes for the new calculation, and click **OK**. New budget lines are created according to the selections you made for recalculation.
 
+---
 
 #### Adjust Budget Lines
 
@@ -64,6 +65,7 @@ If you insert "1.2" in the **Multiply value** field, you add 20% to the budget c
 
 5. The selected budget lines are updated according to the selections made in steps 3 or 4.
 
+---
 
 #### Update Actual Cost
 
@@ -76,6 +78,7 @@ When the dates on the budget lines have passed, and actual costs have been poste
 ###### NOTE
 If you want to get an overview of actual costs divided into Preventive, Corrective, and Investment costs, you can make a calculation for the same period in **Object cost control**. Refer to the [Cost and Date Control](20_ControllingAndReporting.md#cost-and-date-control) section for more information.
 
+---
 
 #### Add Budget Lines Manually
 
