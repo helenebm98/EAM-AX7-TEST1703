@@ -7,7 +7,7 @@ In Enterprise Asset Management, you can set up warranty terms that can be connec
 
 First step is to set up the vendor or customer warranty agreements used in your company, which is described in this section. Next, you ensure that warranty categories are selected in Enterprise asset management parameters, and attach warranty agreements to objects or object types. Those topics are described in the following section. Vendor warranty agreements are only used for information purposes. If vendor warranty is set up on the object, you can see the warranty coverage period on the object.
 
-In the work order consumption journal, it is possible to see the warranty coverage for each journal line. When you post the journal, warranty is handled by creating set-off entries by using the warranty categories selected in **Enterprise asset management parameters**. The warranty categories are the type "Fee".
+In the work order consumption journal, it is possible to see the warranty coverage for each journal line. When you post the journal, warranty is handled by creating set-off entries by using the warranty categories selected in **Enterprise asset management parameters**. The warranty categories use the type "Fee".
 
 
 #### Set up Warranty Categories in Enterprise Asset Management Parameters
