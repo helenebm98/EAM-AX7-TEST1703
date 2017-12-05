@@ -4,7 +4,6 @@ In **Dynamics 365 for Finance and Operations** > **Data management** workspace, 
 
 ![Figure 23-01](/Figures/23-01_DataManagement_Menu_AX7-01.png)
 
----
 
 ### Target Entities
 
