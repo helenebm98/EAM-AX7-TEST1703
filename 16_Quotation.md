@@ -6,9 +6,7 @@ Quotations can be created from a work order. For example, a customer requests a 
 
 **Enterprise Asset Management** uses project quotation in the **Project management and accounting** module to create project quotations. You create quotations in **All work orders**. First, you create a work order, which is described in the [Introduction to Work Orders](08_Work_Orders.md#introduction-to-work-orders) and [Manually Created Work Orders](08_Work_Orders.md#manually-created-work-orders) sections. The work order for which you want to create a quotation must contain forecasts. Next step is to create a quotation. If required, you can also update a quotation that has not yet been confirmed. Finally, when you get approval from the customer, you confirm the quotation.
 
-
 ---
-
 
 #### Create Quotation
 
@@ -31,9 +29,7 @@ If the object related to the quotation is covered by a contract or warranty, tha
 
 #### Update Quotation
 
-If necessary, you can update an existing quotation, and send an updated quotation to the customer.
-
-Follow the steps above regarding creating a quotation, but click **Update quotation** in step 3.
+If necessary, you can update an existing quotation, and send an updated quotation to the customer. Follow the steps above regarding creating a quotation, but click **Update quotation** in step 3.
 
 ###### NOTE
 Deleting a quotation can be done by selecting the **Delete** check box in **Update work order quotation**.
