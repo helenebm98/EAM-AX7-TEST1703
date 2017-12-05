@@ -19,12 +19,13 @@ In relation to contracts, offset entries on work orders are posted as fees.
 
 5. Click the **Number sequences** link to set up a number sequence for contracts.
 
+---
 
 ### Coverage
 
 Contract coverage is used to define the costs included in a contract. You can include several coverage lines in a contract, defining different periods and percentages of coverage. You create the coverage terms that should be available for your contracts. Coverage can be set up separately for hours, expenses, and items.
 
-++Example:++ The first coverage period is 12 months, including 100% coverage on all hours, items, and expenses. The subsequent coverage period is six months, including 50% coverage on items only.
+**Example:** The first coverage period is 12 months, including 100% coverage on all hours, items, and expenses. The subsequent coverage period is six months, including 50% coverage on items only.
 
 
 1. Click **Contract management** > **Setup** > **Contract** > **Coverage**.
@@ -44,6 +45,7 @@ Contract coverage is used to define the costs included in a contract. You can in
 
 ![Figure 21-01](/Figures/21-01_Contract_Coverage_Form_AX7-01.png)
 
+---
 
 ### Chargeable Items
 
@@ -61,6 +63,7 @@ You can create a set of chargeable items, which are used to exclude certain item
 
 ![Figure 21-02](/Figures/21-02_Contract_ChargeableGroup_Form_AX7-01.png)
 
+---
 
 ### Contract Payment and Index
 
@@ -96,6 +99,7 @@ You can use the index functionality in **Contract management** to add a price in
 
 ![Figure 21-03](/Figures/21-03_Contract_Payment_Form_AX7-01.png)
 
+---
 
 #### Create Index
 
@@ -145,6 +149,7 @@ In **Project management and accounting parameters**, you can set up user-defined
 ###### NOTE
 Contract stages, stage groups, and types are related and used in the same way as work order stages, work order stage groups, and work order types. Refer to the [Work Order Stages](08_Work_Orders.md#work-order-stages) section for a general explanation regarding stage group, type, and stage relations.
 
+---
 
 #### Contract Stage Groups
 
@@ -197,6 +202,7 @@ No termination periods are fixed periods during which an active contract cannot 
 5. In the **Period** field, insert a number indicating how many periods this no termination period should be valid for. Example: If you have selected "Month" as the period type, and you insert "4" in this field, the no termination period is four months from the start date of the contract.
 6. Save the record.
 
+---
 
 #### Set up Termination Notices
 
@@ -211,8 +217,9 @@ No termination periods are fixed periods during which an active contract cannot 
 
 7. Save the record.
 
-++Example:++ You have a 6-month contract with a customer. If the contract has a 3-month termination notice, and the notice start is "After no termination period", the actual termination date of the contract is nine months after the start date of the contract.
+**Example:** You have a 6-month contract with a customer. If the contract has a 3-month termination notice, and the notice start is "After no termination period", the actual termination date of the contract is nine months after the start date of the contract.
 
+---
 
 #### Set up Termination Causes
 
