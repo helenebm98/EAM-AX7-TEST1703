@@ -289,6 +289,7 @@ If journal posting results in an error, an Infolog message is shown, and the wor
 3. For each stage you want to use, select the project type check boxes required for your work orders. The project types define rules regarding which financial tasks are allowed, for example, create forecast, create estimates, create beginning balances, and so on.
 ###### NOTE
 If the project stage for the project type is not selected, and that project stage is used on a work order stage, the work order projects will not be updated accordingly.
+
 4. Close **Project management and accounting parameters**.
 
 5. Click **Enterprise asset management** > **Setup** > **Work order** > **Stage** > **Stages**.
