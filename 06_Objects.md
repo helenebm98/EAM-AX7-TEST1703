@@ -1257,7 +1257,7 @@ Also, you can create worker groups and associate workers with worker groups. Thi
 
 
 
-5. On the **General** FastTab, **Resource** and **Description** are automatically filled out if a resource has been selected for the worker. **Calendar** is automatically filled out if the worker is related to a resource, or if a **Max. hours calendar** has been selected for the worker in the **Human resources** module.
+5. On the **General** FastTab, **Resource** and **Description** are automatically filled out if a resource has been selected for the worker. **Calendar** is automatically filled out, provided that you have made the following setup in **Organization administration** > **Resources** > **Resources**: Set up the worker as a resource and allocate a calendar to that resource.
 
 6. On the **Groups** FastTab, click **Add** and select a worker group for the worker. A worker can be affiliated with more than one group. The standard setup is that worker group affiliation is effective from the date you add the group, and it never expires. Select **View** > **All** to see the **Effective** field. If required, you can set up a limited period for the group affiliation in the **Effective** and **Expiration** fields.
 
