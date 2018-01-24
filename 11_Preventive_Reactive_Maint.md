@@ -43,6 +43,10 @@ This sub section describes how to set up maintenance sequence lines and provides
 
 3. Insert a maintenance sequence ID in the **Maintenance sequence** field, and a name in the **Name** field.
 4. In the **Plan date** field, insert the start date from which planning can be done on the maintenance sequence. Note that time-based maintenance sequence lines may have other plan dates.
+
+5. Select the **Active** check box to show "Yes" to activate the maintenance sequence.
+###### NOTE
+If you deactivate a maintenance sequence, no calendar posts will be created in the object calendar when you run a [schedule maintenance sequence](#schedule-maintenance-sequences) job.
 5. On the **Lines** FastTab, click **Add line** to create a new line.
 
 6. Select the relevant line type, "Time" or "Counter", and click **Create**.
