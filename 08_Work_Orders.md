@@ -241,6 +241,7 @@ If a description is added, that description overrules a description set up on th
 29. Click **Save** to save the attachment.
 ###### NOTE
 Attachments on a job type setup line are only printed with a work order report if the document types of the attachments are selected in **Enterprise asset management** > **Setup** > **Enterprise asset management parameters** > **Document types**. Examples of attachments could be a guideline explaining how to complete a specific job, or a predefined checklist (if you do not use the checklist functionality for job type setup lines).
+
 30. In **Job type setup**, you can see the number of forecasted hours as well as the number of setup lines created for items, expenses, fees, checklists, measuring points, and tools on each line. In the **Objects** field, you see the number of active objects related to the job type setup.
 
 31. If you want to copy a job type setup to another job type setup, select the setup line to which you want to copy another setup, click **Copy setup**, and select a job type setup to copy.
