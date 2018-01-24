@@ -143,6 +143,7 @@ Checklist templates can be used as a common set of tasks that a worker must perf
 - "Measurement" is used to record a specific measurement. You can set up the measurement to be related to a predefined counter. Insert a name for the template in the **Name** field. If this step is mandatory for the checklist, select the **Mandatory** check box. If you want to use the measurement line as a counter registration, select the counter in the **Counter** field; the related Unit field is automatically updated. If you have selected a counter, select the update method in the **Value** field. Insert the allowed value range in the **Min. value** and **Max. value** fields. Insert a description of what to do in the **Instructions** field.
 ###### NOTE
 The "Measurement" type without a counter setup is treated as an independent measurement registration for which there is no automatic follow-up in Enterprise Asset Management. Likewise, if the selected counter type is not present on the object related to the work order, the checklist task is handled as an independent measurement. The counter value can be changed multiple times; it will not be posted until the [work order stage](#work-order-stages) is changed to a stage in which the **Process checklist** check box is selected.
+
 7. The **Checks** field at the top of the form shows the total number of checklist lines in your template, including the nested lines in an existing template, which you may have referenced in your template.
 
 
@@ -200,8 +201,8 @@ The "Measurement" type without a counter setup is treated as an independent meas
 
 9. On the **Items** tab, click **Item where used** if you want to get an overview of where the item on the selected line is used in Enterprise Asset Management in relation to objects, job type setup, spare parts, and work orders. Read more about this overview in the [Items Where Used](20_ControllingAndReporting.md#items-where-used) section.
 10. On the **Forecast totals** FastTab, you see an overview of forecast totals showing total number of hours and forecast lines created.
-   ###### NOTE
-   If you want to copy a forecast setup from another job type, select the **Copy forecast** button and select the job type from which to copy the setup.
+###### NOTE
+If you want to copy a forecast setup from another job type, select the **Copy forecast** button and select the job type from which to copy the setup.
 
 11. Click **Save** to save your updates.
 12. Close **Job type setup forecast**.
@@ -211,39 +212,39 @@ The "Measurement" type without a counter setup is treated as an independent meas
 
 15. In the **Type** field, select the line type, then add information related to the checklist type. See a description of available types and related fields in the [Create a Checklist Template](#create-a-checklist-template) section above.
 ###### NOTE
-If you want to copy checklist setup from another job type, click the **Copy checklist** button and select the job type from which to copy the setup.
-You can easily create a template from an existing checklist, which can be reused across multiple checklists. The new template will be an exact copy of the active checklists. Click the **Create template** button and insert an **ID** and a **Name** for the template. You can select the **Replace** check box to replace the existing checklist with a single line referencing the new template. You can see the contents of the template in the **Checklist templates** detail view.
-19. Click **Save** to save your updates.
-20. Close **Job type setup checklist**.
+If you want to copy checklist setup from another job type, click the **Copy checklist** button and select the job type from which to copy the setup. You can easily create a template from an existing checklist, which can be reused across multiple checklists. The new template will be an exact copy of the active checklists. Click the **Create template** button and insert an **ID** and a **Name** for the template. You can select the **Replace** check box to replace the existing checklist with a single line referencing the new template. You can see the contents of the template in the **Checklist templates** detail view.
 
-21. In **Job type setup**, click the **Tools** button.
-22. In **Job type setup tools**, you can add the tools (resources) to be used for the job type. Select the tool in the **Resource** field.
-   ###### NOTE
-   If you want to copy a tool setup from another job type, select the **Copy tools** button and select the job type from which to copy the setup.
+16. Click **Save** to save your updates.
+17. Close **Job type setup checklist**.
 
-23. Click **Save** to save your updates.
-24. Close **Job type setup tools**.
+18. In **Job type setup**, click the **Tools** button.
+19. In **Job type setup tools**, you can add the tools (resources) to be used for the job type. Select the tool in the **Resource** field.
+###### NOTE
+If you want to copy a tool setup from another job type, select the **Copy tools** button and select the job type from which to copy the setup.
 
-25. In **Job type setup**, click the **Description** button > **Edit**, and add a description related to the selected job type setup, if required.
-26. Click **Save** to save the description.
-   ###### NOTE
-   If a description is added, that description overrules a description set up on the job type. If no description is added in this form, the description, if any, in **Job types** is used. Descriptions are automatically transferred to work orders using the job type or job type setup.
+20. Click **Save** to save your updates.
+21. Close **Job type setup tools**.
 
-27. Close **Description**.
-28. If you want to set up attachments on a selected job type setup line, click **Attach documents**. Attachments set up on a job type setup line will automatically be included on a work order line that uses that particular job type setup line.
+22. In **Job type setup**, click the **Description** button > **Edit**, and add a description related to the selected job type setup, if required.
+23. Click **Save** to save the description.
+###### NOTE
+If a description is added, that description overrules a description set up on the job type. If no description is added in this form, the description, if any, in **Job types** is used. Descriptions are automatically transferred to work orders using the job type or job type setup.
 
-29. Click the **New** button and select a document type.
-30. Upload the document or file.
+24. Close **Description**.
+25. If you want to set up attachments on a selected job type setup line, click **Attach documents**. Attachments set up on a job type setup line will automatically be included on a work order line that uses that particular job type setup line.
 
-31. Fill out the **Attachments** form. This attachment setup uses standard **Dynamics 365 for Finance and Operations** document setup functionality.
-32. Click **Save** to save the attachment.
-   ###### NOTE
-   Attachments on a job type setup line are only printed with a work order report if the document types of the attachments are selected in **Enterprise asset management** > **Setup** > **Enterprise asset management parameters** > **Document types**. Examples of attachments could be a guideline explaining how to complete a specific job, or a predefined checklist (if you do not use the checklist functionality for job type setup lines).
+26. Click the **New** button and select a document type.
+27. Upload the document or file.
 
-33. In **Job type setup**, you can see the number of forecasted hours as well as the number of setup lines created for items, expenses, fees, checklists, measuring points, and tools on each line. In the **Objects** field, you see the number of active objects related to the job type setup.
-34. If you want to copy a job type setup to another job type setup, select the setup line to which you want to copy another setup, click **Copy setup**, and select a job type setup to copy.
+28. Fill out the **Attachments** form. This attachment setup uses standard **Dynamics 365 for Finance and Operations** document setup functionality.
 
-35. If you want to see a list of the objects, maintenance sequences, or rounds that currently use a job type setup line, select the line and click **Used by**.
+29. Click **Save** to save the attachment.
+###### NOTE
+Attachments on a job type setup line are only printed with a work order report if the document types of the attachments are selected in **Enterprise asset management** > **Setup** > **Enterprise asset management parameters** > **Document types**. Examples of attachments could be a guideline explaining how to complete a specific job, or a predefined checklist (if you do not use the checklist functionality for job type setup lines).
+30. In **Job type setup**, you can see the number of forecasted hours as well as the number of setup lines created for items, expenses, fees, checklists, measuring points, and tools on each line. In the **Objects** field, you see the number of active objects related to the job type setup.
+
+31. If you want to copy a job type setup to another job type setup, select the setup line to which you want to copy another setup, click **Copy setup**, and select a job type setup to copy.
+32. If you want to see a list of the objects, maintenance sequences, or rounds that currently use a job type setup line, select the line and click **Used by**.
 
 
 ![Figure 8-05](/Figures/08-05_JobTypeSetup_Form_AX7-02.png)
