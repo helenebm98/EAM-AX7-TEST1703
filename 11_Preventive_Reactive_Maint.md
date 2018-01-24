@@ -47,6 +47,7 @@ This sub section describes how to set up maintenance sequence lines and provides
 5. Select the **Active** check box to show "Yes" to activate the maintenance sequence.
 ###### NOTE
 If you deactivate a maintenance sequence, no calendar posts will be created in the object calendar when you run a [schedule maintenance sequence](#schedule-maintenance-sequences) job.
+
 6. On the **Lines** FastTab, click **Add line** to create a new line.
 
 7. Select the relevant line type, "Time" or "Counter", and click **Create**.
