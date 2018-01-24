@@ -6,7 +6,7 @@ Work orders are used to manage, provide required information for, and register c
 ---
 
 
-### Job Groups and Job Types, Variants, and Trades
+### Job Groups and Job Types, Variants, Trades, and Checklists
 
 An object has an object type attached to it. The object type defines which job types, meaning which maintenanceservice jobs, can be carried out on an object. When you create a work order, selecting a job type is mandatory. It is only possible to select the job types that are related to the object type setup used on the object.
 
@@ -19,6 +19,8 @@ Job trades are information regarding professional trade, for example, mechanical
 For each job type, variations of job type setup can be created. Example: If you have a job type called "Service", you can create variations for that job type relating to "Trucks 30,000 km", "Cars 30,000 km", and "Vans 30,000 km".
 
 Job groups are used to collect a group of job types for overview purposes. Examples could be "Calibration", "Inspection", "Overhaul", and "Instrumentation".
+
+Checklist templates and checklist variables are used for setup of checklists. Checklists are set up on job types and used on work orders.
 
 First, you set up the required job groups, job variants, and job trades. Next you create job types. Then, you create all the variations of job types that are required for your equipment in **Job type setup**. Forecasts, checklists, and tools can be set up for a combination of job type in **Job type setup**.
 
@@ -95,6 +97,62 @@ When you have related job groups to job types, you will see how many job types a
 ---
 
 
+#### Create a Checklist Variable
+
+When you create checklist lines in the job type setup, you must select a checklist type. "Variable" is a checklist type. It is used to define a possible result in a range on a checklist line, which is related to a work order line. A variable is a way to create a set of predefined outcomes without having to make an exact measurement.
+
+Example 1: You can measure oil level by defining 'Level too high', 'Level too low', and 'Level within range'. For each of the three values, you define if the value result is "Pass", "Fail", or "None".
+
+Example 2: Make a visual inspection or assessment of a piece of equipment regarding wear and tear.
+
+
+1. Click **Enterprise asset management** > **Setup** > **Work orders** > **Checklists** > **Checklist variables**.
+2. Press CTRL+N, or click the **New** button.
+
+3. Insert an ID in the **Variable** field and a name in the **Name** field.
+4. Click **Add** to add a line for a variable.
+
+5. A sequential line number is automatically inserted in the **Line number** field. You can change the line numbers when you have added all the lines, if required. When a line is selected, and you press the arrow-down button on your keyboard, the next number in the sequence is automatically inserted below.
+6. Insert a value description in the **Value** field.
+
+7. Select a status for the line in the **Status** field.
+
+
+........... xxxxxx 180124: INSERT SCREENSHOT............
+
+
+---
+
+
+#### Create a Checklist Template
+
+Checklist templates can be used as a common set of tasks that a worker must perform in order to complete a work order correctly. The templates are referenced from checklist lines on the job type setup. Templates can be referenced across multiple job type setup lines, making it easy to reuse a set of common checklist tasks. Examples include general safety instructions, or a list of items and conditions to be checked on a specific pump or similar models of a conveyor belt.
+
+1. Click **Enterprise asset management** > **Setup** > **Work orders** > **Checklists** > **Checklist templates**.
+2. Press CTRL+N, or click the **New** button.
+
+3. Insert an ID in the **ID** field and a name in the **Name** field.
+4. Click **Add** to add a template line.
+
+5. A sequential line number is automatically inserted in the **Line number** field. You can change the line numbers when you have added all the lines, if required. When a line is selected, and you press the arrow-down button on your keyboard, the next number in the sequence is automatically inserted below.
+6. In the **Type** field, select a type for the checklist line. For each checklist type, the related fields are shown on the **Properties** FastTab:
+- "Text" is used to add a checklist line with a text description of what to do. This checklist type can be used if you want a worker to check or inspect something, without expecting a specific (measurable) result. Insert a name/heading in the **Name** field, and insert a description of what to do in the **Instructions** field. If this step is mandatory for the checklist, select the **Mandatory** check box.
+- "Header" is used as a heading to group the checklist lines shown below the header. This is useful if you have several checklist lines that can be divided into specific areas. In that case, the use of headers provides an overview for the worker who is going to complete a checklist with many checklist lines. Insert a descriptive name in the **Name** field.
+- "Template" is used if you want to make a reference to an existing template. Insert a name for the template in the **Name** field, and select the template in the **Template** field.
+- "Variable" is used to define a possible result in a range on a checklist line. The setup of checklist variables is described in the sub section above. Insert a name to describe the variable in the **Name** field. Select the variable in the **Variable** field. Insert a description of what to do in the **Instructions** field. If this step is mandatory for the checklist, select the **Mandatory** check box.
+- "Measurement" is used to record a specific measurement. You can set up the measurement to be related to a predefined counter. Insert a name for the template in the **Name** field. If this step is mandatory for the checklist, select the **Mandatory** check box. If you want to use the measurement line as a counter registration, select the counter in the **Counter** field; the related Unit field is automatically updated. If you have selected a counter, select the update method in the **Value** field. Insert the allowed value range in the **Min. value** and **Max. value** fields. Insert a description of what to do in the **Instructions** field.
+###### NOTE
+The "Measurement" type without a counter setup is treated as an independent measurement registration for which there is no automatic follow-up in Enterprise Asset Management. Likewise, if the selected counter type is not present on the object related to the work order, the checklist task is handled as an independent measurement. The counter value can be changed multiple times; it will not be posted until the [work order stage](#work-order-stages) is changed to a stage in which the **Process checklist** check box is selected.
+7. The **Checks** field at the top of the form shows the total number of checklist lines in your template, including the nested lines in an existing template, which you may have referenced in your template.
+
+
+
+......... xxxxxx 180124: INSERT SCREENSHOT............
+
+
+---
+
+
 #### Create a Job Type
 
 
@@ -149,16 +207,12 @@ When you have related job groups to job types, you will see how many job types a
 12. Close **Job type setup forecast**.
 
 13. In **Job type setup**, click the **Checklist** button.
-14. In **Job type setup checklist**, you can add checklists to the selected job type setup. The line numbers indicate the sequence of the checklists.
+14. In **Job type setup checklist**, you can add checklist lines to the selected job type setup. Click **New** to add a checklist line. Line numbers are inserted automatically in the **Line number** field to indicate the sequence of the checklist lines. You can edit line numbers, if required. When you have created the first checklist line, select the line and press the arrow-down button on your keyboard to add a line below. You can also select a checklist line and click the **New** button, then the new line is inserted above the selected checklist line.
 
-15. Select the **Worker mandatory** check box if if the worker working with the checklist must insert his or her name on the checklist line before it can be completed.
-16. Select the **Date mandatory** check box, if the worker working with the checklist must insert the date of inspection on the checklist line before it can be completed.
-
-17. Insert notes relating to the checklist on the **Notes** FastTab.
-18. On the **Measuring points** FastTab, Add measurement lines, if relevant.
-   ###### NOTE
-   If you want to copy a checklist setup from another job type, select the **Copy checklist** button and select the job type from which to copy the setup.
-
+15. In the **Type** field, select the line type, then add information related to the checklist type. See a description of available types and related fields in the [Create a Checklist Template](#create-a-checklist-template) section above.
+###### NOTE
+If you want to copy checklist setup from another job type, click the **Copy checklist** button and select the job type from which to copy the setup.
+You can easily create a template from an existing checklist, which can be reused across multiple checklists. The new template will be an exact copy of the active checklists. Click the **Create template** button and insert an **ID** and a **Name** for the template. You can select the **Replace** check box to replace the existing checklist with a single line referencing the new template. You can see the contents of the template in the **Checklist templates** detail view.
 19. Click **Save** to save your updates.
 20. Close **Job type setup checklist**.
 
@@ -535,7 +589,7 @@ Scheduled execution can be set up for various levels related to a work order. Yo
 ---
 
 
-### Fault Management
+### Error Management
 
 In Enterprise Asset Management, you can manage faults detected on objects by describing symptoms, areas, and fault types. The fault designer allows you to set up symptoms, areas, and fault types on object types. Also, fault causes and suggestions to remedy faults can be registered on a work order.
 
@@ -1309,6 +1363,7 @@ You can set up counters related to another counter, which means that when a coun
 
 
 ### Checklists
+
 Checklists are set up on job types and used when you work on a work order. Filling out checklists and any related measurements is part of completing a work order. See the [Job Groups and Job Types, Variants, and Trades](08_Work_Orders.md#job-groups-and-job-types-variants-and-trades) section for more information on how to set up checklists on job types in the **Job type setup** form.
 
 When you work with checklists on a work order you can fill out the predefined checklists that are related to job types. It is also possible to add additional checklists and measurements.
