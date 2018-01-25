@@ -1369,7 +1369,7 @@ You can set up counters related to another counter, which means that when a coun
 
 ### Checklists
 
-Checklists are set up on job types and used when you work on a work order. Filling out checklists is part of completing a work order. See the [Job Groups and Job Types, Variants, Trades, and Checklists](08_Work_Orders.md#job-groups-and-job-types-variants-and-trades) section for more information on how to set up checklists on job types in the **Job type setup** form.
+Checklists are set up on job types and used when you work on a work order. Filling out checklists is part of completing a work order. See the [Job Groups and Job Types, Variants, Trades, and Checklists](08_Work_Orders.md#job-groups-and-job-types-variants-trades-and-checklists) section for more information on how to set up checklists on job types in the **Job type setup** form.
 
 When you work with checklists on a work order, you can fill out the predefined checklists that are related to job types. It is also possible to add additional checklists.
 
@@ -1411,7 +1411,7 @@ Checklists are created from the definition on the job type setup and transferred
 - "Header" is used as a heading to group the checklist lines shown below the header. This is useful if you have several checklist lines that can be divided into specific areas. Insert a descriptive name in the **Name** field.
 - "Template" is not applicable when you add a checklist line manually on a work order line.
 
-- "Variable" is used to define a possible result in a range on a checklist line. The setup of checklist variables is described in the [Job Groups and Job Types, Variants, Trades, and Checklists](#job-groups-and-job-types,-variants,-trades,-and-checklists) section. Insert a name to describe the variable in the **Name** field. Select the variable in the **Variable** field. Insert a description of what to do on the **Instructions** tab.
+- "Variable" is used to define a possible result in a range on a checklist line. The setup of checklist variables is described in the [Job Groups and Job Types, Variants, Trades, and Checklists](08_Work_Orders.md#job-groups-and-job-types-variants-trades-and-checklists) section. Insert a name to describe the variable in the **Name** field. Select the variable in the **Variable** field. Insert a description of what to do on the **Instructions** tab.
 - "Measurement" is used to record a specific measurement. Insert a name for the measurement in the **Name** field. Select the unit for the measure in the **Unit** field. Insert a description of what to do on the **Instructions** tab.
 
 5. When you are done adding checklist lines manually, fill out the lines as described in the section above.
