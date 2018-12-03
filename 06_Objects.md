@@ -606,13 +606,8 @@ The **Create data wizard** button can be used to automatically create setup data
 - In the **Work order project mask** field, you define the number of sub projects allowed for work orders and sub-objects. A work order mask is used to define how many work orders can be created on an object and used on the related work order line project. The work order mask is set up in the **Work order project mask field** in **Enterprise asset management parameters** (**Enterprise asset management** > **Setup** > **Enterprise asset management parameters** > **Work orders**).
 
 
-######NOTE
+###### NOTE
 The format for a work order project mask is a number of hash signs (#), depending on the maximum number of work orders you expect to create on an object. Example: ## allows you to create up to 99 sub-projects.
-
-
-
-
-
 
 
 - Forecasts on job types are stored on the project selected in the **Forecast project** field. For each job type, a new activity is automatically created on the forecast project. Forecasts on the job type are then saved on the forecast project.
@@ -693,7 +688,7 @@ The format for a work order project mask is a number of hash signs (#), dependin
 
 - In the **Product language source** field, select which language to use for product names in Enterprise asset management reports. You can select the language set up on the company account, or the language set up for the user currently logged in on Dynamics 365 for Finance and Operations.
 - Select the **Real time update** check box to show "Yes" if you want to automatically update changes to job type setup, maintenance sequences, and rounds.
-######NOTE
+###### NOTE
 If you select "No", changes to job type setup, maintenance sequences, and rounds are not updated automatically in Enterprise Asset Management.
 Set the check box to "No" if you have large amounts of data being synchronized, for example, many objects or functional locations set up on maintenance sequences or rounds, or a large number of maintenance sequences or rounds. If you use this manual way of updating job type setup references, and you make changes to job type setup or maintenance sequences or rounds, a warning may not be shown if the changes influence: functional locations set up on maintenance sequences or rounds, or objects set up on maintenance sequences or rounds, or maintenance sequences setup, or rounds setup.
 
@@ -791,25 +786,8 @@ If the value "0.00" is inserted in one of the eight fields above, that rating sc
 In the screenshot below, on the **Work order score example** FastTab, you will see calculation examples based on the scores inserted in the **Priority**, **Criticality**, and **Start date** fields.
 
 
-
-
-
-
-
-
-
-
-
-![Figure 6-14](/Figures/06-14_EAM_Parameters_Form-03_AX7_v103.png)
-
-
-
-
-
-
-
-
-
+![Figure 6-14A](/Figures/06-14A_EAM_Parameters_Form-03A.png)
+![Figure 6-14B](/Figures/06-14B_EAM_Parameters_Form-03B.png)
 
 
 **License and configuration** link
