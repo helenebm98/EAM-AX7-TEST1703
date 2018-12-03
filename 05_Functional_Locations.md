@@ -10,6 +10,8 @@ Functional locations are elements of a technical structure, for example, functio
 
 Each functional location is managed independently in Enterprise Asset Management. Useful features and information extracted from functional locations include:
 
+- Set up functional location specifications
+
 - Set up object specification requirements
 
 - Set up maintenance sequences for preventive and reactive maintenance
@@ -88,9 +90,60 @@ When you have created the stages required for your functional locations, they ca
 
 ---
 
+### Specification Types
+
+Specifications are used to describe properties related to an object type, object, functional location type, or functional location. You can set up various specifications. ++Examples:++ For a functional location, you can set specifications regarding the configuration and physical size of the location. For an object type or an object, you can set specifications regarding engine volume, power consumption, and maximum load capacity under different conditions.
+
+
+You can set up specifications on:
+
+- [functional location types](#functional-location-types)
+- [functional locations](#create-functional-locations)
+
+- [object types](06_Objects.md#object-types)
+- [objects](06_Objects.md#create-an-object)
+
+
+#### Create Specification Types
+
+You can create your own specification types, but you can also transfer product dimensions from Dynamics 365 for Finance and Operations to Specification types.
+
+1. Click **Enterprise asset management** > **Setup** > **Specification types**.
+2. First time you set up specification types, click **Create product dimensions** to automatically transfer standard Dynamics 365 for Finance and Operations product dimensions.
+
+3. Click **New** to create a new specification type.
+4. Insert a name for the specification type in the **Specification type** field.
+
+5. Insert a description in the **Description** field.
+6. If required, select the relevant specification unit in the **Unit** field.
+
+7. In the **Data type** field, select a data type for the unit.
+8. If the specification type has the data type "String", you can create values for the specification type by selecting it and clicking the **Values** button.
+    9. In **Specification values**, click **New**.
+    10. Select a specification type (dimension) in the **Specification type** field.
+    11. Insert a related value in the **Value** field.
+    12. Insert a description in the **Description** field.
+    13. Save the record.
+    14. Go back to the **Specifications types** view.
+
+15. Save the record.
+
+16. In the **Functional location types** field, the number of functional location using the specification type is shown.
+17. In the **Object types** field, the number of object types using the specification type is shown.
+
+
+
+![Figure 5-06](/Figures/05-06_SpecificationTypes_Form_AX7.png)
+
+![Figure 5-07](/Figures/05-07_SpecificationValues_Form_AX7.png)
+
+
+
+---
+
 #### Functional Location Types
 
-Functional location types are used to manage how objects are installed on a functional location. You can also set up object types, maintenance sequences, and specification requirements to be used on a functional location that uses the specific functional location type. When you create a functional location, the functional location type is mandatory.
+Functional location types are used to manage requirements for functional locations, including how objects are installed on a functional location. You can set up object types, maintenance sequences, functional location specifications, and object specification requirements to be used on a functional location that uses the specific functional location type. When you create a functional location, the functional location type is mandatory.
 
 ###### NOTE
 In order to work with functional locations, you must create a default functional location to be used only for the purpose of creating new objects. For that default functional location, you should create a default functional location type that is really simple and allows multiple objects to be installed on the default functional location. See the [Create Functional Locations](#create-functional-locations) section for more information on how to set up functional locations.
@@ -106,12 +159,12 @@ This procedure shows how to create a default functional location type to be used
 3. Insert a functional location type ID in the **Functional location type** field, for example, "Default", and a name in the **Name** field.
 4. Select a stage group in the **Functional location stage group** field.
    
-5. Select the **Multiple objects** check box to allow more objects to be installed on a functional location (the default functional location) using this type.
+5. Set the **Multiple objects** check box to "Yes" to allow more objects to be installed on a functional location (the default functional location) using this type.
 
 Now, the default functional location type to be used only on a default functional location is created. You should not add any more requirements or restrictions to this default functional location type.
 
 
-![Figure 5-06](/Figures/05-06_FuncLocationTypes_Default_Form_AX7-01.png)
+![Figure 5-08](/Figures/05-08_FuncLocationTypes_Default_Form_AX7-01.png)
 
 
 #### Create Functional Location Types
@@ -122,7 +175,7 @@ Now, the default functional location type to be used only on a default functiona
 3. Insert a functional location type ID in the **Functional location type** field and a name in the **Name** field.
 4. Select a stage group in the **Functional location stage group** field. Refer to the [Functional Location Stages](#functional-location-stages) section for more information on functional location stages and stage groups.
    
-5. Select the **Multiple objects** check box if it should be possible to install more than one object on the functional location.
+5. Select "Yes" in the **Multiple objects** check box if it should be possible to install several objects on a functional location using this functional location type. If you select "No", you can only install *one* object on a functional location using this functional location type.
 6. Select the **Update object dimension** check box if you want objects installed on a functional location of this type to automatically use the financial dimensions related to the functional location. This means that if you change financial dimensions in the **Functional location** detail view, and the functional location uses a functional location type with this check box selected, financial dimensions are automatically updated on all objects installed on that functional location.
    
 7. The **Object type** field is used if you want to automatically create one object for the functional location with the same ID and name as the functional location you are creating. For example, this may be relevant if you create a static functional location, such as a building or a pipeline. In that case, select the object type you want to use for the automatically created object. Remember that if you make a selection in this field, the **Multiple objects** check box must be cleared.
@@ -132,14 +185,15 @@ Now, the default functional location type to be used only on a default functiona
 10. On the **Object specification requirements** FastTab, set up specification requirements to be related to the functional location type. Click **Add line** and select the requirements for the line. These specification requirements function as guidelines. They are not validated against specifications set up on an object (**Enterprise asset management** > **Common** > **Objects** > **All objects** > select object in the list > **General** tab > **Specifications** button). The specification requirements are shown when you install objects on functional locations.
    
 11. On the **Permitted types** FastTab, select the functional location types that should be valid for the sub functional location types related to a parent functional location type, which uses the selected functional location type. In the figure below, you see that a parent functional location using the type "City" allows the functional location types "Site", "Plant", and "Warehouse" as related sub functional locations.
+12. On the **Specifications** FastTab, select the functional location specifications that should automatically be set up on functional locations using this functional location type. Click **Add line** and select the specification for the line.
 
 
-![Figure 5-07](/Figures/05-07_FuncLocationTypes_Form_AX7-01.png)
+![Figure 5-09](/Figures/05-09_FuncLocationTypes_Form_AX7-01.png)
 
 
 ###### NOTE
 
-In the **Details** section at the top of the form, you can get an overview of the number of object types, maintenance sequences, specification requirements, and permitted functional location types set up on the functional location type. The **Functional locations** field shows the number of functional locations that use the functional location type.
+In the section at the top of the form, you can get an overview of the number of object types, maintenance sequences, object specification requirements, functional location types, and functional location specifications set up on the functional location type. The **Functional locations** field shows the number of functional locations that use the functional location type.
 
 You can use the **Copy** button to copy settings from a functional location type to the selected functional location type.
 
@@ -152,13 +206,13 @@ You can use the **Copy** button to copy settings from a functional location type
 Click **Enterprise asset management** > **Common** > **Functional locations** > **All functional locations** to open the list. The **All functional locations** list contains all functional locations and displays some of the information related to a functional location. You can also select **Active functional locations** to see a list of all active functional locations, or **My active functional locations** to see a list of the functional locations you are related to as a worker (set up in [Workers and Worker Groups](06_Objects.md#workers-and-worker-groups)).
 
 
-![Figure 5-08](/Figures/05-08_AllFunctionalLocations_List_AX7-01.png)
+![Figure 5-10](/Figures/05-10_AllFunctionalLocations_List_AX7-01.png)
 
 
-In the **All functional locations** list, click on a link in the **Functional location** column to show the Details view of the selected record. Click the **Edit** button to open the location for editing. In the details view, you will see detailed information related to the location as well as a Fact Box to the right of the screen, displaying the functional location hierarchy. Click on the blue 'left arrow' / 'right arrow' button in the small blue box placed above the Fact Box to show or hide the Fact Box.
+In the **All functional locations** list, click on a link in the **Functional location** column to show the Details view of the selected record. Click the **Edit** button to open the location for editing. In the details view, you will see detailed information related to the location as well as a **Related information** pane to the right of the screen, displaying the functional location hierarchy. You can expand/collapse the **Related information** pane.
 
 
-![Figure 5-09](/Figures/05-09_FunctionalLocation_DetailsView_AX7-001.png)
+![Figure 5-11](/Figures/05-11_FunctionalLocation_DetailsView_AX7.png)
 
 
 The action pane buttons are organized in tabs on the action pane. Here is a brief description of the buttons relating to Enterprise Asset Management:
@@ -211,7 +265,7 @@ When you use functional locations, start by creating one default location to be 
 The figure below shows an example of a default functional location. No requirements regarding object specifications or maintenance sequences have been added to this location. The location does not have any sub locations, and no financial dimensions are used on the functional location.
 
 
-![Figure 5-10](/Figures/05-10_FunctionalLocation_Default_DetailsView_AX7-01.png)
+![Figure 5-12](/Figures/05-12_FunctionalLocation_Default_DetailsView_AX7-01.png)
 
 
 ---
@@ -290,15 +344,25 @@ On this FastTab, you can add workers affiliated with the functional location, an
 
 ---
 
+#### Specifications
+
+On this FastTab, you can set values for functional location specifications. These specifications can be used to describe properties or characteristics pertinent to the functional location, for example, structural properties, building type, area descriptions, or location above or under ground.
+
+Click **Add line** and select the specification type. Next, insert the **Value** related to the specification type and save the record.
+
+
+---
+
+
 #### Financial Dimensions
 
 You can select financial dimensions for the functional location. [Functional Location Types](#functional-location-types) can be set up to allow for automatic update of financial dimensions from a functional location. This means that objects installed on a financial dimension automatically get the financial dimensions for the functional location. This is useful if you want different cost centers, depending on locations.
 
-![Figure 5-11](/Figures/05-11_FunctionalLocation_DetailsView_AX7-01A.png)
+![Figure 5-13](/Figures/05-13_FunctionalLocation_DetailsView_AX7-01A.png)
 
 When data regarding **Site**, **Warehouse**, **Address**, and **Financial dimensions** are updated on a parent functional location, the related sub functional locations can be updated accordingly if you make that selection during the update. A dialog opens providing you with the following update scenarios:
 
-![Figure 5-12](/Figures/05-12_UpdateSubFuncLocationsDialog_AX7.png)
+![Figure 5-14](/Figures/05-14_UpdateSubFuncLocationsDialog_AX7.png)
 
 
 ---
@@ -356,14 +420,14 @@ After you have installed objects on a functional location, you can replace a par
 2. Select the functional location on which you want to install an object.
    
 3. Click the **Install object** button. In the **Specifications** section, you will see a list of the object specifications requirements set up on the functional location type used on the functional location. The specifications are for your information. The system does not validate the specifications against the **Object specifications** that may be set up on the object you select. You must carry out that validation after you have selected an object in the **Object** field.
-   ![Figure 5-13](/Figures/05-13_InstallObject_On_FuncLocation_AX7-001.png)
+   ![Figure 5-15](/Figures/05-15_InstallObject_On_FuncLocation_AX7-001.png)
 
 4. In the **Object** field, select the parent object you want to install. All related child objects are automatically included in the installation. In the **Object specifications section** to the right of the object list, you will see the object specifications related to the selected object.
-   ![Figure 5-14](/Figures/05-14_InstallObject_On_FuncLocation_SelectObject_AX7-001.png)
+   ![Figure 5-16](/Figures/05-16_InstallObject_On_FuncLocation_SelectObject_AX7-001.png)
 5. In the **Effective** field, select a date and time to indicate the start time of the object installation. From this date and time, costs regarding the object and related sub objects will be related to the functional location.
    ###### NOTE
    The object specifications set up on the object have been added to the **Specifications** section. Weight was added as a requirement on the functional location. If the object has requirements of the same type, the object requirements values will be added to the **Value** fields. This means that you can validate the object values against the requirements set up on the functional location. The requirement set up on the functional location is marked with a check mark. The second and third lines regarding **Length** and **Width** were added as object requirements. Those lines do not have a check mark because they are requirements from the object, not the functional location.
-   ![Figure 5-15](/Figures/05-15_InstallObject_On_FuncLocation_SelectObject_AX7-01-01.png)
+   ![Figure 5-17](/Figures/05-17_InstallObject_On_FuncLocation_SelectObject_AX7-01-01.png)
 6. Click **OK**.
    ###### NOTE
    If you want to change the installation of an object and install it on another functional location, the procedure is the same as described in steps 1-6 in this procedure. When you install the object on a new functional location, the object is automatically uninstalled from the previous functional location. Any active requests or work orders that may have been created on the object before you re-installed it on another functional location are *not* automatically transferred to new functional location. If required, you must manually re-create those requests and work orders for the object after re-installation on a new location.
